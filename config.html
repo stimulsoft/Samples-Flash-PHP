@@ -1,0 +1,181 @@
+<html>
+<head>
+	<title>Stimulsoft Reports.Fx for PHP</title>
+	<link href="styles.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+	<h1>Configuration of Stimulsoft Reports.Fx for PHP</h1>
+	<hr><br>
+
+	<h2>
+	The <b>config.xml</b> file is used to configure the <b>Designer.Fx</b> and <b>Viewer.Fx</b>. This file is automatically called by the designer of viewer 
+	immediately after loading.<br><br><br>
+	
+	The <b>Connection</b> section defines the connection settings:<br><br>
+	<table cellpadding="0" cellspacing="0" border="0">
+		<tr><td><table class="border" cellpadding="0" cellspacing="1" border="0">
+			<tr>
+				<td class="property">ClientRequestTimeout</td>
+				<td class="text">Maximum time waiting for a response from the server (in seconds), after which the connection will be terminated</td>
+			</tr><tr>
+				<td class="property">ClientRepeatCount</td>
+				<td class="text">The number of command repeats to the server when getting the erroneous data</td>
+			</tr><tr>
+				<td class="property">ShowCancelButton</td>
+				<td class="text">Displaying the cancel button when performing any action (such as loading a report or data)</td>
+			</tr>
+		</table></td></tr>
+	</table><br>
+	
+	The <b>Localizations</b> section defines localization settings:<br><br>
+	<table cellpadding="0" cellspacing="0" border="0">
+		<tr><td><table class="border" cellpadding="0" cellspacing="1" border="0">
+			<tr>
+				<td class="property">Localization</td>
+				<td class="text">Interface localization that will be loaded and applied by default. The value is the localization file name without extansion. For example, 
+				<b>&lt;Localization&gt;en&lt;/Localization&gt;</b>. The following should be located in the localization folder on the server. If the 
+				<b>Default</b> value is specified to the localization then the previously selected localization will be applied.</td>
+			</tr>
+		</table></td></tr>
+	</table><br>
+	
+	The <b>Viewer / Toolbar</b> section defines settings of the viewer panels:<br><br>
+	<table cellpadding="0" cellspacing="0" border="0">
+		<tr><td><table class="border" cellpadding="0" cellspacing="1" border="0">
+			<tr>
+				<td class="property">ShowPrintButton</td>
+				<td  class="text">Shows the 'Print' button</td>
+			</tr><tr>
+				<td class="property">ShowOpenButton</td>
+				<td class="text">Shows the button for opening a report from the user's local disk</td>
+			</tr><tr>
+				<td class="property">ShowSaveButton</td>
+				<td  class="text">Shows the button for saving a report to the user's local disk</td>
+			</tr><tr>
+				<td class="property">ShowBookmarksButton</td>
+				<td class="text">Shows the 'Bookmarks' button and panel</td>
+			</tr><tr>
+				<td class="property">ShowThumbnailsButton</td>
+				<td class="text">Shows 'Thumbnails' button and panel</td>
+			</tr><tr>
+				<td class="property">ShowFindButton</td>
+				<td class="text">Shows the 'Find' button</td>
+			</tr><tr>
+				<td class="property">ShowFirstPageButton</td>
+				<td class="text">Shows the button for switching over the first page of a report</td>
+			</tr><tr>
+				<td class="property">ShowLastPageButton</td>
+				<td class="text">Shows the button for switching over the last page of a report</td>
+			</tr><tr>
+				<td class="property">ShowPreviousPageButton</td>
+				<td class="text">Shows the button for switching over the previous page of a report</td>
+			</tr><tr>
+				<td class="property">ShowNextPageButton</td>
+				<td class="text">Shows the button for switching over the next page of a report</td>
+			</tr><tr>
+				<td class="property">ShowGoToPageButton</td>
+				<td class="text">Shows the button for switching over the page of a report indicated in the dialog window</td>
+			</tr><tr>
+				<td class="property">ShowPageViewModeSingleButton</td>
+				<td class="text">Shows the button for selecting the single page viewing mode</td>
+			</tr><tr>
+				<td class="property">ShowPageViewModeContinuousButton</td>
+				<td class="text">Shows the button for selecting the continuous page viewing mode</td>
+			</tr><tr>
+				<td class="property">ShowPageViewModeMultipleButton</td>
+				<td class="text">Shows the button for selecting the multiple pages viewing mode</td>
+			</tr><tr>
+				<td class="property">ShowZoom</td>
+				<td class="text">Shows the zoom slider</td>
+			</tr><tr>
+				<td class="property">ZoomMode</td>
+				<td class="text">Sets the report zoom mode while loading the viewer. It may have the following values: <b>Default, OnePage, TwoPages, PageWidth, Zoom25, Zoom50,
+					Zoom75, Zoom100, Zoom150, Zoom200</b>. If the <b>Default</b> value is set then the latest zoom mode will be applied</td>
+		</table></td></tr>
+	</table><br>
+	
+	The <b>Designer</b> section defines the report designer settings:<br><br>
+	<table cellpadding="0" cellspacing="0" border="0">
+		<tr><td><table class="border" cellpadding="0" cellspacing="1" border="0">
+			<tr>
+				<td class="property">Title</td>
+				<td class="text">Defines the browser title that is set when loading the designer. If the parameter is not set then the defined report value or alias will be set as a title</td>
+			</tr><tr>
+				<td class="property">ExitUrl</td>
+				<td class="text">Defines the URL address to what there will be switching over when clicking the ‘Exit’ button in the main menu of the report designer</td>
+			</tr><tr>
+				<td class="property">ShowWizardOnStartup</td>
+				<td class="text">Calls the Startup report wizard when loading the designer</td>
+		</table></td></tr>
+	</table><br>
+	
+	The <b>Designer / MainMenu</b> section defines settings of the main menu of the designer:<br><br>
+	<table cellpadding="0" cellspacing="0" border="0">
+		<tr><td><table class="border" cellpadding="0" cellspacing="1" border="0">
+			<tr>
+				<td class="property">New</td>
+				<td class="text">Enables/disables the 'New' item of the main menu</td>
+			</tr><tr>
+				<td class="property">NewReport</td>
+				<td class="text">Enables/disables the 'NewReport' item of the main menu</td>
+			</tr><tr>
+				<td class="property">NewReportWithWizard</td>
+				<td class="text">Enables/disables the 'NewReportWithWizard' item of the main menu</td>
+			</tr><tr>
+				<td class="property">NewPage</td>
+				<td class="text">Enables/disables the 'NewPage' item of the main menu</td>
+			</tr><tr>
+				<td class="property">OpenReport</td>
+				<td class="text">Enables/disables the 'OpenReport' item of the main menu</td>
+			</tr><tr>
+				<td class="property">SaveReport</td>
+				<td class="text">Enables/disables the 'SaveReport' item of the main menu</td>
+			</tr><tr>
+				<td class="property">SaveAs</td>
+				<td class="text">Enables/disables the 'SaveAs' item of the main menu</td>
+			</tr><tr>
+				<td class="property">DeletePage</td>
+				<td class="text">Enables/disables the 'DeletePage' item of the main menu</td>
+		</table></td></tr>
+	</table><br>
+	
+	The <b>Designer / Toolbar</b> section defines the settings of panels and other interface items of the designer:<br><br>
+	<table cellpadding="0" cellspacing="0" border="0">
+		<tr><td><table class="border" cellpadding="0" cellspacing="1" border="0">
+			<tr>
+				<td class="property">AllowModifyDictionary</td>
+				<td class="text">Allows modyfing the data dictionary of a report</td>
+			</tr><tr>
+				<td class="property">AllowModifyConnections</td>
+				<td class="text">Allows modyfing connections of the data dictionary of a report</td>
+			</tr><tr>
+				<td class="property">AllowModifyDataSources</td>
+				<td class="text">Allows modyfing the data sources of a report</td>
+			</tr><tr>
+				<td class="property">AllowModifyVariables</td>
+				<td class="text">Allows modyfing the list of variables of a report</td>
+			</tr><tr>
+				<td class="property">AllowModifyTemplate</td>
+				<td class="text">Allows modyfing loaded components of a report</td>
+			</tr><tr>
+				<td class="property">AllowScale</td>
+				<td class="text">Allows page scaling</td>
+			</tr><tr>
+				<td class="property">ShowCodeTab</td>
+				<td class="text">Shows the 'Code' tab for showing the C#/VB.NET code of a report</td>
+			</tr><tr>
+				<td class="property">ShowDictionaryTab</td>
+				<td class="text">Shows the dictionary tab of the report data dictionary</td>
+			</tr><tr>
+				<td class="property">ShowExitButton</td>
+				<td class="text">Shows the 'Exit' button in the main menu of the designer</td>
+			</tr><tr>
+				<td class="property">ZoomMode</td>
+				<td class="text">Sets the report zoom mode while loading the designer. It may have the following values: <b>Default, OnePage, PageWidth, PageHeight, Zoom25, Zoom50,
+					Zoom75, Zoom100, Zoom150, Zoom200</b>. If the <b>Default</b> value is set then the latest zoom mode will be applied</td>
+		</table></td></tr>
+	</table><br>
+	
+	<a href="index.html">Back</a><br><br>
+
+</body>
