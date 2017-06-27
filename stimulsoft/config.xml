@@ -7,9 +7,10 @@
     <UrlText></UrlText>
   </AboutDialog>
   <Appearance>
-    <DateFormat>dd.MM.yyyy</DateFormat>
+    <DateFormat></DateFormat>
     <ShowFormsHelp>True</ShowFormsHelp>
     <ShowFormsHints>True</ShowFormsHints>
+    <ShowTooltips>True</ShowTooltips>
     <ShowTooltipsHelp>True</ShowTooltipsHelp>
   </Appearance>
   <Connection>
@@ -21,11 +22,13 @@
   </Connection>
   <Designer>
     <AllowModifyTemplate>True</AllowModifyTemplate>
+    <AlwaysUpdateReportFileName>False</AlwaysUpdateReportFileName>
     <Appearance>
       <GridSizeCentimetres>0.2</GridSizeCentimetres>
       <GridSizeHundredthsOfInch>10</GridSizeHundredthsOfInch>
       <GridSizeInch>0.1</GridSizeInch>
       <GridSizeMillimeters>2</GridSizeMillimeters>
+      <SetReportModifiedWhenOpening>False</SetReportModifiedWhenOpening>
       <ShowMoreDetailsButton>True</ShowMoreDetailsButton>
       <ShowSaveFileDialog>False</ShowSaveFileDialog>
     </Appearance>
@@ -65,7 +68,6 @@
     <MainMenu>
       <Caption>Default</Caption>
       <ShowClose>True</ShowClose>
-      <ShowDeletePage>True</ShowDeletePage>
       <ShowExitButton>True</ShowExitButton>
       <ShowNew>True</ShowNew>
       <ShowNewPage>True</ShowNewPage>
@@ -88,9 +90,9 @@
   <Engine>
     <DisplayValueNaN></DisplayValueNaN>
     <EscapeQueryParameters>True</EscapeQueryParameters>
+    <FlexAdapterJsonData>True</FlexAdapterJsonData>
     <FlexAdapterMySql>False</FlexAdapterMySql>
     <FlexAdapterXmlData>True</FlexAdapterXmlData>
-    <FlexAdapterJsonData>True</FlexAdapterJsonData>
     <Globalization>
       <AllowUseHyperlink>True</AllowUseHyperlink>
       <AllowUseTag>True</AllowUseTag>
@@ -103,12 +105,19 @@
     <Excel>
       <DivideBigCells>True</DivideBigCells>
     </Excel>
+    <Excel2007>
+      <DivideBigCells>True</DivideBigCells>
+      <MaximumSheetHeight>1048574</MaximumSheetHeight>
+      <RenderHtmlTagsAsImage>False</RenderHtmlTagsAsImage>
+      <ShowGridLines>True</ShowGridLines>
+    </Excel2007>
     <Pdf>
       <FontSizeCorrectionValue>0.954</FontSizeCorrectionValue>
     </Pdf>
     <Word>
       <DivideBigCells>True</DivideBigCells>
       <LineHeightExactly>True</LineHeightExactly>
+      <RenderHtmlTagsAsImage>False</RenderHtmlTagsAsImage>
     </Word>
   </Export>
   <Localizations>
@@ -144,6 +153,7 @@
       <ShowExportToExcel>True</ShowExportToExcel>
       <ShowExportToExcel2007>True</ShowExportToExcel2007>
       <ShowExportToHtml>True</ShowExportToHtml>
+      <ShowExportToHtml5>True</ShowExportToHtml5>
       <ShowExportToPdf>True</ShowExportToPdf>
       <ShowExportToRtf>True</ShowExportToRtf>
       <ShowExportToText>True</ShowExportToText>

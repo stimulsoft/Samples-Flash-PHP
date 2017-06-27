@@ -20,8 +20,19 @@
 	$report_key = sti_get_parameter_value("stimulsoft_report_key");
 	$client_key = sti_get_parameter_value("stimulsoft_client_key");
 	$client_data = file_get_contents("php://input");
-
-
+	
+	
+	/**
+	 *  Get the license key for product.
+	 */
+	function sti_get_license_key()
+	{
+		//return "6vJhGtLLLz2GNviWmUTrhSqnO......";
+		if (file_exists("license.key")) return file_get_contents("license.key");
+		return "";
+	}
+	
+	
 	/**
 	 *  Directory, which contains the localization XML files.
 	 */

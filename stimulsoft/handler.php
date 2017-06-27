@@ -127,12 +127,14 @@
 			
 			// Loading configuration
 			case "LoadConfiguration":
-				return sti_load_config("config.xml");
+				$config = sti_load_config("config.xml");
+				return str_replace("</StiSerializer>", "<LicenseKey>".sti_get_license_key()."</LicenseKey>\n</StiSerializer>", $config);
 				break;
 			
 			// Loading a report when running the viewer or designer
  			case "LoadReport":
-				return sti_get_report($client_data);
+				$report = sti_get_report($client_data);
+				return empty($report) ? "ServerError:The report is not found." : $report;
 				break;
 			
 			// Loading a report by the specified URL
