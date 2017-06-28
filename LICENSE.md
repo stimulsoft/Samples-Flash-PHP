@@ -25,7 +25,7 @@ Free technical support and notifications on the new versions of SOFTWARE;
 
 Updates, upgrades (to all minor and major versions) and fixes. STIMULSOFT will provide you with free updates, upgrades (to all minor and major versions) and fixes of the SOFTWARE, within one year after you purchase it. If you are using the demonstration version of the SOFTWARE, STIMULSOFT will not provide you updates, upgrades to minor version and fixes related to the SOFTWARE. 
 
-To register SOFTWARE read file "readme.rtf" or visit web-site [https://www.stimulsoft.com](https://www.stimulsoft.com).
+To register SOFTWARE read file "readme.rtf" or visit web-site https://www.stimulsoft.com
 
 Following registration, you may continue to use the SOFTWARE in accordance with this Agreement for an unlimited period (irrespective of whether the subscription period has lapsed) unless this Agreement is terminated in accordance with its Termination provisions.
 
