@@ -161,6 +161,7 @@ Stimulsoft.Report.Mobile.dll
 Stimulsoft.Report.MobileDesign.dll  
 Stimulsoft.Report.Mvc.dll  
 Stimulsoft.Report.MvcMobile.dll  
+Stimulsoft.Report.NetCore.dll  
 Stimulsoft.Report.Web.dll  
 Stimulsoft.Report.WebDesign.dll  
 All .xml localization files
@@ -228,6 +229,18 @@ Stimulsoft.Report.UWP.dll
 Stimulsoft.Report.Viewer.UWP.dll  
 All .xml localization files
 
+#### Stimulsoft Reports.JS
+stimulsoft.designer.js  
+stimulsoft.designer.pack.js  
+stimulsoft.reports.js  
+stimulsoft.reports.pack.js  
+stimulsoft.reports.maps.js  
+stimulsoft.reports.maps.pack.js  
+stimulsoft.viewer.js  
+stimulsoft.viewer.pack.js  
+All .css styles files  
+All .xml localization files
+
 #### Stimulsoft Reports.Java
 All .jar product files  
 All .xml localization files
@@ -256,6 +269,7 @@ stimulsoft.reports.maps.js
 stimulsoft.reports.maps.pack.js  
 stimulsoft.viewer.js  
 stimulsoft.viewer.pack.js  
+All .css styles files  
 All .xml localization files
 
 #### Stimulsoft Reports.Flex

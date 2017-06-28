@@ -15,3 +15,9 @@ This assembly is used to access the Excel files. It is applicable in the Excel C
 **Using:** .NET Product Line  
 **License:** GNU Lesser General Public License
 
+### NuGet.Core
+This assembly is used to access the NuGet repository. It is applicable in the report designer to download missing assemblies of data adapters. If you are not going to download assemblies of data adapters from the NuGet repository you may not use NuGet.Core.dll.
+
+**Using:** .NET Product Line  
+**Website:** https://www.nuget.org/packages/NuGet.Core  
+**License:** Microsoft Software License
