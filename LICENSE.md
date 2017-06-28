@@ -149,7 +149,8 @@ All .xml localization files
 Stimulsoft_DesignerFx.swc  
 Stimulsoft_DesignerFx_Debug.swc  
 Stimulsoft_ViewerFx.swc  
-Stimulsoft_ViewerFx_Debug.swc  
+Stimulsoft_ViewerFx_Debug.swc
+
 All .xml localization files
 
 #### Stimulsoft Reports.Web
