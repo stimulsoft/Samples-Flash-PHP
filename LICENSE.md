@@ -53,16 +53,13 @@ The following files are considered redistributables under this DLA:
 
 **Stimulsoft Reports.Ultimate**
 
-**.NET**
-
-Stimulsoft.Controls.dll
-
-Stimulsoft.Controls.Win.dll
-
-Stimulsoft.Base.dll
-Stimulsoft.Database.dll
-Stimulsoft.Database.Wpf.dll
-Stimulsoft.Editor.dll
+**.NET**  
+Stimulsoft.Controls.dll  
+Stimulsoft.Controls.Win.dll  
+Stimulsoft.Base.dll  
+Stimulsoft.Database.dll  
+Stimulsoft.Database.Wpf.dll  
+Stimulsoft.Editor.dll  
 Stimulsoft.Editor.Wpf.dll
 Stimulsoft.Report.dll
 Stimulsoft.Report.Check.dll
