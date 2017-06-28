@@ -1,4 +1,4 @@
-### STIMULSOFT, STIMULSOFT REPORTS
+## STIMULSOFT, STIMULSOFT REPORTS
 ### DEVELOPER LICENSE AGREEMENT FOR STIMULSOFT SOFTWARE
 
 This Stimulsoft, ("STIMULSOFT") Developer License Agreement ("DLA") is a legal agreement between you, software developer ("DEVELOPER") and STIMULSOFT for STIMULSOFT REPORTS identified above and including components, source code (if provided), demos, intermediate files, media, printed materials, and "online" or electronic documentation ("SOFTWARE") contained in this installation file.
@@ -135,6 +135,14 @@ index.php
 localization.php  
 DesignerFx_PHP.swf  
 ViewerFx_PHP.swf  
+stimulsoft.designer.js  
+stimulsoft.designer.pack.js  
+stimulsoft.reports.js  
+stimulsoft.reports.pack.js  
+stimulsoft.reports.maps.js  
+stimulsoft.reports.maps.pack.js  
+stimulsoft.viewer.js  
+stimulsoft.viewer.pack.js  
 All .xml localization files
 
 **Flex**  
@@ -240,6 +248,14 @@ index.php
 localization.php  
 DesignerFx_PHP.swf  
 ViewerFx_PHP.swf  
+stimulsoft.designer.js  
+stimulsoft.designer.pack.js  
+stimulsoft.reports.js  
+stimulsoft.reports.pack.js  
+stimulsoft.reports.maps.js  
+stimulsoft.reports.maps.pack.js  
+stimulsoft.viewer.js  
+stimulsoft.viewer.pack.js  
 All .xml localization files
 
 #### Stimulsoft Reports.Flex
