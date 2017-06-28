@@ -422,7 +422,7 @@ OTHER DEALINGS IN THE SOFTWARE.
 Npgsql is the open source .NET data provider for PostgreSQL.
 
 **Using:** .NET Product Line  
-**Website:** https://www.nuget.org/packages/Npgsql 
+**Website:** https://www.nuget.org/packages/Npgsql
 
 #### License
 Copyright (c) 2002-2017, The Npgsql Development Team
@@ -438,7 +438,7 @@ THE NPGSQL DEVELOPMENT TEAM SPECIFICALLY DISCLAIMS ANY WARRANTIES, INCLUDING, BU
 ### PHPMailer
 The classic email sending library for PHP.
 
-**Using:** JS Product Line
+**Using:** JS Product Line  
 **Website:** https://github.com/PHPMailer
 
 #### GNU Lesser General Public License
