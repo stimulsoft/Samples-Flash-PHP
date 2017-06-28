@@ -28,6 +28,7 @@ This assembly is used to access the NuGet repository. It is applicable in the re
 **Website:** https://www.nuget.org/packages/NuGet.Core  
 **License:** Microsoft Software License
 
+---
 
 ### Json.NET
 Json.NET is a popular high-performance JSON framework for .NET.
@@ -57,6 +58,7 @@ WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 
+---
 
 ### canvg.js
 canvg is a SVG parser and renderer.
@@ -86,6 +88,7 @@ WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 
+---
 
 ### jszip.js
 Create, read and edit .zip files with Javascript.
@@ -115,6 +118,7 @@ WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 
+---
 
 ### opentype.js
 opentype.js is an OpenType and TrueType font parser and writer.
@@ -144,6 +148,7 @@ WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 
+---
 
 ### pako_deflate.js
 High speed zlib port to javascript, works in browser & node.js.
@@ -173,6 +178,7 @@ WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 
+---
 
 ### rgbcolor.js
 A JavaScript class that accepts a string and tries to figure out a valid color out of it.
@@ -200,6 +206,7 @@ WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 
+---
 
 ### sync-request
 Make synchronous web requests with cross platform support.
@@ -229,6 +236,7 @@ WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 
+---
 
 ### stackblur
 Make synchronous web requests with cross platform support.
@@ -274,6 +282,7 @@ WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 
+---
 
 ### xlsx.js
 SheetJS Community Edition -- Spreadsheet Parser and Writer.
@@ -296,6 +305,7 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 
+---
 
 ### mssql
 Microsoft SQL Server client for Node.js.
@@ -325,6 +335,7 @@ WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 
+---
 
 ### mysql
 A pure node.js JavaScript Client implementing the MySql protocol.
@@ -354,6 +365,7 @@ WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 
+---
 
 ### pg
 PostgreSQL client for node.js.
