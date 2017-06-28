@@ -10,7 +10,7 @@ Stimulsoft Reports uses third party WinForms controls from the DevComponents com
 
 **Using:** .NET Product Line
 
-### Stimulsoft Developer License
+#### Stimulsoft Developer License
 
 ---
 
@@ -19,7 +19,7 @@ This assembly is used to access the Excel files. It is applicable in the Excel C
 
 **Using:** .NET Product Line
 
-### GNU Lesser General Public License
+#### GNU Lesser General Public License
 
 ---
 
