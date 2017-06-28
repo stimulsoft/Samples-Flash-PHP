@@ -53,182 +53,201 @@ The following files are considered redistributables under this DLA:
 
 **Stimulsoft Reports.Ultimate**
 
-**.NET**  
+**Net**  
+Stimulsoft.Base.dll  
 Stimulsoft.Controls.dll  
 Stimulsoft.Controls.Win.dll  
-Stimulsoft.Base.dll  
 Stimulsoft.Database.dll  
-Stimulsoft.Database.Wpf.dll  
+Stimulsoft.Design.dll  
 Stimulsoft.Editor.dll  
-Stimulsoft.Editor.Wpf.dll
-Stimulsoft.Report.dll
-Stimulsoft.Report.Check.dll
+Stimulsoft.Report.dll  
+Stimulsoft.Report.Check.dll  
+Stimulsoft.Report.Design.dll  
+Stimulsoft.Report.Helper.dll  
+Stimulsoft.Report.WebViewer.dll  
 Stimulsoft.Report.Win.dll
-Stimulsoft.Report.Web.dll
-Stimulsoft.Report.Mvc.dll
-Stimulsoft.Report.WebFx.dll
-Stimulsoft.Report.Wpf.dll
-Stimulsoft.Report.Wpf.BlackTheme.dll
-Stimulsoft.Report.Wpf.Office2003BlueTheme.dll
-Stimulsoft.Report.Wpf.Office2003OliveGreenTheme.dll
-Stimulsoft.Report.Wpf.Office2003SilverTheme.dll
-Stimulsoft.Report.Wpf.Office2007BlackTheme.dll
-Stimulsoft.Report.Wpf.Office2007BlueTheme.dll
-Stimulsoft.Report.Wpf.Office2007SilverTheme.dll
-Stimulsoft.Report.Wpf.Office2010BlueTheme.dll
-Stimulsoft.Report.Wpf.Office2013Theme.dll
-Stimulsoft.Report.Design.dll
+
+**NetCore**  
+Stimulsoft.Report.NetCore.dll
+
+**Web**  
+Stimulsoft.Base.dll  
+Stimulsoft.Report.dll  
+Stimulsoft.Report.Check.dll  
+Stimulsoft.Report.Helper.dll  
+Stimulsoft.Report.Mobile.dll  
+Stimulsoft.Report.MobileDesign.dll  
+Stimulsoft.Report.Mvc.dll  
+Stimulsoft.Report.MvcMobile.dll  
+Stimulsoft.Report.Web.dll  
 Stimulsoft.Report.WebDesign.dll
-Stimulsoft.Report.WpfDesign.dll
-Stimulsoft.Report.Helper.dll
-Stimulsoft.Base.SL.dll
-Stimulsoft.Controls.SL.dll
-Stimulsoft.Report.SL.dll
-Stimulsoft.Report.Check.SL.dll
-Stimulsoft.Report.Helper.SL.dll
-Stimulsoft.Report.SLDesign.dll
-Stimulsoft.Report.Viewer.SL.dll
-Stimulsoft.Report.WebSL.dll
-Stimulsoft.Report.WebDesignSL.dll
-Stimulsoft.Base.UWP.dll
-Stimulsoft.Controls.UWP.dll
-Stimulsoft.Report.UWP.dll
-Stimulsoft.Helper.UWP.dll
-Stimulsoft.Report.Viewer. UWP.dll
-Stimulsoft.Report.Design. UWP.dll
-Stimulsoft.Report.Mobile.dll
-Stimulsoft.Report.MvcMobile.dll
-Stimulsoft.Report.MobileDesign.dll
 
-**JS**
-stimulsoft.designer.js
-stimulsoft.reports.js
-stimulsoft.reports.maps.js
-stimulsoft.viewer.js
-All css files
+**Wpf**  
+Stimulsoft.Base.dll  
+Stimulsoft.Client.Designer.dll  
+Stimulsoft.Database.Wpf.dll  
+Stimulsoft.Editor.Wpf.dll  
+Stimulsoft.Report.dll  
+Stimulsoft.Report.Check.dll  
+Stimulsoft.Report.Helper.dll  
+Stimulsoft.Report.Wpf.dll  
+Stimulsoft.Report.Wpf.BlackTheme.dll  
+Stimulsoft.Report.Wpf.Design.dll  
+Stimulsoft.Report.Wpf.Office2003BlueTheme.dll  
+Stimulsoft.Report.Wpf.Office2003OliveGreenTheme.dll  
+Stimulsoft.Report.Wpf.Office2003SilverTheme.dll  
+Stimulsoft.Report.Wpf.Office2007BlackTheme.dll  
+Stimulsoft.Report.Wpf.Office2007BlueTheme.dll  
+Stimulsoft.Report.Wpf.Office2007SilverTheme.dll  
+Stimulsoft.Report.Wpf.Office2010BlueTheme.dll  
+Stimulsoft.Report.Wpf.Office2010WhiteTheme.dll  
+Stimulsoft.Report.WpfDesign.dll  
+Stimulsoft.Report.WpfDesign.Design.dll  
+Stimulsoft.Report.Xbap.dll
 
-#### Java
-All jar files
+**JS**  
+stimulsoft.designer.js  
+stimulsoft.designer.pack.js  
+stimulsoft.reports.js  
+stimulsoft.reports.pack.js  
+stimulsoft.reports.maps.js  
+stimulsoft.reports.maps.pack.js  
+stimulsoft.viewer.js  
+stimulsoft.viewer.pack.js  
+All .css styles files  
 
-#### PHP
-config.xml 
-swfobject.js
-playerProductInstall.swf 
-designer.html
-viewer.html
-DesignerFx_PHP.swf
-ViewerFx_PHP.swf 
-index.php
-handler.php
-localization.php
-database_xml
-database_mssql.php
-database_mysql.php
-database_odbc.php
-database_oracle.php
-database_pg.php
+**Java**  
+All .jar product files
 
-#### Flex
-Stimulsoft_ViewerFx.swc
-Stimulsoft_DesignerFx.swc
-Localization files
+**PHP**  
+designer.html  
+viewer.html  
+database_firebird.php  
+database_mongodb.php  
+database_mssql.php  
+database_mysql.php  
+database_odbc.php  
+database_oracle.php  
+database_pg.php  
+database_xml.php  
+handler.php  
+index.php  
+localization.php  
+DesignerFx_PHP.swf  
+ViewerFx_PHP.swf  
+All .xml localization files
+
+**Flex**  
+Stimulsoft_DesignerFx.swc  
+Stimulsoft_DesignerFx_Debug.swc  
+Stimulsoft_ViewerFx.swc  
+Stimulsoft_ViewerFx_Debug.swc  
+All .xml localization files
 
 #### Stimulsoft Reports.Web
-Stimulsoft.Base.dll
-Stimulsoft.Report.dll
-Stimulsoft.Report.Web.dll
-Stimulsoft.Report.WebFx.dll
-Stimulsoft.Report.Mobile.dll
-Stimulsoft.Report.Mvc.dll
-Stimulsoft.Report.MvcMobile.dll
-Stimulsoft.Report.WebDesign.dll
-Stimulsoft.Report.MobileDesign.dll
-Localization files
+Stimulsoft.Base.dll  
+Stimulsoft.Report.dll  
+Stimulsoft.Report.Check.dll  
+Stimulsoft.Report.Helper.dll  
+Stimulsoft.Report.Mobile.dll  
+Stimulsoft.Report.MobileDesign.dll  
+Stimulsoft.Report.Mvc.dll  
+Stimulsoft.Report.MvcMobile.dll  
+Stimulsoft.Report.Web.dll  
+Stimulsoft.Report.WebDesign.dll  
+All .xml localization files
 
 #### Stimulsoft Reports.Net
-Stimulsoft.Controls.dll
-Stimulsoft.Controls.Win.dll
-Stimulsoft.Base.dll
-Stimulsoft.Database.dll
-Stimulsoft.Editor.dll
-Stimulsoft.Report.dll
-Stimulsoft.Report.Check.dll
-Stimulsoft.Report.Win.dll
-Stimulsoft.Report.Design.dll
-Stimulsoft.Report.Helper.dll
-Stimulsoft.Report.Web.dll
-Localization files 
+Stimulsoft.Base.dll  
+Stimulsoft.Controls.dll  
+Stimulsoft.Controls.Win.dll  
+Stimulsoft.Database.dll  
+Stimulsoft.Design.dll  
+Stimulsoft.Editor.dll  
+Stimulsoft.Report.dll  
+Stimulsoft.Report.Check.dll  
+Stimulsoft.Report.Design.dll  
+Stimulsoft.Report.Helper.dll  
+Stimulsoft.Report.WebViewer.dll  
+Stimulsoft.Report.Win.dll  
+All .xml localization files
 
 #### Stimulsoft Reports.Wpf
-Stimulsoft.Base.dll
-Stimulsoft.Database.Wpf.dll
-Stimulsoft.Editor.Wpf.dll
-Stimulsoft.Report.dll
-Stimulsoft.Report.Check.dll
-Stimulsoft.Report.Wpf.dll
-Stimulsoft.Report.Wpf.BlackTheme.dll
-Stimulsoft.Report.Wpf.Office2003BlueTheme.dll
-Stimulsoft.Report.Wpf.Office2003OliveGreenTheme.dll
-Stimulsoft.Report.Wpf.Office2003SilverTheme.dll
-Stimulsoft.Report.Wpf.Office2007BlackTheme.dll
-Stimulsoft.Report.Wpf.Office2007BlueTheme.dll
-Stimulsoft.Report.Wpf.Office2007SilverTheme.dll
-Stimulsoft.Report.Wpf.Office2010BlueTheme.dll
-Stimulsoft.Report.Wpf.Office2010WhiteTheme.dll
-Stimulsoft.Report.WpfDesign.dll
-Stimulsoft.Report.Helper.dll
-Localization files
+Stimulsoft.Base.dll  
+Stimulsoft.Client.Designer.dll  
+Stimulsoft.Database.Wpf.dll  
+Stimulsoft.Editor.Wpf.dll  
+Stimulsoft.Report.dll  
+Stimulsoft.Report.Check.dll  
+Stimulsoft.Report.Helper.dll  
+Stimulsoft.Report.Wpf.dll  
+Stimulsoft.Report.Wpf.BlackTheme.dll  
+Stimulsoft.Report.Wpf.Design.dll  
+Stimulsoft.Report.Wpf.Office2003BlueTheme.dll  
+Stimulsoft.Report.Wpf.Office2003OliveGreenTheme.dll  
+Stimulsoft.Report.Wpf.Office2003SilverTheme.dll  
+Stimulsoft.Report.Wpf.Office2007BlackTheme.dll  
+Stimulsoft.Report.Wpf.Office2007BlueTheme.dll  
+Stimulsoft.Report.Wpf.Office2007SilverTheme.dll  
+Stimulsoft.Report.Wpf.Office2010BlueTheme.dll  
+Stimulsoft.Report.Wpf.Office2010WhiteTheme.dll  
+Stimulsoft.Report.WpfDesign.dll  
+Stimulsoft.Report.WpfDesign.Design.dll  
+Stimulsoft.Report.Xbap.dll  
+All .xml localization files
 
 #### Stimulsoft Reports.Silverlight
-Stimulsoft.Base.dll
-Stimulsoft.Base.SL.dll
-Stimulsoft.Controls.SL.dll
-Stimulsoft.Report.dll
-Stimulsoft.Report.SL.dll
-Stimulsoft.Report.Check.SL.dll
-Stimulsoft.Report.Helper.SL.dll
-Stimulsoft.Report.SLDesign.dll
-Stimulsoft.Report.Viewer.SL.dll
-Stimulsoft.Report.WebSL.dll
-Stimulsoft.Report.WebDesignSL.dll
-Localization files
+Stimulsoft.Base.dll  
+Stimulsoft.Base.SL.dll  
+Stimulsoft.Controls.SL.dll  
+Stimulsoft.Report.dll  
+Stimulsoft.Report.SL.dll  
+Stimulsoft.Report.Check.SL.dll  
+Stimulsoft.Report.Helper.SL.dll  
+Stimulsoft.Report.SLDesign.dll  
+Stimulsoft.Report.Viewer.SL.dll  
+Stimulsoft.Report.WebSL.dll  
+Stimulsoft.Report.WebDesignSL.dll  
+All .xml localization files
 
 #### Stimulsoft Reports.UWP
-Stimulsoft.Base.UWP.dll
-Stimulsoft.Controls.UWP.dll
-Stimulsoft.Report.UWP.dll
-Stimulsoft.Helper.UWP.dll
-Stimulsoft.Report.Viewer.UWP.dll
-Stimulsoft.Report.Design.UWP.dll
-Localization files
+Stimulsoft.Base.UWP.dll  
+Stimulsoft.Controls.UWP.dll  
+Stimulsoft.Helper.UWP.dll  
+Stimulsoft.ImageConverter.UWP.dll  
+Stimulsoft.Report.Design.UWP.dll  
+Stimulsoft.Report.UWP.dll  
+Stimulsoft.Report.Viewer.UWP.dll  
+All .xml localization files
 
 #### Stimulsoft Reports.Java
-All *.jar files
-Localization files
+All .jar product files  
+All .xml localization files
 
 #### Stimulsoft Reports.PHP
-config.xml 
-swfobject.js
-playerProductInstall.swf 
-designer.html
-viewer.html
-DesignerFx_PHP.swf
-ViewerFx_PHP.swf 
-index.php
-handler.php
-localization.php
-database_xml
-database_mssql.php
-database_mysql.php
-database_odbc.php
-database_oracle.php
-database_pg.php
-Localization files
+designer.html  
+viewer.html  
+database_firebird.php  
+database_mongodb.php  
+database_mssql.php  
+database_mysql.php  
+database_odbc.php  
+database_oracle.php  
+database_pg.php  
+database_xml.php  
+handler.php  
+index.php  
+localization.php  
+DesignerFx_PHP.swf  
+ViewerFx_PHP.swf  
+All .xml localization files
 
 #### Stimulsoft Reports.Flex
-Stimulsoft_ViewerFx.swc
-Stimulsoft_DesignerFx.swc
-Localization files
+Stimulsoft_DesignerFx.swc  
+Stimulsoft_DesignerFx_Debug.swc  
+Stimulsoft_ViewerFx.swc  
+Stimulsoft_ViewerFx_Debug.swc  
+All .xml localization files
 
 YOU ARE NOT AUTHORIZED TO REDISTRIBUTE ANY OTHER FILE CONTAINED IN THE SOFTWARE.
 
