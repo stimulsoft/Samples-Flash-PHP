@@ -20,3 +20,5 @@ You can try the [Live Demo](http://demo.stimulsoft.com/#Flex)
 Read more about [Stimulsoft Reports.PHP](https://www.stimulsoft.com/en/products/reports-php)
 
 [Free Download](https://www.stimulsoft.com/en/downloads)
+
+[License](LICENSE.md)
