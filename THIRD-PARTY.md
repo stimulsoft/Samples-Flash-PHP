@@ -11,6 +11,7 @@ Stimulsoft Reports uses third party WinForms controls from the DevComponents com
 **License:** Stimulsoft Developer License
 
   
+
 ### LibExcel
 This assembly is used to access the Excel files. It is applicable in the Excel Connection in the report designer. Stimulsoft Reports is not use this software directly and uses reflection to access it. If you are not going to use the Excel data source you may not use LibExcel.dll.
 
