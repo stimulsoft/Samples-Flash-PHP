@@ -51,11 +51,14 @@ SOFTWARE may include certain files ("Redistributables") intended for distributio
 ### REDISTRIBUTABLES
 The following files are considered redistributables under this DLA: 
 
-*Stimulsoft Reports.Ultimate*
+**Stimulsoft Reports.Ultimate**
 
-*.NET*
+**.NET**
+
 Stimulsoft.Controls.dll
+
 Stimulsoft.Controls.Win.dll
+
 Stimulsoft.Base.dll
 Stimulsoft.Database.dll
 Stimulsoft.Database.Wpf.dll
@@ -100,7 +103,7 @@ Stimulsoft.Report.Mobile.dll
 Stimulsoft.Report.MvcMobile.dll
 Stimulsoft.Report.MobileDesign.dll
 
-*JS*
+**JS**
 stimulsoft.designer.js
 stimulsoft.reports.js
 stimulsoft.reports.maps.js
