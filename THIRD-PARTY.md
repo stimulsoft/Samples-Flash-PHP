@@ -8,25 +8,18 @@ This document identifies the third-party software packages used in the Stimulsof
 ### Stimulsoft.Controls.Win
 Stimulsoft Reports uses third party WinForms controls from the DevComponents company. We do not provide source code for these GUI controls. You can include and redistribute this software with our programs free, but you cannot use these GUI controls directly from your software.
 
-**Using:** .NET Product Line  
-**License:** Stimulsoft Developer License
+**Using:** .NET Product Line
+
+### Stimulsoft Developer License
 
 ---
 
 ### LibExcel
 This assembly is used to access the Excel files. It is applicable in the Excel Connection in the report designer. Stimulsoft Reports is not use this software directly and uses reflection to access it. If you are not going to use the Excel data source you may not use LibExcel.dll.
 
-**Using:** .NET Product Line  
-**License:** GNU Lesser General Public License
+**Using:** .NET Product Line
 
----
-
-### NuGet.Core
-This assembly is used to access the NuGet repository. It is applicable in the report designer to download missing assemblies of data adapters. If you are not going to download assemblies of data adapters from the NuGet repository you may not use NuGet.Core.dll.
-
-**Using:** .NET Product Line  
-**Website:** https://www.nuget.org/packages/NuGet.Core  
-**License:** Microsoft Software License
+### GNU Lesser General Public License
 
 ---
 
@@ -394,3 +387,58 @@ HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
 WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
+
+---
+
+### MailKit
+MailKit is an Open Source cross-platform .NET mail-client library that is based on MimeKit and optimized for mobile devices.
+
+**Using:** .NET Product Line  
+**Website:** https://www.nuget.org/packages/MailKit
+
+#### The MIT License
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
+
+---
+
+### Npgsql
+Npgsql is the open source .NET data provider for PostgreSQL.
+
+**Using:** .NET Product Line  
+**Website:** https://www.nuget.org/packages/Npgsql 
+
+#### License
+Copyright (c) 2002-2017, The Npgsql Development Team
+
+Permission to use, copy, modify, and distribute this software and its documentation for any purpose, without fee, and without a written agreement is hereby granted, provided that the above copyright notice and this paragraph and the following two paragraphs appear in all copies.
+
+IN NO EVENT SHALL THE NPGSQL DEVELOPMENT TEAM BE LIABLE TO ANY PARTY FOR DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, INCLUDING LOST PROFITS, ARISING OUT OF THE USE OF THIS SOFTWARE AND ITS DOCUMENTATION, EVEN IF THE NPGSQL DEVELOPMENT TEAM HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+THE NPGSQL DEVELOPMENT TEAM SPECIFICALLY DISCLAIMS ANY WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE SOFTWARE PROVIDED HEREUNDER IS ON AN "AS IS" BASIS, AND THE NPGSQL DEVELOPMENT TEAM HAS NO OBLIGATIONS TO PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
+
+---
+
+### PHPMailer
+The classic email sending library for PHP.
+
+**Using:** JS Product Line
+**Website:** https://github.com/PHPMailer
+
+#### GNU Lesser General Public License
