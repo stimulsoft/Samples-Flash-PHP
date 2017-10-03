@@ -51,7 +51,7 @@
     <AdapterBusinessObjects>Gegevens uit Business Objects</AdapterBusinessObjects>
     <AdapterConnection>Data van {0}</AdapterConnection>
     <AdapterCrossTabDataSource>Data van Draaitabel</AdapterCrossTabDataSource>
-    <AdapterCsvFiles>Gegevens uit Csv Verbinding</AdapterCsvFiles>
+    <AdapterCsvFiles>Gegevens uit CSV Verbinding</AdapterCsvFiles>
     <AdapterDataTables>Gegevens uit DataSet, DataTables</AdapterDataTables>
     <AdapterDataViews>Gegevens uit DataViews</AdapterDataViews>
     <AdapterDB2Connection>Gegevens uit DB2 Verbinding</AdapterDB2Connection>
@@ -59,13 +59,13 @@
     <AdapterFirebirdConnection>Gegevens uit Firebird Verbinding</AdapterFirebirdConnection>
     <AdapterInformixConnection>Gegevens uit Informix Verbinding</AdapterInformixConnection>
     <AdapterMySQLConnection>Gegevens uit MySQL Verbinding</AdapterMySQLConnection>
-    <AdapterOdbcConnection>Gegevens uit Odbc Verbinding</AdapterOdbcConnection>
-    <AdapterOleDbConnection>Gegevens uit OleDb Verbinding</AdapterOleDbConnection>
+    <AdapterOdbcConnection>Gegevens uit ODBC Verbinding</AdapterOdbcConnection>
+    <AdapterOleDbConnection>Gegevens uit OLE DB Verbinding</AdapterOleDbConnection>
     <AdapterOracleConnection>Gegevens uit Oracle Verbinding</AdapterOracleConnection>
     <AdapterOracleODPConnection>Data van Oracle ODP.NET Verbinding</AdapterOracleODPConnection>
     <AdapterPostgreSQLConnection>Gegevens uit PostgreSQL Verbinding</AdapterPostgreSQLConnection>
-    <AdapterSqlCeConnection>Gegevens uit SqlCe Verbinding</AdapterSqlCeConnection>
-    <AdapterSqlConnection>Gegevens uit Sql Verbinding</AdapterSqlConnection>
+    <AdapterSqlCeConnection>Gegevens uit SQL CE Verbinding</AdapterSqlCeConnection>
+    <AdapterSqlConnection>Gegevens uit SQL Verbinding</AdapterSqlConnection>
     <AdapterSQLiteConnection>Gegevens uit SQLite Verbinding</AdapterSQLiteConnection>
     <AdapterTeradataConnection>Gegevens via Teradata Verbinding</AdapterTeradataConnection>
     <AdapterUniDirectConnection>Gegevens van Uni Direct Verbinding</AdapterUniDirectConnection>
@@ -383,19 +383,44 @@
     <DatabaseFirebird>Firebird Verbinding</DatabaseFirebird>
     <DatabaseInformix>Informix Verbinding</DatabaseInformix>
     <DatabaseMySQL>MySQL Verbinding</DatabaseMySQL>
-    <DatabaseOdbc>Odbc Verbinding</DatabaseOdbc>
-    <DatabaseOleDb>OleDB Verbinding</DatabaseOleDb>
+    <DatabaseOdbc>ODBC Verbinding</DatabaseOdbc>
+    <DatabaseOleDb>OLE DB Verbinding</DatabaseOleDb>
     <DatabaseOracle>Oracle Verbinding</DatabaseOracle>
     <DatabaseOracleODP>Oracle ODP.NET Verbinding</DatabaseOracleODP>
     <DatabasePostgreSQL>PostgreSQL Verbinding</DatabasePostgreSQL>
-    <DatabaseSql>Sql Verbinding</DatabaseSql>
+    <DatabaseSql>SQL Verbinding</DatabaseSql>
     <DatabaseSqlCe>SQLServerCE Verbinding</DatabaseSqlCe>
     <DatabaseSQLite>SQLite Verbinding</DatabaseSQLite>
     <DatabaseTeradata>Teradata Verbinding</DatabaseTeradata>
     <DatabaseUniDirect>Uni Direct Verbinding</DatabaseUniDirect>
     <DatabaseVistaDB>VistaDB Verbinding</DatabaseVistaDB>
-    <DatabaseXml>Xml Data</DatabaseXml>
+    <DatabaseXml>XML Data</DatabaseXml>
   </Database>
+  <DatePickerRanges>
+    <CurrentMonth>Huidige maand</CurrentMonth>
+    <CurrentQuarter>Huidig kwartaal</CurrentQuarter>
+    <CurrentWeek>Huidige week</CurrentWeek>
+    <CurrentYear>Huidig jaar</CurrentYear>
+    <FirstQuarter>Eerste kwartaal</FirstQuarter>
+    <FourthQuarter>Vierde kwartaal</FourthQuarter>
+    <MonthToDate>Maand -tot nu</MonthToDate>
+    <NextMonth>Komende maand</NextMonth>
+    <NextQuarter>Komend kwartaal</NextQuarter>
+    <NextWeek>Komende week</NextWeek>
+    <NextYear>Komend jaar</NextYear>
+    <PreviousMonth>Vorige maand</PreviousMonth>
+    <PreviousQuarter>Vorig kwartaal</PreviousQuarter>
+    <PreviousWeek>Vorige week</PreviousWeek>
+    <PreviousYear>Vorig jaar</PreviousYear>
+    <QuarterToDate>Kwartaal -tot nu</QuarterToDate>
+    <SecondQuarter>Tweede kwartaal</SecondQuarter>
+    <ThirdQuarter>Derde kwartaal</ThirdQuarter>
+    <Today>Vandaag</Today>
+    <Tomorrow>Morgen</Tomorrow>
+    <WeekToDate>Week -tot nu</WeekToDate>
+    <YearToDate>Jaar -tot nu</YearToDate>
+    <Yesterday>Gisteren</Yesterday>
+  </DatePickerRanges>
   <DesignerFx>
     <AlreadyExists>'{0}' bestaat reeds.</AlreadyExists>
     <CanNotLoadThisReportTemplate>Het rapportsjabloon kan niet geladen worden</CanNotLoadThisReportTemplate>
@@ -492,7 +517,7 @@
     <FileNotFound>Veld "{0}" niet gevonden.</FileNotFound>
     <IdentifierIsNotValid>Sleutel '{0}' is niet geldig.</IdentifierIsNotValid>
     <ImpossibleFindDataSource>Onmogelijk om de Gegevensbron te vinden.</ImpossibleFindDataSource>
-    <NameExists>Er bestaat reeds een object genaamd '{0}'. Objecten moeten een unieke naam hebben, en de namem zijn hoofdlettergevoelig.</NameExists>
+    <NameExists>Er bestaat reeds een object genaamd '{0}'. Objecten moeten een unieke naam hebben.</NameExists>
     <NoServices>Diensten zijn niet gevonden in '{0}'</NoServices>
     <NotAssign>Gegevensbron is niet gespecifiëerd.</NotAssign>
     <NotCorrectFormat>Ingegeven tekst was niet van het juiste formaat</NotCorrectFormat>
@@ -541,7 +566,7 @@
     <ExportTypeDifFile>Data Interchange Format (DIF) Bestand...</ExportTypeDifFile>
     <ExportTypeExcel2007File>Microsoft Excel 2007 Bestand...</ExportTypeExcel2007File>
     <ExportTypeExcelFile>Microsoft Excel Bestand...</ExportTypeExcelFile>
-    <ExportTypeExcelXmlFile>Microsoft Excel Xml Bestand...</ExportTypeExcelXmlFile>
+    <ExportTypeExcelXmlFile>Microsoft Excel XML Bestand...</ExportTypeExcelXmlFile>
     <ExportTypeGifFile>GIF Afbeelding...</ExportTypeGifFile>
     <ExportTypeHtml5File>HTML5 Bestand...</ExportTypeHtml5File>
     <ExportTypeHtmlFile>HTML Bestand...</ExportTypeHtmlFile>
@@ -752,10 +777,10 @@
     <MySQLEdit>Bewerk MySQL Verbinding</MySQLEdit>
     <MySQLNew>Nieuwe MySQL Verbinding</MySQLNew>
     <NewConnection>Nieuwe {0} Verbinding</NewConnection>
-    <OdbcEdit>Bewerk Odbc Verbinding</OdbcEdit>
-    <OdbcNew>Nieuwe Odbc Verbinding</OdbcNew>
-    <OleDbEdit>Bewerk OleDb Verbinding</OleDbEdit>
-    <OleDbNew>Nieuwe OleDb Verbinding</OleDbNew>
+    <OdbcEdit>Bewerk ODBC Verbinding</OdbcEdit>
+    <OdbcNew>Nieuwe ODBC Verbinding</OdbcNew>
+    <OleDbEdit>Bewerk OLE DB Verbinding</OleDbEdit>
+    <OleDbNew>Nieuwe OLE DB Verbinding</OleDbNew>
     <OracleEdit>Bewerk Oracle Verbinding</OracleEdit>
     <OracleNew>Nieuwe Oracle Verbinding</OracleNew>
     <OracleODPEdit>Oracle ODP.NET Verbinding Bewerken</OracleODPEdit>
@@ -767,18 +792,18 @@
     <PromptUserNameAndPassword>Gebruikersnaam en Paswoord Vragen</PromptUserNameAndPassword>
     <SqlCeEdit>Bewerk SQLServerCE Verbinding</SqlCeEdit>
     <SqlCeNew>Nieuwe SQLServerCE Verbinding</SqlCeNew>
-    <SqlEdit>Bewerk Sql Verbinding</SqlEdit>
+    <SqlEdit>Bewerk SQL Verbinding</SqlEdit>
     <SQLiteEdit>Bewerk SQLite Verbinding</SQLiteEdit>
     <SQLiteNew>Nieuwe SQLite Verbinding</SQLiteNew>
-    <SqlNew>Nieuwe Sql Verbinding</SqlNew>
+    <SqlNew>Nieuwe SQL Verbinding</SqlNew>
     <TeradataEdit>Bewerken Teradata Verbinding</TeradataEdit>
     <TeradataNew>Nieuwe Teradata Verbinding</TeradataNew>
     <UniDirectEdit>Bewerk Uni Direct Verbinding</UniDirectEdit>
     <UniDirectNew>Nieuwe Uni Direct Verbinding</UniDirectNew>
     <VistaDBEdit>Bewerk VistaDB Verbinding</VistaDBEdit>
     <VistaDBNew>Nieuwe VistaDB Verbinding</VistaDBNew>
-    <XmlEdit>Bewerk Xml Data</XmlEdit>
-    <XmlNew>Nieuwe Xml Data</XmlNew>
+    <XmlEdit>Bewerk XML Data</XmlEdit>
+    <XmlNew>Nieuwe XML Data</XmlNew>
   </FormDatabaseEdit>
   <FormDesigner>
     <Code>Code</Code>
@@ -795,6 +820,7 @@
     <MarginsNormal>Normaal</MarginsNormal>
     <MarginsWide>Breed</MarginsWide>
     <OrderToolbars>Rangschik Werkbalken</OrderToolbars>
+    <Others>Andere</Others>
     <Pages>Pagina's</Pages>
     <Preview>Voorbeeld</Preview>
     <PropertyChange>Change of property '{0}'</PropertyChange>
@@ -803,7 +829,7 @@
     <ShowDescription>Toon Omschrijving</ShowDescription>
     <SLPreview>Silverlight Voorbeeld</SLPreview>
     <title>Ontwerper</title>
-    <WebPreview>Web Voorbeeld</WebPreview>
+    <WebPreview>Flash Voorbeeld</WebPreview>
   </FormDesigner>
   <FormDictionaryDesigner>
     <Actions>Acties</Actions>
@@ -908,7 +934,7 @@
   </FormGlobalizationEditor>
   <FormOptions>
     <AutoSave>Auto Bewaren</AutoSave>
-    <AutoSaveReportToReportClass>Automatisch Bewaren Rapport naar C# of Vb.Net Bestand</AutoSaveReportToReportClass>
+    <AutoSaveReportToReportClass>Automatisch Bewaren Rapport naar C# of VB.NET Bestand</AutoSaveReportToReportClass>
     <Default>Standaard</Default>
     <Drawing>Tekenen</Drawing>
     <DrawMarkersWhenMoving>Toon Markeerders tijdens het Verplaatsen</DrawMarkersWhenMoving>
@@ -1071,7 +1097,7 @@
     <PagesManagerForm>Paginamanager</PagesManagerForm>
     <PromptForm>Geef  informatie om  op de database aan te melden</PromptForm>
     <ServiceSelectForm>Selecteer Service</ServiceSelectForm>
-    <SqlExpressionsForm>Sql Expressies</SqlExpressionsForm>
+    <SqlExpressionsForm>SQL Expressies</SqlExpressionsForm>
     <SubReportPageSelectForm>Selecteer Sub Rapport Pagina</SubReportPageSelectForm>
     <TextEditorForm>Tekst Editor</TextEditorForm>
     <ViewDataForm>Bekijk Gegevens</ViewDataForm>
@@ -2891,7 +2917,7 @@
     <SortType>Sorteer Type</SortType>
     <Space>Spatie</Space>
     <Spacing>Spatiëring</Spacing>
-    <SqlCommand>Sql Comando</SqlCommand>
+    <SqlCommand>SQL Comando</SqlCommand>
     <StartAngle>Start Hoek</StartAngle>
     <StartCap>Start Cap</StartCap>
     <StartColor>Start Kleur</StartColor>
@@ -3099,7 +3125,7 @@
     <SelectAllFromRight>Selecteer Alles van Rechts</SelectAllFromRight>
     <SwitchToDerivedTable>Schakel over naar Afgeleide Tabel</SwitchToDerivedTable>
     <Tables>Tabellen</Tables>
-    <UnexpectedTokenAt>Onverwacht teken \"{0}\" op lijn {1}, pos {2}!</UnexpectedTokenAt>
+    <UnexpectedTokenAt>Onverwacht teken "{0}" op lijn {1}, pos {2}!</UnexpectedTokenAt>
     <Unions>Unies</Unions>
     <UnionSubMenu>Unie</UnionSubMenu>
     <ViewQuery>Toon Query</ViewQuery>

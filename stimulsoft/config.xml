@@ -21,7 +21,6 @@
     <ShowCancelButton>False</ShowCancelButton>
   </Connection>
   <Designer>
-    <AllowModifyTemplate>True</AllowModifyTemplate>
     <AlwaysUpdateReportFileName>False</AlwaysUpdateReportFileName>
     <Appearance>
       <GridSizeCentimetres>0.2</GridSizeCentimetres>

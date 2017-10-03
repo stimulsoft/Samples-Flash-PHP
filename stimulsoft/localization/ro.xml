@@ -12,6 +12,7 @@
     <ButtonNext>Următorul</ButtonNext>
     <ButtonPrev>Anteriorul</ButtonPrev>
     <ButtonSend>Trimite</ButtonSend>
+    <CategoryAlreadyExists>Categoria cu acest nume există deja!</CategoryAlreadyExists>
     <DayFriday>Vineri</DayFriday>
     <DayMonday>Luni</DayMonday>
     <DaySaturday>Sâmbata</DaySaturday>
@@ -73,13 +74,13 @@
     <AdapterFirebirdConnection>Date din Conexiunea Firebird</AdapterFirebirdConnection>
     <AdapterInformixConnection>Date din Conexiunea Informix</AdapterInformixConnection>
     <AdapterMySQLConnection>Date din Conexiunea MySQL</AdapterMySQLConnection>
-    <AdapterOdbcConnection>Date din Conexiunea Odbc</AdapterOdbcConnection>
-    <AdapterOleDbConnection>Date din Conexiunea OleDb</AdapterOleDbConnection>
+    <AdapterOdbcConnection>Date din Conexiunea ODBC</AdapterOdbcConnection>
+    <AdapterOleDbConnection>Date din Conexiunea OLE DB</AdapterOleDbConnection>
     <AdapterOracleConnection>Date din Conexiunea Oracle</AdapterOracleConnection>
     <AdapterOracleODPConnection>Date din Conexiunea Oracle ODP.NET</AdapterOracleODPConnection>
     <AdapterPostgreSQLConnection>Date din Conexiunea PostgreSQL</AdapterPostgreSQLConnection>
-    <AdapterSqlCeConnection>Date din conexiunea SqlCe</AdapterSqlCeConnection>
-    <AdapterSqlConnection>Date din Conexiunea Sql</AdapterSqlConnection>
+    <AdapterSqlCeConnection>Date din conexiunea SQLCe</AdapterSqlCeConnection>
+    <AdapterSqlConnection>Date din Conexiunea SQL</AdapterSqlConnection>
     <AdapterSQLiteConnection>Date din Conexiunea SQLite</AdapterSQLiteConnection>
     <AdapterTeradataConnection>Date din Conexiune Teradata</AdapterTeradataConnection>
     <AdapterUniDirectConnection>Date din Conexiunea Uni Direct</AdapterUniDirectConnection>
@@ -92,8 +93,10 @@
   <Buttons>
     <Add>Adaugă</Add>
     <AddAllColumns>Adaugă toate coloanele</AddAllColumns>
+    <Attach>Ataşează</Attach>
     <Build>Construieşte...</Build>
     <Cancel>Anulează</Cancel>
+    <Check>Verificare</Check>
     <Close>Închide</Close>
     <Delete>Şterge</Delete>
     <Design>Proiectează</Design>
@@ -101,13 +104,16 @@
     <Duplicate>Duplicate</Duplicate>
     <Export>Exportă</Export>
     <Help>Ajutor</Help>
+    <LessOptions>Mai puține opțiuni</LessOptions>
     <LoadDataSet>Incarcă DataSet (*.data)</LoadDataSet>
+    <MoreOptions>Mai multe opțiuni</MoreOptions>
     <MoveLeft>Muta la stânga</MoveLeft>
     <MoveRight>Muta la dreapta</MoveRight>
     <No>&amp;Nu</No>
     <Ok>&amp;OK</Ok>
     <Open>Deschide</Open>
     <Print>Imprimare</Print>
+    <Publish>Publică</Publish>
     <QuickPrint>Imprimare rapida</QuickPrint>
     <Remove>Înlătură</Remove>
     <RemoveAll>Elimină Toate</RemoveAll>
@@ -117,9 +123,12 @@
     <Save>Salvează</Save>
     <SaveCopy>Salvează o Copie</SaveCopy>
     <SetAll>Stabilire Toate</SetAll>
+    <ShowLess>Arată mai puțin</ShowLess>
+    <ShowMore>Arată mai mult</ShowMore>
     <Submit>Trimite</Submit>
     <Test>Test</Test>
     <Up>Sus</Up>
+    <Upload>Încarcă</Upload>
     <Yes>&amp;Da</Yes>
   </Buttons>
   <Chart>
@@ -136,6 +145,7 @@
     <Bubble>Balon</Bubble>
     <Candlestick>Sfeşnic</Candlestick>
     <ChartConditionsCollectionForm>Condiţii</ChartConditionsCollectionForm>
+    <ChartEditorForm>Editor Grafic</ChartEditorForm>
     <ChartFiltersCollectionForm>Filtre</ChartFiltersCollectionForm>
     <ChartType>Tipul graficului</ChartType>
     <CheckBoxAutoRotation>Rotire automată</CheckBoxAutoRotation>
@@ -239,6 +249,7 @@
     <Strip>Fâşie</Strip>
     <StripsEditorForm>Editor de fâşii</StripsEditorForm>
     <Style>Stil</Style>
+    <Treemap>Hartă arbore</Treemap>
   </Chart>
   <ChartRibbon>
     <Axes>Axe</Axes>
@@ -309,16 +320,75 @@
   </ChartRibbon>
   <Cloud>
     <AccountSettings>Setări Cont</AccountSettings>
+    <AddAPlace>Adăugă locaţie</AddAPlace>
+    <ButtonChangePassword>Schimbare parolă</ButtonChangePassword>
+    <ButtonDeleteAll>Șterge tot</ButtonDeleteAll>
+    <ButtonDesign>Design Raport</ButtonDesign>
+    <ButtonLogout>Deconectare</ButtonLogout>
+    <ButtonPublish>Publicare</ButtonPublish>
+    <ButtonPurchase>Cumpără</ButtonPurchase>
+    <ButtonRecover>Recuperare</ButtonRecover>
+    <ButtonRenew>Reînnoire</ButtonRenew>
+    <ButtonResendEmail>Retrimitere E-mail</ButtonResendEmail>
+    <ButtonResetPassword>Resetează parola</ButtonResetPassword>
+    <ButtonRun>Execuţie</ButtonRun>
+    <ButtonShare>Partajare</ButtonShare>
+    <ButtonSignUp>Înscriere</ButtonSignUp>
+    <ButtonSkip>Trece peste</ButtonSkip>
+    <ButtonView>Vedere</ButtonView>
+    <ButtonWhereUsed>Unde se utilizează?</ButtonWhereUsed>
     <Cancel>Anulează</Cancel>
+    <CheckBoxMoveToRecycleBin>Mutare în Coșul de reciclare</CheckBoxMoveToRecycleBin>
+    <CheckBoxRememberMe>Ține-mă minte</CheckBoxRememberMe>
+    <Cloud>Cloud</Cloud>
     <Collection>Colecţie</Collection>
     <Create>Creare</Create>
+    <CreateError>Eroare la creare raport!</CreateError>
     <CreateNewCollection>Creare Colecţie Noua</CreateNewCollection>
+    <CreatingReport>Creare raport...</CreatingReport>
+    <DashboardWindowTitleNew>Panou control nou</DashboardWindowTitleNew>
     <DeleteFile>Şterge Fişier</DeleteFile>
+    <ExecutionError>Eroare de execuție</ExecutionError>
+    <ExpiredDate>Data expirării</ExpiredDate>
+    <FileStorageWindowTitleEdit>Editare Fișier Stocare</FileStorageWindowTitleEdit>
+    <FileStorageWindowTitleNew>Fișier Nou Stocare</FileStorageWindowTitleNew>
+    <FolderWindowTitleEdit>Editare Folder</FolderWindowTitleEdit>
+    <FolderWindowTitleNew>Folder Nou</FolderWindowTitleNew>
+    <ForExample>De exemplu</ForExample>
+    <GroupBoxAttachedItems>Elemente atașate</GroupBoxAttachedItems>
+    <HyperlinkAgreeToTerms>Prin înregistrarea sunteți de acord cu Termenii.</HyperlinkAgreeToTerms>
+    <HyperlinkAlreadyHaveAccount>Deja există cont</HyperlinkAlreadyHaveAccount>
+    <HyperlinkForgotPassword>Aţi uitat parola</HyperlinkForgotPassword>
+    <HyperlinkHavePassword>Există parolă</HyperlinkHavePassword>
+    <HyperlinkRegisterAccount>Înregistrare cont nou</HyperlinkRegisterAccount>
     <labelCollectionName>Nume Colecţie:</labelCollectionName>
+    <LabelCreated>Creat:</LabelCreated>
+    <LabelCreateFolder>Creare categorie nouă în care puteți plasa alte elemente.</LabelCreateFolder>
+    <LabelCreateReportTemplate>Creare șablon de raport.</LabelCreateReportTemplate>
+    <LabelCurrentPassword>Parola actuală:</LabelCurrentPassword>
+    <LabelDataFile>Fișier de date:</LabelDataFile>
+    <LabelDataUrl>URL-ul de date:</LabelDataUrl>
     <labelFileName>Nume Fişier:</labelFileName>
+    <LabelForeground>Prim plan:</LabelForeground>
+    <LabelFromReport>De la Raport</LabelFromReport>
+    <LabelFromReportCode>De la Raport(definiți în cod)</LabelFromReportCode>
+    <LabelLastLogin>Ultima logare:</LabelLastLogin>
+    <LabelLastTime>Ultima dată:</LabelLastTime>
+    <LabelModified>Modificat:</LabelModified>
+    <LabelNewPassword>Parolă Nouă:</LabelNewPassword>
+    <LabelNextTime>Data următoare:</LabelNextTime>
     <labelPassword>Parolă:</labelPassword>
+    <LabelPermission>Permisiune:</LabelPermission>
+    <LabelPicture>Imagine:</LabelPicture>
+    <LabelRenderedReport>Afișare raport</LabelRenderedReport>
+    <LabelResponseAsFile>Răspuns ca Fișier</LabelResponseAsFile>
+    <LabelSeparateReport>Separare fișier raport (și script-uri)</LabelSeparateReport>
+    <LabelShowReport>Afișare raport:</LabelShowReport>
     <labelUserName>Nume Utilizator:</labelUserName>
+    <License>Licență</License>
+    <LicenseInformation>Informații licență</LicenseInformation>
     <Login>Autentificare</Login>
+    <NofM>{0}: {1} din {2}</NofM>
     <Open>Deschide</Open>
     <OpenFile>Deschide Fişier</OpenFile>
     <OperationCreate>Creare '{0}'</OperationCreate>
@@ -329,17 +399,109 @@
     <OperationRename>Redenumire '{0}' în '{1}'</OperationRename>
     <OperationUpload>Salvare '{0}' pe Server</OperationUpload>
     <page>pagină</page>
+    <Platforms>Platforme</Platforms>
+    <Products>Produse</Products>
     <questionOpenThisFile>Sigur doriţi să deschideţi fişierul '{0}' ?</questionOpenThisFile>
     <questionOverrideItem>Sigur doriţi să suprascrieţi fişierul '{0}' ?</questionOverrideItem>
     <questionRemoveItem>Sigur doriţi să ştergeţi fişierul '{0}' ?</questionRemoveItem>
     <RefreshList>Reîmprospătare Listă</RefreshList>
     <ReportDocumentFormatNotRecognized>Formatul documentului '{0}' nu este recunoscut ca un raport!</ReportDocumentFormatNotRecognized>
     <ReportTemplateFormatNotRecognized>Formatul documentului '{0}' nu este recunoscut ca un raport template!</ReportTemplateFormatNotRecognized>
+    <RequestChangesWhenSavingToCloud>Solicitați modificări când salvați în cloud</RequestChangesWhenSavingToCloud>
+    <RibbonButtonAddRole>Adăugare Rol</RibbonButtonAddRole>
+    <RibbonButtonAddUser>Adăugare Utilizator</RibbonButtonAddUser>
+    <RibbonButtonAddWorkspace>Adăugare Spațiu de Lucru</RibbonButtonAddWorkspace>
+    <RibbonButtonFolder>Folder</RibbonButtonFolder>
+    <RibbonTabUsers>Utilizatori</RibbonTabUsers>
     <Root>Rădăcină</Root>
+    <RootFolder>Folder Rădăcină</RootFolder>
     <Save>Salvează</Save>
     <SaveAccountSettings>Salvează Setări Cont</SaveAccountSettings>
     <SaveFile>Salvează Fişier</SaveFile>
+    <ShareWindowTitleNew>Partajare</ShareWindowTitleNew>
     <ShowAllFiles>Arată Toate Fişierele</ShowAllFiles>
+    <Subscriptions>Abonamente</Subscriptions>
+    <TabItemEmbedCode>Integrare Cod</TabItemEmbedCode>
+    <TabItemQRCode>Cod QR</TabItemQRCode>
+    <TabItemShare>Link pentru Partajare</TabItemShare>
+    <TextActivated>Activat</TextActivated>
+    <TextActivationDate>Data activării</TextActivationDate>
+    <TextDelete>Ștergere</TextDelete>
+    <TextDeletingItems>Ștergere articole...</TextDeletingItems>
+    <TextDescriptionChanges>Introduceți o descriere a modificărilor:</TextDescriptionChanges>
+    <TextFirstName>Primul Nume</TextFirstName>
+    <TextFromTo>De la {0} pâna la {1} (Total - {2})</TextFromTo>
+    <TextItemsWorkspace>Spațiu de lucru</TextItemsWorkspace>
+    <TextLastName>Ultimul Nume</TextLastName>
+    <TextModify>Modificare</TextModify>
+    <TextNoNotifications>Fără notificări</TextNoNotifications>
+    <TextOwner>Proprietar</TextOwner>
+    <TextProfile>Profil</TextProfile>
+    <TextReports>Rapoarte</TextReports>
+    <TextRestoringItems>Restaurare articole...</TextRestoringItems>
+    <TextRole>Rol</TextRole>
+    <TextRun>Executare</TextRun>
+    <TextUser>Utilizator</TextUser>
+    <TextUserName>Nume Utilizator (Email)</TextUserName>
+    <TimeHoursAgoFive>Acum cinci ore, {0:t}</TimeHoursAgoFive>
+    <TimeHoursAgoFour>Acum patru ore, {0:t}</TimeHoursAgoFour>
+    <TimeHoursAgoOne>Acum o oră, {0:t}</TimeHoursAgoOne>
+    <TimeHoursAgoThree>Acum trei ore, {0:t}</TimeHoursAgoThree>
+    <TimeHoursAgoTwo>Acum două ore, {0:t}</TimeHoursAgoTwo>
+    <TimeMinutesAgoFive>Acum cinci minute, {0:t}</TimeMinutesAgoFive>
+    <TimeMinutesAgoFour>Acum patru minute, {0:t}</TimeMinutesAgoFour>
+    <TimeMinutesAgoLessOne>Acum mai puțin de un minut</TimeMinutesAgoLessOne>
+    <TimeMinutesAgoN>Acum {0} minute, {1:t}</TimeMinutesAgoN>
+    <TimeMinutesAgoOne>Acum un minut, {0:t}</TimeMinutesAgoOne>
+    <TimeMinutesAgoThree>Acum trei minute, {0:t}</TimeMinutesAgoThree>
+    <TimeMinutesAgoTwo>Acum două minute, {0:t}</TimeMinutesAgoTwo>
+    <TimeToday>Azi, {0:t}</TimeToday>
+    <TimeYesterday>Ieri, {0:t}</TimeYesterday>
+    <ToolTipAddRole>Creare rol nou în spațiul de lucru.</ToolTipAddRole>
+    <ToolTipAddUser>Creare utilizator nou în rolul ales.</ToolTipAddUser>
+    <ToolTipAspNet>Publicare raport selectat pentru aplicația ASP.NET.</ToolTipAspNet>
+    <ToolTipAspNetMvc>Publicare raport selectat pentru aplicația ASP.NET MVC.</ToolTipAspNetMvc>
+    <ToolTipAttach>Atașează elemente la raportul selectat.</ToolTipAttach>
+    <ToolTipCreate>Creare articol nou.</ToolTipCreate>
+    <ToolTipDelete>Ștergere articole selectate.</ToolTipDelete>
+    <ToolTipDeleted>Arată articole șterse</ToolTipDeleted>
+    <ToolTipDownload>Descărcă elementul selectat.</ToolTipDownload>
+    <ToolTipEdit>Editare articol selectat.</ToolTipEdit>
+    <ToolTipGridMode>Vizualizare listă</ToolTipGridMode>
+    <ToolTipInfo>Vizualizare detaii</ToolTipInfo>
+    <ToolTipJs>Publică raportul selectat ca pagină HTML</ToolTipJs>
+    <ToolTipPublish>Pregătește raportul selectat pentru a fi implementat în aplicație.</ToolTipPublish>
+    <ToolTipRecover>Recuperare elemente selectate.</ToolTipRecover>
+    <ToolTipRunWithoutPreview>Afișare raport selectat fără previzualizare</ToolTipRunWithoutPreview>
+    <ToolTipShare>Distribuire fișier selectat.</ToolTipShare>
+    <ToolTipSort>Opţiuni de sortare</ToolTipSort>
+    <ToolTipThumbnailMode>Grilă</ToolTipThumbnailMode>
+    <ToolTipViewFile>Arată fișierul selectat.</ToolTipViewFile>
+    <ToolTipViewReport>Afișare raport selectat în vizualizator.</ToolTipViewReport>
+    <WeDidntFindAnything>Nu s-a găsit nimic de arătat aici.</WeDidntFindAnything>
+    <WindowDescriptionDelete>Sunteți sigur că doriți să ștergeți elementele selectate?</WindowDescriptionDelete>
+    <WindowDescriptionRecover>Elementele selectate vor fi recuperate din Coșul de reciclare.</WindowDescriptionRecover>
+    <WindowTitleDelete>Şterge articole</WindowTitleDelete>
+    <WindowTitleForgotPassword>Aţi uitat parola</WindowTitleForgotPassword>
+    <WindowTitleLogin>Autentificare</WindowTitleLogin>
+    <WindowTitleRecover>Recuperare elementele</WindowTitleRecover>
+    <WindowTitleRoleEdit>Editare Rol</WindowTitleRoleEdit>
+    <WindowTitleRoleNew>Rol nou</WindowTitleRoleNew>
+    <WindowTitleSignUp>Înscriere</WindowTitleSignUp>
+    <WindowTitleUserEdit>Editare Utilizator</WindowTitleUserEdit>
+    <WindowTitleUserNew>Utilizator Nou</WindowTitleUserNew>
+    <WindowTitleWorkspaceEdit>Editare Spațiu de lucru</WindowTitleWorkspaceEdit>
+    <WindowTitleWorkspaceNew>Spațiu de lucru Nou</WindowTitleWorkspaceNew>
+    <WizardBlankReportDescription>Creare raport gol</WizardBlankReportDescription>
+    <WizardExcelDescription>Creare raport cu date Excel.</WizardExcelDescription>
+    <WizardJsonDescription>Creare raport cu date JSON.</WizardJsonDescription>
+    <WizardPrivateShare>Fără acces</WizardPrivateShare>
+    <WizardPrivateShareDescription>Accesul extern la element este restricționat.</WizardPrivateShareDescription>
+    <WizardPublicShare>Acces public</WizardPublicShare>
+    <WizardPublicShareDescription>Acces extern pentru orice utilizator neautorizat.</WizardPublicShareDescription>
+    <WizardRegisteredShare>Acces autorizat</WizardRegisteredShare>
+    <WizardRegisteredShareDescription>Acces extern numai pentru utilizatorii înregistrați din orice spațiu de lucru.</WizardRegisteredShareDescription>
+    <WizardXmlDescription>Creare raport cu date XML.</WizardXmlDescription>
   </Cloud>
   <Components>
     <StiBarCode>Cod de bare</StiBarCode>
@@ -365,6 +527,7 @@
     <StiCrossSummaryHeader>Antet Cross-Summary</StiCrossSummaryHeader>
     <StiCrossTab>Tab-uri încrucişate</StiCrossTab>
     <StiCrossTitle>Cross-Titlu</StiCrossTitle>
+    <StiDashboard>Panou control</StiDashboard>
     <StiDataBand>Date</StiDataBand>
     <StiEmptyBand>Bandă liberă</StiEmptyBand>
     <StiFooterBand>Indice jos</StiFooterBand>
@@ -375,6 +538,7 @@
     <StiHierarchicalBand>Bandă ierarhică</StiHierarchicalBand>
     <StiHorizontalLinePrimitive>Linie orizontală</StiHorizontalLinePrimitive>
     <StiImage>Imagine</StiImage>
+    <StiMap>Hartă</StiMap>
     <StiOverlayBand>Acoperire</StiOverlayBand>
     <StiPage>Pagină</StiPage>
     <StiPageFooterBand>Indice jos pagină</StiPageFooterBand>
@@ -396,25 +560,42 @@
     <StiWinControl>Control Win</StiWinControl>
     <StiZipCode>Cod poştal</StiZipCode>
   </Components>
+  <Dashboard>
+    <ChangeChartType>Schimbare tip diagramă</ChangeChartType>
+    <ChangeMapType>Modificați tip hartă</ChangeMapType>
+    <ClearFilterFrom>Șterge filtrul de la '{0}'</ClearFilterFrom>
+    <DataNotDefined>Datele nu sunt definite</DataNotDefined>
+    <Dimension>Dimensiune</Dimension>
+    <Dimensions>Dimensiuni</Dimensions>
+    <DragDropDataFromDictionary>Trageți și plasați date din Dicționar</DragDropDataFromDictionary>
+    <EmptyDashboardFooter>Trageți și plasați componentă din ToolBox sau din Dicționar</EmptyDashboardFooter>
+    <EmptyDashboardHeader>Panoul de control este gol</EmptyDashboardHeader>
+    <ImageNotSpecified>Imaginea nu este specificată</ImageNotSpecified>
+    <Measure>Măsură</Measure>
+    <Measures>Măsuri</Measures>
+    <NumberFilters>Număr de filtre</NumberFilters>
+    <StringFilters>Şir de filtre</StringFilters>
+  </Dashboard>
   <Database>
     <Connection>Conexiune</Connection>
     <Database>Conexiune {0}</Database>
     <DatabaseDB2>Conexiune IBM DB2</DatabaseDB2>
     <DatabaseFirebird>Conexiune Firebird</DatabaseFirebird>
     <DatabaseInformix>Conexiune Informix</DatabaseInformix>
+    <DatabaseJson>Data JSON</DatabaseJson>
     <DatabaseMySQL>Conexiune MySQL</DatabaseMySQL>
-    <DatabaseOdbc>Conexiune Odbc</DatabaseOdbc>
-    <DatabaseOleDb>Conexiune OleDB</DatabaseOleDb>
+    <DatabaseOdbc>Conexiune ODBC</DatabaseOdbc>
+    <DatabaseOleDb>Conexiune OLE DB</DatabaseOleDb>
     <DatabaseOracle>Conexiune Oracle</DatabaseOracle>
     <DatabaseOracleODP>Conexiune Oracle ODP.NET</DatabaseOracleODP>
     <DatabasePostgreSQL>Conexiune PostgreSQL</DatabasePostgreSQL>
-    <DatabaseSql>Conexiune Sql</DatabaseSql>
+    <DatabaseSql>Conexiune SQL</DatabaseSql>
     <DatabaseSqlCe>Conexiune SQLServerCE</DatabaseSqlCe>
     <DatabaseSQLite>Conexiune SQLite</DatabaseSQLite>
     <DatabaseTeradata>Conexiune Teradata</DatabaseTeradata>
     <DatabaseUniDirect>Conexiune Uni Direct</DatabaseUniDirect>
     <DatabaseVistaDB>Conexiune VistaDB</DatabaseVistaDB>
-    <DatabaseXml>Date Xml</DatabaseXml>
+    <DatabaseXml>Date XML</DatabaseXml>
     <DifFiles>Fişiere DIF (*.dif)|*.dif</DifFiles>
     <ExportTypeDifFile>Fişier Data Interchange Format (DIF)...</ExportTypeDifFile>
     <groupAutoSaveOptions>Opţiuni de salvare automată</groupAutoSaveOptions>
@@ -429,6 +610,31 @@
     <labelInfoQuickInfo>Informaţii rapide despre componentele unei pagini</labelInfoQuickInfo>
     <UniDirectEdit>Editează conexiunea Uni Direct</UniDirectEdit>
   </Database>
+  <DatePickerRanges>
+    <CurrentMonth>Luna curentă</CurrentMonth>
+    <CurrentQuarter>Trimestrul curent</CurrentQuarter>
+    <CurrentWeek>Săptămâna curentă</CurrentWeek>
+    <CurrentYear>Anul curent</CurrentYear>
+    <FirstQuarter>Primul trimestru</FirstQuarter>
+    <FourthQuarter>Al patrulea trimestru</FourthQuarter>
+    <MonthToDate>Luna aceasta</MonthToDate>
+    <NextMonth>Luna viitoare</NextMonth>
+    <NextQuarter>Trimestrul următor</NextQuarter>
+    <NextWeek>Saptamâna viitoare</NextWeek>
+    <NextYear>Anul următor</NextYear>
+    <PreviousMonth>Luna trecută</PreviousMonth>
+    <PreviousQuarter>Trimestrul trecut</PreviousQuarter>
+    <PreviousWeek>Săptamâna trecută</PreviousWeek>
+    <PreviousYear>Anul trecut</PreviousYear>
+    <QuarterToDate>Trimestrul acesta</QuarterToDate>
+    <SecondQuarter>Trimestrul al doilea</SecondQuarter>
+    <ThirdQuarter>Trimestrul al treilea</ThirdQuarter>
+    <Today>Astăzi</Today>
+    <Tomorrow>Mâine</Tomorrow>
+    <WeekToDate>Săptămâna aceasta</WeekToDate>
+    <YearToDate>Anul acesta</YearToDate>
+    <Yesterday>Ieri</Yesterday>
+  </DatePickerRanges>
   <DesignerFx>
     <AlreadyExists>'{0}' deja există.</AlreadyExists>
     <CanNotLoadThisReportTemplate>Nu poate fi încărcat acest şablon de raport</CanNotLoadThisReportTemplate>
@@ -529,7 +735,7 @@
     <FileNotFound>Fişierul "{0}" nu a fost găsit.</FileNotFound>
     <IdentifierIsNotValid>Elementul de identificare '{0}' nu este valabil.</IdentifierIsNotValid>
     <ImpossibleFindDataSource>Sursa datelor este imposibil de găsit.</ImpossibleFindDataSource>
-    <NameExists>Există deja un obiect denumit '{0}'. Obiectele trebuie să aibă denumiri unice, independente de majuscule / minuscule.</NameExists>
+    <NameExists>Există deja un obiect denumit '{0}'. Obiectele trebuie să aibă denumiri unice.</NameExists>
     <NoServices>Serviciile nu au fost găsite în '{0}'</NoServices>
     <NotAssign>Sursa datelor nu este specificată.</NotAssign>
     <NotCorrectFormat>Şirul introdus nu a fost într-un format corect.</NotCorrectFormat>
@@ -545,6 +751,7 @@
     <AllowEditable>Permite Editabil:</AllowEditable>
     <AllowModifyContents>Permite modificarea conţinutului</AllowModifyContents>
     <AllowPrintDocument>Permite imprimarea documentului</AllowPrintDocument>
+    <Auto>Auto</Auto>
     <BandsFilter>Filtru Benzi:</BandsFilter>
     <Color>Culoare</Color>
     <Compressed>Comprimat</Compressed>
@@ -562,6 +769,7 @@
     <Encoding>Codificare:</Encoding>
     <EncryptionError>Eroare criptare la pasul</EncryptionError>
     <EscapeCodes>Secvenţe Escape</EscapeCodes>
+    <Exactly>Exact</Exactly>
     <ExceptEditableFields>Excepţie Câmpuri Editabile</ExceptEditableFields>
     <ExportDataOnly>Exportă doar date</ExportDataOnly>
     <ExportEachPageToSheet>Exportă fiecare pagină în foaie de lucru</ExportEachPageToSheet>
@@ -613,6 +821,7 @@
     <ImageMonochrome>Monocromatic</ImageMonochrome>
     <ImageQuality>Calitatea imaginii</ImageQuality>
     <ImageResolution>Rezoluţia imaginii:</ImageResolution>
+    <ImageResolutionMode>Mod Rezoluție Imagine:</ImageResolutionMode>
     <ImageType>Tipul imaginii</ImageType>
     <labelEncryptionKeyLength>Lungimea cheii de criptare:</labelEncryptionKeyLength>
     <labelOwnerPassword>Parola posesorului:</labelOwnerPassword>
@@ -621,6 +830,7 @@
     <MonochromeDitheringType>Tip monocrom:</MonochromeDitheringType>
     <MoreSettings>Setare avansată</MoreSettings>
     <MultipleFiles>Fişiere multiple</MultipleFiles>
+    <NoMoreThan>Nu mai mult de</NoMoreThan>
     <OpenAfterExport>Deschide după exportare</OpenAfterExport>
     <PdfACompliance>PDF/Conformitate A</PdfACompliance>
     <RemoveEmptySpaceAtBottom>Eliminare spaţiu gol din partea de jos a paginii</RemoveEmptySpaceAtBottom>
@@ -653,11 +863,14 @@
     <Zoom>Zoom:</Zoom>
   </Export>
   <FileFilters>
+    <AllFiles>Toate fişierele</AllFiles>
     <AllImageFiles>Toate fişierele imagine</AllImageFiles>
     <BitmapFiles>Fişiere tip Bitmap</BitmapFiles>
     <BmpFiles>Imagine BMP (*.bmp)|*.bmp</BmpFiles>
+    <BusinessIntelligence>Fișier Business Intelligence (*.sbi)|*.sbi</BusinessIntelligence>
     <CalcFiles>Fişiere OpenDocument Calc (*.ods)|*.ods</CalcFiles>
     <CsvFiles>Fişiere CSV (*.csv)|*.csv</CsvFiles>
+    <DashboardTemplates>Șabloane panou control (*.sbi)|*.sbi</DashboardTemplates>
     <DataSetXmlData>Date XML DataSet (*.xml)|*.xml</DataSetXmlData>
     <DataSetXmlSchema>Schemă XML DataSet (*.xsd)|*.xsd</DataSetXmlSchema>
     <DbfFiles>Fişiere DBF (*.dbf)|*.dbf</DbfFiles>
@@ -669,6 +882,7 @@
     <EncryptedDocumentFiles>Fişiere tip document criptat (*.mdx)|*.mdx</EncryptedDocumentFiles>
     <EncryptedReportFiles>Fişiere tip raport criptat (*.mrx)|*.mrx</EncryptedReportFiles>
     <Excel2007Files>Fişiere Microsoft Excel 2007/2013 (*.xlsx)|*.xlsx</Excel2007Files>
+    <ExcelAllFiles>Fișiere Microsoft Excel (*.xlsx;*.xls)|*.xlsx;*.xls</ExcelAllFiles>
     <ExcelFiles>Fişiere Microsoft Excel (*.xls)|*.xls</ExcelFiles>
     <ExcelXmlFiles>Fişiere Microsoft Excel XML (*.xls)|*.xls</ExcelXmlFiles>
     <ExeFiles>Fişiere EXE (*.exe)|*.exe</ExeFiles>
@@ -676,6 +890,9 @@
     <HtmlFiles>Fişiere HTML (*.html)|*.html</HtmlFiles>
     <InheritedLanguageFiles>{0} fişiere pentru rapoarte moştenite (*.{1})|*.{2}</InheritedLanguageFiles>
     <JpegFiles>Imagine JPEG (*.jpeg)|*.jpeg</JpegFiles>
+    <JsonDocumentFiles>Raport Documente JSON (*.mdc)|*.mdc</JsonDocumentFiles>
+    <JsonFiles>Fișiere JSON (*.json)|*.json</JsonFiles>
+    <JsonReportFiles>Șabloane Raport JSON (*.mrt)|*.mrt</JsonReportFiles>
     <LanguageFiles>Fişiere {0} (*.{1})|*.{2}</LanguageFiles>
     <LanguageForSilverlightFiles>{0} rapoarte Silverlight (*.{1})|*.{2}</LanguageForSilverlightFiles>
     <MetaFiles>Meta fişiere</MetaFiles>
@@ -700,7 +917,7 @@
     <WriterFiles>Fişiere OpenDocument Writer (*.odt)|*.odt</WriterFiles>
     <XmlFiles>Fişiere XML (*.xml)|*.xml</XmlFiles>
     <XpsFiles>Fişiere Microsoft XPS (*.xps)|*.xps</XpsFiles>
-    <ZipArchives>Arhive Zip (*.zip)|*.zip</ZipArchives>
+    <ZipArchives>Arhive ZIP (*.zip)|*.zip</ZipArchives>
   </FileFilters>
   <Formats>
     <custom01>d</custom01>
@@ -770,6 +987,8 @@
     <AddCondition>&amp;Adaugă condiţie</AddCondition>
     <AddLevel>Adaugă nivel</AddLevel>
     <AssignExpression>Atribuie Expresie</AssignExpression>
+    <BreakIfTrue>Întrerupe dacă este adevărat</BreakIfTrue>
+    <BreakIfTrueToolTip>Întrerupe prelucrare condiție dacă cea curentă este îndeplinită</BreakIfTrueToolTip>
     <ChangeFont>Schimbă font</ChangeFont>
     <ComponentIsEnabled>Componenta este utilizabilă</ComponentIsEnabled>
     <NoConditions>Fără condiţii</NoConditions>
@@ -788,44 +1007,57 @@
   </FormCrossTabDesigner>
   <FormDatabaseEdit>
     <ConnectionString>Stringul de conectare:</ConnectionString>
+    <DashboardConnections>Conexiuni panou control</DashboardConnections>
     <DB2Edit>Editează conexiunea IBM DB2</DB2Edit>
     <DB2New>Conexiune IBM DB2 nouă</DB2New>
     <EditConnection>Editează Conexiunea {0}</EditConnection>
     <FirebirdEdit>Modifică conexiunea Firebird</FirebirdEdit>
     <FirebirdNew>Conexiune nouă Firebird</FirebirdNew>
+    <FirstRowIsHeader>Primul Rând este Antet</FirstRowIsHeader>
+    <ImportData>Import de Date</ImportData>
     <InformixEdit>Editează conexiunea Informix</InformixEdit>
     <InformixNew>Conexiune nouă Informix</InformixNew>
     <InitialCatalog>Catalog iniţial:</InitialCatalog>
+    <JsonEdit>Editare Date JSON</JsonEdit>
+    <JsonNew>Nou JSON Date</JsonNew>
     <MySQLEdit>Editează conexiunea MySQL</MySQLEdit>
     <MySQLNew>Conexiune MySQL nouă</MySQLNew>
     <NewConnection>Conexiune {0} nouă</NewConnection>
     <OdbcEdit>Modifică conexiunea Odbc</OdbcEdit>
     <OdbcNew>Conexiune nouă Odbc</OdbcNew>
-    <OleDbEdit>Modifică conexiunea OleDb</OleDbEdit>
-    <OleDbNew>Conexiune nouă OleDb</OleDbNew>
+    <OleDbEdit>Modifică conexiunea OLE DB</OleDbEdit>
+    <OleDbNew>Conexiune nouă OLE DB</OleDbNew>
     <OracleEdit>Modifică conexiunea Oracle</OracleEdit>
     <OracleNew>Conexiune nouă Oracle</OracleNew>
     <OracleODPEdit>Editeză conexiunea Oracle ODP.NET</OracleODPEdit>
     <OracleODPNew>Conexiune nouă Oracle ODP.NET</OracleODPNew>
     <PathData>Calea către datele XML:</PathData>
+    <PathJsonData>Calea spre Date JSON:</PathJsonData>
     <PathSchema>Calea către schema XSD:</PathSchema>
+    <PathToData>Calea spre Date:</PathToData>
+    <Pin>Fixare</Pin>
     <PostgreSQLEdit>Modifică  conexiunea PostgreSQL</PostgreSQLEdit>
     <PostgreSQLNew>Conexiune nouă PostgreSQL</PostgreSQLNew>
     <PromptUserNameAndPassword>Cere Nume Utilizator şi Parolă</PromptUserNameAndPassword>
+    <RecentConnections>Recent</RecentConnections>
+    <ReportConnections>Conexiuni Raport</ReportConnections>
     <SqlCeEdit>Editează conexiunea SQLServerCE</SqlCeEdit>
     <SqlCeNew>Conexiune SQLServerCE nouă</SqlCeNew>
-    <SqlEdit>Modifică conexiunea Sql</SqlEdit>
+    <SqlEdit>Modifică conexiunea SQL</SqlEdit>
     <SQLiteEdit>Editează Conexiune SQLite</SQLiteEdit>
     <SQLiteNew>Conexiune SQLite nouă</SQLiteNew>
-    <SqlNew>Conexiune nouă Sql</SqlNew>
+    <SqlNew>Conexiune nouă SQL</SqlNew>
     <TeradataEdit>Editare Conexiune Teradata</TeradataEdit>
     <TeradataNew>Conexiune Teradata Nouă</TeradataNew>
     <UniDirectEdit>Editează conexiunea Uni Direct</UniDirectEdit>
     <UniDirectNew>Conexiune nouă Uni Direct</UniDirectNew>
+    <Unpin>Eliberare</Unpin>
+    <UseBearerAuthentication>Utilizare Purtător de autentificare</UseBearerAuthentication>
     <VistaDBEdit>Editează conexiunea VistaDB</VistaDBEdit>
     <VistaDBNew>Conexiune VistaDB nouă</VistaDBNew>
-    <XmlEdit>Modificare cale către datele Xml</XmlEdit>
-    <XmlNew>Cale nouă către datele Xml</XmlNew>
+    <XmlEdit>Modificare cale către datele XML</XmlEdit>
+    <XmlNew>Cale nouă către datele XML</XmlNew>
+    <XmlType>Tip XML:</XmlType>
   </FormDatabaseEdit>
   <FormDesigner>
     <Code>Cod</Code>
@@ -835,6 +1067,7 @@
     <CompilingReport>Compilează raport</CompilingReport>
     <DockingPanels>Panel-uri</DockingPanels>
     <HtmlPreview>Previzualizare HTML</HtmlPreview>
+    <JsPreview>Previzualizare JS</JsPreview>
     <labelPleaseSelectTypeOfInterface>Selectaţi tipul de interfaţă</labelPleaseSelectTypeOfInterface>
     <LoadImage>Încarcă Imagine...</LoadImage>
     <LocalizePropertyGrid>Localizează grila de proprietăţi</LocalizePropertyGrid>
@@ -842,6 +1075,7 @@
     <MarginsNormal>Normală</MarginsNormal>
     <MarginsWide>Largă</MarginsWide>
     <OrderToolbars>Ordinea barelor de unelte</OrderToolbars>
+    <Others>Altele</Others>
     <Pages>Pagini</Pages>
     <Preview>Previzualizare</Preview>
     <PropertyChange>Schimbă proprietatea '{0}'</PropertyChange>
@@ -862,8 +1096,11 @@
     <CategoryNew>Categorie nouă</CategoryNew>
     <ChildOfBusinessObject>Copil pentru Business Object</ChildOfBusinessObject>
     <ChildSource>Sursa de date pentru copil:</ChildSource>
+    <ClickHere>Clic aici</ClickHere>
     <ColumnEdit>Modificare coloană</ColumnEdit>
     <ColumnNew>Coloană nouă</ColumnNew>
+    <CreateNewDataSource>pentru a crea nouă sursă de date</CreateNewDataSource>
+    <CreateNewReport>pentru a crea noul raport</CreateNewReport>
     <CsvSeparatorComma>Virgulă</CsvSeparatorComma>
     <CsvSeparatorOther>Altele</CsvSeparatorOther>
     <CsvSeparatorSemicolon>Punct şi virgulă</CsvSeparatorSemicolon>
@@ -884,6 +1121,8 @@
     <DictionaryNew>Dicţionar nou...</DictionaryNew>
     <DictionaryOpen>Deschide dicţionar...</DictionaryOpen>
     <DictionarySaveAs>Salvează dicţionar ca...</DictionarySaveAs>
+    <DragNewDataSource>trageți datele direct în acest panou</DragNewDataSource>
+    <DragNewReport>trageți raportul direct în acest panou</DragNewReport>
     <EditQuery>Modifică interogare</EditQuery>
     <ExecutedSQLStatementSuccessfully>Cererea SQL a fost executată cu succes</ExecutedSQLStatementSuccessfully>
     <ExpressionNew>Expresie nouă</ExpressionNew>
@@ -898,15 +1137,25 @@
     <Queries>Interogări</Queries>
     <QueryNew>Interogare nouă</QueryNew>
     <QueryText>Textul interogării</QueryText>
+    <QueryTimeout>Timpul interogării a expirat</QueryTimeout>
     <RelationEdit>Modifică relaţie</RelationEdit>
     <RelationNew>Relaţie nouă</RelationNew>
+    <ResourceEdit>Editare resurse</ResourceEdit>
+    <ResourceNew>Resursă nouă</ResourceNew>
     <RetrieveColumns>Regăseşte coloane</RetrieveColumns>
+    <RetrieveColumnsAllowRun>Permite Executare StoredProc</RetrieveColumnsAllowRun>
+    <RetrieveColumnsAndParameters>Preluare Coloane și Parametri</RetrieveColumnsAndParameters>
+    <RetrieveParameters>Preluare Parametri</RetrieveParameters>
     <RetrievingDatabaseInformation>Preluare informaţii bază de date...</RetrievingDatabaseInformation>
     <Run>Execută</Run>
     <SelectTypeOfBusinessObject>Selectare tip Business Object</SelectTypeOfBusinessObject>
+    <SkipSchemaWizard>Omite Wizard Schemă</SkipSchemaWizard>
     <SortItems>Sortare elemente</SortItems>
     <Synchronize>Sincronizează</Synchronize>
     <SynchronizeHint>Sincronizează conţinutul Data Store cu conţinutul dicţionarului</SynchronizeHint>
+    <TextDropDataFileHere>Aruncă fișier date aici</TextDropDataFileHere>
+    <TextDropFileHere>Aruncă fișier aici</TextDropFileHere>
+    <TextDropImageHere>Aruncă fișier imagine aici</TextDropImageHere>
     <title>Proiectarea dicţionarului</title>
     <ValueNew>Valoare nouă</ValueNew>
     <VariableEdit>Modifică variabila</VariableEdit>
@@ -960,6 +1209,11 @@
     <SetCulture>Stabilire Setări Cultură pentru Raport</SetCulture>
     <title>Editor globalizare</title>
   </FormGlobalizationEditor>
+  <FormInteraction>
+    <HyperlinkExternalDocuments>Hyperlink la Documente Externe</HyperlinkExternalDocuments>
+    <HyperlinkUsingInteractionBookmark>Hyperlink folosind Semne de carte</HyperlinkUsingInteractionBookmark>
+    <HyperlinkUsingInteractionTag>Hyperlink folosind Tag</HyperlinkUsingInteractionTag>
+  </FormInteraction>
   <FormOptions>
     <AutoSave>Salvare automată</AutoSave>
     <AutoSaveReportToReportClass>Salvare automată raport în fişiere C# sau Vb.Net</AutoSaveReportToReportClass>
@@ -1040,6 +1294,7 @@
     <labelNumberOfPass>Număr de treceri: </labelNumberOfPass>
     <labelPaperSourceOfFirstPage>Sursă hârtie pentru prima pagină:</labelPaperSourceOfFirstPage>
     <labelPaperSourceOfOtherPages>Sursă hârtie pentru alte pagini:</labelPaperSourceOfOtherPages>
+    <labelSelectBrush>Selecție Pensulă:</labelSelectBrush>
     <labelSelectColor>Selectează culoarea:</labelSelectColor>
     <labelSelectFont>Selectează fontul:</labelSelectFont>
     <labelSelectImage>Selectează imaginea:</labelSelectImage>
@@ -1085,6 +1340,7 @@
     <Add>Adaugă Stil</Add>
     <ApplyStyleCollectionToReportComponents>Aplică Stil Colecţie pentru Componentele Raportului</ApplyStyleCollectionToReportComponents>
     <ApplyStyles>Aplică Stilurile</ApplyStyles>
+    <ColorCollectionEditor>Editor Colecție Culoare</ColorCollectionEditor>
     <CreateStyleCollection>Creează Stil Colecţie</CreateStyleCollection>
     <CreateStylesFromColor>Creează stil din culoarea selectată</CreateStylesFromColor>
     <Duplicate>Copiază stil</Duplicate>
@@ -1135,6 +1391,7 @@
     <PageSizeForm>Dimensiuni pagină</PageSizeForm>
     <PagesManagerForm>Organizare pagini</PagesManagerForm>
     <PromptForm>Introduceţi informaţia de logare la baza de date</PromptForm>
+    <ReportWizard>Wizard Raport</ReportWizard>
     <ServiceSelectForm>Selectează serviciu</ServiceSelectForm>
     <SqlExpressionsForm>Expresii Sql</SqlExpressionsForm>
     <SubReportPageSelectForm>Selectează pagina sub-raport</SubReportPageSelectForm>
@@ -1200,6 +1457,38 @@
     <FindPrevious>Gaseşte anteriorul</FindPrevious>
     <FindWhat>Gaseşte:</FindWhat>
   </FormViewerFind>
+  <Gauge>
+    <AddNewItem>Adaugă Articol Nou</AddNewItem>
+    <BarRangeList>Listă Gamă Bară</BarRangeList>
+    <GaugeEditorForm>Editor Gauge</GaugeEditorForm>
+    <Kind>Fel</Kind>
+    <LinearBar>Bară Liniară</LinearBar>
+    <LinearMarker>Marcator Liniar</LinearMarker>
+    <LinearRange>Domeniu Liniar</LinearRange>
+    <LinearRangeList>Listă Domeniu Liniar</LinearRangeList>
+    <LinearScale>Scală liniară</LinearScale>
+    <LinearTickLabelCustom>Liniar etichetă grosime personalizată</LinearTickLabelCustom>
+    <LinearTickLabelMajor>Marcator Liniar etichetă grosime maximă</LinearTickLabelMajor>
+    <LinearTickLabelMinor>Marcator Liniar etichetă grosime minimă</LinearTickLabelMinor>
+    <LinearTickMarkCustom>&gt;Marcator Liniar grosime personalizată</LinearTickMarkCustom>
+    <LinearTickMarkMajor>Marcator Liniar grosime maximă</LinearTickMarkMajor>
+    <LinearTickMarkMinor>Marcator Liniar grosime minimă</LinearTickMarkMinor>
+    <Needle>Ac</Needle>
+    <RadialBar>Bară Radiară</RadialBar>
+    <RadialMarker>Marcator Radiar</RadialMarker>
+    <RadialRange>Domeniu Radiar</RadialRange>
+    <RadialRangeList>Listă Domeniu Radiar</RadialRangeList>
+    <RadialScale>Scală radială</RadialScale>
+    <RadialTickLabelCustom>Radiar etichetă grosime personalizată</RadialTickLabelCustom>
+    <RadialTickLabelMajor>Marcator etichetă grosime maximă</RadialTickLabelMajor>
+    <RadialTickLabelMinor>Marcator Radiar etichetă grosime minimă</RadialTickLabelMinor>
+    <RadialTickMarkCustom>Marcator Radiar grosime personalizată</RadialTickMarkCustom>
+    <RadialTickMarkMajor>Marcator Radiar grosime maximă</RadialTickMarkMajor>
+    <RadialTickMarkMinor>Marcator Radiar grosime minimă</RadialTickMarkMinor>
+    <StateIndicator>Indicator stare</StateIndicator>
+    <StateIndicatorFilter>Filtru indicator stare</StateIndicatorFilter>
+    <TickCustomValue>Valoare personalizată grosime</TickCustomValue>
+  </Gauge>
   <Gui>
     <barname_cancel>Renunţă</barname_cancel>
     <barname_caption>Toolbar nou</barname_caption>
@@ -1306,12 +1595,14 @@
     <StiDataBand>Banda de date este conectată la sursa de date şi este afişată de atâtea ori câte înregistrari sunt în sursa de date.</StiDataBand>
     <StiEmptyBand>Această bandă este folosită pentru umplerea spaţiului liber din subsolul unei pagini. Aceasta bandă umple spaţiul liber pe fiecare pagină a raportului.</StiEmptyBand>
     <StiFooterBand>Această bandă este folosită pentru afişarea rezumatului din banda de date.Aceasta se găseşte sub banda de date şi este afişată o singură dată dupa ce sunt afişate toate înregistrarile din banda de date.</StiFooterBand>
+    <StiGauge>Componenta vă permite să afișați o valoare într-un interval predefinit.Poate avea reprezentare grafică diferită.</StiGauge>
     <StiGroupFooterBand>Banda GroupFooter este folosită pentru afişarea unui subsol de grup.Această bandă se găseşte după banda de date şi este banda de date cu care este legată o bandă GroupHeader.Fiecare bandă GroupFooter aparţine unei benzi GroupHeader specifice. Banda GroupFooter nu va fi afişată fără banda GroupHeader.</StiGroupFooterBand>
     <StiGroupHeaderBand>Această bandă este una de bază pentru redarea unui raport cu grupări. Componentele pentru afişarea informaţiei din acest grup sunt plasate în antetul grupului. Informaţia poate fi: nume de grup,data,condiţie de grupare etc. Banda este afişată o singură dată la începutul fiecarui grup.</StiGroupHeaderBand>
     <StiHeaderBand>Această bandă este folosită pentru afişarea anteturilor. Este folosită împreună cu banda de date.</StiHeaderBand>
     <StiHierarchicalBand>Această bandă este conectată la sursa de date şi este afişată de atâtea ori câte înregistrari sunt în sursa de date.Datele sunt afişate arborescent.</StiHierarchicalBand>
     <StiHorizontalLinePrimitive>Această componentă este folosită pentru afişarea unei linii.</StiHorizontalLinePrimitive>
     <StiImage>Această componentă este folosită pentru a afişa imagini. Suportă următoarele formate grafice cum ar fi  BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF.</StiImage>
+    <StiMap>Această componentă este utilizată pentru afișarea datelor direcționate geografic.</StiMap>
     <StiOverlayBand>Această bandă este folosită pentru afişare watermark-uri pe o pagină.</StiOverlayBand>
     <StiPageFooterBand>Această bandă este folosită pentru afişare informatii în subsolul fiecărei pagini cum ar fi număr pagină,data şi alte informaţii adiţionale.</StiPageFooterBand>
     <StiPageHeaderBand>Această bandă este folosită pentru afişarea în antetul de pagină a informaţiilor cum ar fi număr pagină,data şi alte informaţii adiţionale.Este afişată în partea de sus a fiecărei pagini.</StiPageHeaderBand>
@@ -1582,6 +1873,12 @@
     <ZoomTwoPages>Zoom pe raport, astfel încât sa încapă două pagini în fereastră.</ZoomTwoPages>
     <ZoomTxt>Dimensiunea raportului (scala): X - modifică scala orizontală, Y - pentru a modifica scala verticală.</ZoomTxt>
   </HelpViewer>
+  <Interface>
+    <Mouse>Mouse</Mouse>
+    <MouseDescription>Optimizat pentru utilizarea cu mouse-ul</MouseDescription>
+    <Touch>Touch</Touch>
+    <TouchDescription>Optimizat pentru utilizarea cu touch</TouchDescription>
+  </Interface>
   <MainMenu>
     <menuCheckIssues>Verifică raportul pentru a găsi erori</menuCheckIssues>
     <menuContextClone>Duplicare...</menuContextClone>
@@ -1616,6 +1913,7 @@
     <menuEditRedoText>&amp;Repetă {0}</menuEditRedoText>
     <menuEditRelationNew>Relaţie nouă...</menuEditRelationNew>
     <menuEditRemoveUnused>Îndepărtează elementele neutilizate</menuEditRemoveUnused>
+    <menuEditResourceNew>Resursă nouă...</menuEditResourceNew>
     <menuEditSelectAll>Selectează tot</menuEditSelectAll>
     <menuEditSynchronize>Sincronizează</menuEditSynchronize>
     <menuEditUndo>An&amp;ulează</menuEditUndo>
@@ -1624,6 +1922,9 @@
     <menuEditViewData>Vizualizează date...</menuEditViewData>
     <menuFile>&amp;Fişier</menuFile>
     <menuFileClose>Închide</menuFileClose>
+    <menuFileDashboardNew>Panou Control Nou</menuFileDashboardNew>
+    <menuFileDashboardOpen>&amp;Deschide panou control...</menuFileDashboardOpen>
+    <menuFileDashboardSaveAs>Salvare panou control &amp;ca...</menuFileDashboardSaveAs>
     <menuFileExit>Ieşire</menuFileExit>
     <menuFileExportXMLSchema>Exportă schemă XML...</menuFileExportXMLSchema>
     <menuFileFormNew>Formular nou</menuFileFormNew>
@@ -1688,10 +1989,175 @@
     <menuViewQuickInfoShowFieldsOnly>Afişează doar câmpuri</menuViewQuickInfoShowFieldsOnly>
     <menuViewShowGrid>Afişează grilă</menuViewShowGrid>
     <menuViewShowHeaders>Afişează antete</menuViewShowHeaders>
+    <menuViewShowInsertTab>Arată 'Insert' Tab</menuViewShowInsertTab>
     <menuViewShowOrder>Afişează ordinea</menuViewShowOrder>
     <menuViewShowRulers>Afişează rigle</menuViewShowRulers>
+    <menuViewShowToolbox>Arată Toolbox</menuViewShowToolbox>
     <menuViewToolbars>Bare de unelte</menuViewToolbars>
   </MainMenu>
+  <Map>
+    <GroupAsia>Asia</GroupAsia>
+    <GroupEurope>Europa</GroupEurope>
+    <GroupNorthAmerica>America de Nord</GroupNorthAmerica>
+    <GroupOceania>Oceania</GroupOceania>
+    <GroupSouthAmerica>America de Sud</GroupSouthAmerica>
+    <GroupWorld>Lumea</GroupWorld>
+    <LinkDataForm>Legatură Date</LinkDataForm>
+    <MapEditorForm>Editor Hartă</MapEditorForm>
+  </Map>
+  <Messages>
+    <MessageTimeOutExpired>Timp comandă expirat!</MessageTimeOutExpired>
+    <TextRegistrationSuccessfully>Înregistrare cu succes!
+
+E-mail a fost trimis la "{0}".
+Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înregistrarea, vă rugăm urmați link-ul din e-mailul primit.</TextRegistrationSuccessfully>
+    <ThisFieldIsNotSpecified>Acest câmp nu este specificat!</ThisFieldIsNotSpecified>
+  </Messages>
+  <Notices>
+    <AccessDenied>Acces interzis!</AccessDenied>
+    <AccountLocked>Contul dvs. este blocat! Pentru a rezolva aceasta, vă rugăm să trimiteți cererea dvs. la sales@stimulsoft.com!</AccountLocked>
+    <ActivationExpiriedBeforeFirstRelease>Abonamentul Stimulsoft Reports.Ultimate a expirat mai devreme decât lansarea primii versiuni a Stimulsoft Reports.Server!</ActivationExpiriedBeforeFirstRelease>
+    <ActivationLicenseIsNotCorrect>Fișierul de licență nu este corect! Vă rugăm să contactați departamentul nostru de vânzări la: sales@stimulsoft.com!</ActivationLicenseIsNotCorrect>
+    <ActivationLockedAccount>Contul dvs. este blocat. Vă rugăm să contactați departamentul nostru de vânzări la: sales@stimulsoft.com!</ActivationLockedAccount>
+    <ActivationMaxActivationsReached>Ați atins numărul maxim de activări. Vă rugăm să contactați departamentul nostru de vânzări la: sales@stimulsoft.com!</ActivationMaxActivationsReached>
+    <ActivationServerIsNotAvailableNow>Serverul pentru activare Stimulsoft nu este disponibil acum! Vă rugăm să încercați din nou mai târziu.</ActivationServerIsNotAvailableNow>
+    <ActivationServerVersionNotAllowed>Nu puteți activa această versiune de Stimulsoft Reports.Server deoarece abonamentul dvs. a expirat! Conectați-vă la contul dvs. și verificați ce versiune Stimulsoft Reports.Server puteți instala și activa.</ActivationServerVersionNotAllowed>
+    <ActivationSomeTroublesOccurred>A apărut o eroare în timpul activării. Vă rugăm să încercați din nou mai târziu.</ActivationSomeTroublesOccurred>
+    <ActivationUserNameOrPasswordIsWrong>Nume utilizator (e-mail) sau parola greșită!</ActivationUserNameOrPasswordIsWrong>
+    <ActivationWrongAccountType>Tipul dvs. de cont nu permite activarea Stimulsoft Reports.Server!</ActivationWrongAccountType>
+    <AuthAccountCantBeUsedNow>Contul nu poate fi utilizat acum!</AuthAccountCantBeUsedNow>
+    <AuthAccountIsNotActivated>Contul nu este activat încă! Vă rugăm să urmați instrucțiunile trimise in e-mail la înregistrare.</AuthAccountIsNotActivated>
+    <AuthCantChangeRoleBecauseLastAdministratorUser>Rolul de utilizator nu poate fi schimbat, deoarece este ultimul administrator în acest spațiu de lucru!</AuthCantChangeRoleBecauseLastAdministratorUser>
+    <AuthCantChangeRoleBecauseLastSupervisorUser>Rolul de utilizator nu poate fi schimbat, deoarece este ultimul supervizor la acest server!</AuthCantChangeRoleBecauseLastSupervisorUser>
+    <AuthCantChangeSystemRole>Rolul de sistem nu poate fi schimbat!</AuthCantChangeSystemRole>
+    <AuthCantDeleteHimselfUser>Utilizatorul nu se poate șterge pe el însuşi!</AuthCantDeleteHimselfUser>
+    <AuthCantDeleteLastAdministratorUser>Utilizatorul nu poate fi șters deoarece este ultimul administrator în acest spațiu de lucru!</AuthCantDeleteLastAdministratorUser>
+    <AuthCantDeleteLastSupervisorUser>Utilizatorul nu poate fi șters deoarece este ultimul supervizor la acest server!</AuthCantDeleteLastSupervisorUser>
+    <AuthCantDeleteSystemRole>Nu se poate șterge acest rol, deoarece este un rol de sistem!</AuthCantDeleteSystemRole>
+    <AuthCantDisableUserBecauseLastAdministratorUser>Utilizatorul nu poate fi dezactivat, deoarece este ultimul administrator în acest spațiu de lucru!</AuthCantDisableUserBecauseLastAdministratorUser>
+    <AuthCantDisableUserBecauseLastSupervisorUser>Utilizatorul nu poate fi dezactivat, deoarece este ultimul supervizor la acest server!</AuthCantDisableUserBecauseLastSupervisorUser>
+    <AuthFirstNameIsNotSpecified>Prenumele nu este specificat!</AuthFirstNameIsNotSpecified>
+    <AuthLastNameIsNotSpecified>Numele nu este specificat!</AuthLastNameIsNotSpecified>
+    <AuthOAuthIdNotSpecified>Identificatorul OAuth nu este specificat!</AuthOAuthIdNotSpecified>
+    <AuthPasswordIsNotCorrect>Parola nu este corectă!</AuthPasswordIsNotCorrect>
+    <AuthPasswordIsNotSpecified>Parola nu este specificată!</AuthPasswordIsNotSpecified>
+    <AuthPasswordIsTooShort>Parola este prea scurtă(minim 6 caractere)!</AuthPasswordIsTooShort>
+    <AuthRoleCantBeDeletedBecauseUsedByUsers>Nu puteți șterge rolul, deoarece este folosit de către alți utilizatori.</AuthRoleCantBeDeletedBecauseUsedByUsers>
+    <AuthRoleNameAlreadyExists>Rolul denumit "{0}" există deja!</AuthRoleNameAlreadyExists>
+    <AuthRoleNameIsSystemRole>Rolul denumit "{0}" este un rol de sistem!</AuthRoleNameIsSystemRole>
+    <AuthSendMessageWithInstructions>Un mesaj cu instrucțiuni suplimentare este trimis către "{0}"!</AuthSendMessageWithInstructions>
+    <AuthUserHasLoggedOut>V-ați deconectat!</AuthUserHasLoggedOut>
+    <AuthUserNameAlreadyExists>Numele de utilizator (e-mail) este deja în uz!</AuthUserNameAlreadyExists>
+    <AuthUserNameIsNotSpecified>Numele de utilizator (e-mail) nu este specificat!</AuthUserNameIsNotSpecified>
+    <AuthUserNameOrPasswordIsNotCorrect>Numele de utilizator (e-mail) sau parola este incorectă!</AuthUserNameOrPasswordIsNotCorrect>
+    <AuthUserNameShouldLookLikeAnEmailAddress>Numele de utilizator ar trebui să fie similar cu adresa de e-mail!</AuthUserNameShouldLookLikeAnEmailAddress>
+    <AuthWorkspaceNameAlreadyInUse>Numele spațiului de lucru este deja utilizat!</AuthWorkspaceNameAlreadyInUse>
+    <CommandTimeOut>Momentul de așteptare a procesării comenzii a trecut</CommandTimeOut>
+    <Congratulations>Felicitări!</Congratulations>
+    <EndDateShouldBeGreaterThanCurrentDate>Data încheiere trebuie să fie mai mare decât data curentă!</EndDateShouldBeGreaterThanCurrentDate>
+    <EndDateShouldBeGreaterThanStartDate>Data încheiere trebuie să fie mai mare decât data de începere!</EndDateShouldBeGreaterThanStartDate>
+    <ExecutionError>Eroare de execuție</ExecutionError>
+    <IsIdentical>"{0}" și "{1}" sunt identice."</IsIdentical>
+    <IsNotAuthorized>Nu există acces la "{0}"!</IsNotAuthorized>
+    <IsNotCorrect>"{0}" este incorect!</IsNotCorrect>
+    <IsNotDeleted>"{0}" nu s-a șters!</IsNotDeleted>
+    <IsNotEqual>"{0}" nu este egal!</IsNotEqual>
+    <IsNotFound>"{0}" nu a fost găsit!</IsNotFound>
+    <IsNotRecognized>"{0}" nu este recunoscut!</IsNotRecognized>
+    <IsNotSpecified>"{0}" nu este specificat!</IsNotSpecified>
+    <IsRequiredFile>Trebuie să adăugați cel puțin un fișier!</IsRequiredFile>
+    <ItemCantBeAttachedToItself>Elementul nu poate fi atașat lui!</ItemCantBeAttachedToItself>
+    <ItemCantBeDeletedBecauseItemIsAttachedToOtherItems>Elementele "{0}" nu pot fi șterse, deoarece acestea sunt atașate la alte elemente!</ItemCantBeDeletedBecauseItemIsAttachedToOtherItems>
+    <ItemCantBeMovedToSpecifiedPlace>Articolul nu poate fi mutat într-un loc specific!</ItemCantBeMovedToSpecifiedPlace>
+    <ItemDoesNotSupport>Articolul nu suportă "{0}"!</ItemDoesNotSupport>
+    <KeyAndToKeyAreEqual>Key și ToKey sunt egale!</KeyAndToKeyAreEqual>
+    <NewProduct>Un nou produs este adăugat la abonament!</NewProduct>
+    <NotificationFailed>Rezultatul a eșuat!</NotificationFailed>
+    <NotificationFilesUploadingComplete>Fișierele încărcate cu succes.</NotificationFilesUploadingComplete>
+    <NotificationFileUploading>Fișierul "{0}" se încarcă.</NotificationFileUploading>
+    <NotificationItemDelete>Elementele se șterg.</NotificationItemDelete>
+    <NotificationItemDeleteComplete>Elementele s-au șters cu succes.</NotificationItemDeleteComplete>
+    <NotificationItemRestore>Elementele se restaurează.</NotificationItemRestore>
+    <NotificationItemRestoreComplete>Elementele s-au restaurat cu succes.</NotificationItemRestoreComplete>
+    <NotificationItemTransfer>Elementele se transferă.</NotificationItemTransfer>
+    <NotificationItemTransferComplete>Elementele s-au transferat cu succes.</NotificationItemTransferComplete>
+    <NotificationItemWaitingProcessing>Elementele așteaptă prelucrarea.</NotificationItemWaitingProcessing>
+    <NotificationMailing>Trimitere</NotificationMailing>
+    <NotificationMailingComplete>Corespondenţa "{0}" este completă.</NotificationMailingComplete>
+    <NotificationMailingWaitingProcessing>Corespondenţa "{0}" așteaptă prelucrarea.</NotificationMailingWaitingProcessing>
+    <NotificationOperationAborted>Operațiune abandonată!</NotificationOperationAborted>
+    <NotificationRecycleBinCleaning>Coșul de reciclare se curăță.</NotificationRecycleBinCleaning>
+    <NotificationRecycleBinCleaningComplete>Coșul de reciclare s-a șters cu succes.</NotificationRecycleBinCleaningComplete>
+    <NotificationRecycleBinWaitingProcessing>Curățarea Coșului de reciclare așteaptă prelucrarea.</NotificationRecycleBinWaitingProcessing>
+    <NotificationReportExporting>Raportul "{0}" se exportă</NotificationReportExporting>
+    <NotificationReportExportingComplete>Raportul "{0}" s-a exportat cu succes.</NotificationReportExportingComplete>
+    <NotificationReportRendering>Raportul "{0}" este afișat</NotificationReportRendering>
+    <NotificationReportRenderingComplete>Raportul "{0}" s-a afișat.</NotificationReportRenderingComplete>
+    <NotificationReportWaitingProcessing>Raportul "{0}" așteaptă prelucrarea.</NotificationReportWaitingProcessing>
+    <NotificationSchedulerRunning>Planificatorul "{0}" se execută.</NotificationSchedulerRunning>
+    <NotificationSchedulerRunningComplete>Planificatorul "{0}" s-a executat complet.</NotificationSchedulerRunningComplete>
+    <NotificationSchedulerWaitingProcessing>Planificatorul "{0}" așteaptă prelucrarea.</NotificationSchedulerWaitingProcessing>
+    <NotificationTitleFilesUploading>Încărcare fișiere</NotificationTitleFilesUploading>
+    <NotificationTitleItemRefreshing>Reîmprospătare element "{0}"</NotificationTitleItemRefreshing>
+    <NotificationTitleItemTransferring>Transferare element "{0}"</NotificationTitleItemTransferring>
+    <NotificationTitleMailing>Corespondenţa "{0}"</NotificationTitleMailing>
+    <NotificationTitleReportExporting>Exportare raport "{0}"</NotificationTitleReportExporting>
+    <NotificationTitleReportRendering>Afișare raport "{0}"</NotificationTitleReportRendering>
+    <NotificationTitleSchedulerRunning>Execuție planificator "{0}"</NotificationTitleSchedulerRunning>
+    <NotificationTransferring>"{0}" se transferă către "{1}".</NotificationTransferring>
+    <NotificationTransferringComplete>"{0}" transferat cu succes către "{1}".</NotificationTransferringComplete>
+    <NotificationValueIsNotCorrect>Această valoare nu este corectă pentru tipul {0}</NotificationValueIsNotCorrect>
+    <OutOfRange>În afara intervalului ("{0}")!</OutOfRange>
+    <ParsingCommandException>O excepție de procesare a comenzii în fișierul XML specificat: {0}</ParsingCommandException>
+    <QuotaMaximumComputingCyclesCountExceeded>S-a depășit numărul de cicluri maxime de calcul.</QuotaMaximumComputingCyclesCountExceeded>
+    <QuotaMaximumDataRowsCountExceeded>Numărul maxim de rânduri dintr-o singură sursă de date a fost depășit.</QuotaMaximumDataRowsCountExceeded>
+    <QuotaMaximumFileSizeExceeded>S-a depășit dimensiunea maximă a fișierului.</QuotaMaximumFileSizeExceeded>
+    <QuotaMaximumReportPagesCountExceeded>S-a depășit numărul maxim de pagini raport.</QuotaMaximumReportPagesCountExceeded>
+    <QuotaMaximumResourcesCountExceeded>Număr resurse maxime depășit.</QuotaMaximumResourcesCountExceeded>
+    <QuotaMaximumUsersCountExceeded>S-a depășit numărul maxim de utilizatori.</QuotaMaximumUsersCountExceeded>
+    <QuotaMaximumWorkspacesCountExceeded>S-a depășit numărul maxim Spații de lucru.</QuotaMaximumWorkspacesCountExceeded>
+    <SchedulerCantRunItSelf>Planificatorul nu se poate rula!</SchedulerCantRunItSelf>
+    <SessionTimeOut>Timpul sesiunii a expirat</SessionTimeOut>
+    <SnapshotAlreadyProcessed>Raportul instantaneu este deja procesat!</SnapshotAlreadyProcessed>
+    <SpecifiedItemIsNot>Articolul specificat nu este "{0}"!</SpecifiedItemIsNot>
+    <SubscriptionExpired>Abonamentul dvs. a expirat!</SubscriptionExpired>
+    <SubscriptionsOut10>Au mai rămas 10 zile până la expirarea abonamentului!</SubscriptionsOut10>
+    <SubscriptionsOut20>Perioada de abonare expiră în 20 de zile!</SubscriptionsOut20>
+    <SuccessfullyRenewed>Abonamentul dvs. a fost actualizat cu succes!</SuccessfullyRenewed>
+    <TrialToLicense>Vă mulțumim că ați ales Stimulsoft!</TrialToLicense>
+    <VersionCopyFromItem>Copiere de la elementul "{0}".</VersionCopyFromItem>
+    <VersionCreatedFromFile>Creat dintr-un fișier "{0}".</VersionCreatedFromFile>
+    <VersionCreatedFromItem>Creat dintr-un element "{0}".</VersionCreatedFromItem>
+    <VersionLoadedFromFile>Încărcat din fișierul "{0}".</VersionLoadedFromFile>
+    <VersionNewItemCreation>Creare element nou.</VersionNewItemCreation>
+    <WindowClosePreventWhileUploading>Anumite fișiere sunt încărcate acum, dacă închideți pagina se vor pierde. Sunteți sigur că doriți să închideți pagina?</WindowClosePreventWhileUploading>
+    <WithSpecifiedKeyIsNotFound>"{0}" cu cheia specificată nu s-a găsit!</WithSpecifiedKeyIsNotFound>
+    <YourTimeSessionHasExpired>Sesiunea de timp a expirat!</YourTimeSessionHasExpired>
+    <YouUsingTrialVersion>Utilizați o versiune de probă!</YouUsingTrialVersion>
+  </Notices>
+  <NuGet>
+    <AlreadyDownloaded>Deja Descărcat</AlreadyDownloaded>
+    <AssemblyLoadedSuccessfully>Ansamblul este încărcat cu succes.</AssemblyLoadedSuccessfully>
+    <AssemblyNotFound>Este imposibil de găsit ansamblul {0} pentru a utiliza conexiunea {1} !</AssemblyNotFound>
+    <Author>Autor</Author>
+    <Dependencies>Dependențe:</Dependencies>
+    <Download>Descărcare</Download>
+    <DownloadAll>Descărcare toate</DownloadAll>
+    <DownloadAndInstall>Descarcă și instalează</DownloadAndInstall>
+    <Downloads>Descărcări:</Downloads>
+    <IAccept>Accept</IAccept>
+    <IDecline>Refuz</IDecline>
+    <LicenceFormDesc>Următorul pachet cere ca sunteti de acord cu termenii lor de licență înainte de a-l instala.</LicenceFormDesc>
+    <LicenceFormDesc1>Făcând clic pe "Accept" sunteți de acord cu termenii licenței pentru pachetul enumerat mai sus. Dacă nu sunteți de acord cu termenii licenței, faceți clic pe "Refuz".</LicenceFormDesc1>
+    <LicenceFormTitle>Acceptarea licență</LicenceFormTitle>
+    <License>Licență:</License>
+    <ProjectUrl>Url Proiect:</ProjectUrl>
+    <ReportAbuse>Raportare abuz:</ReportAbuse>
+    <RetrievingInformation>Preluare informații ...</RetrievingInformation>
+    <Tags>Tag-uri:</Tags>
+    <Title>Descărcare Adaptor de Date</Title>
+    <ViewLicense>Vezi licență</ViewLicense>
+  </NuGet>
   <Panels>
     <Dictionary>Dicţionar</Dictionary>
     <Messages>Mesaje</Messages>
@@ -1706,19 +2172,64 @@
     <StiLoadPasswordForm>Criptarea documentului</StiLoadPasswordForm>
     <StiSavePasswordForm>Parolă</StiSavePasswordForm>
   </Password>
+  <Permissions>
+    <AdminAPI>API</AdminAPI>
+    <AdminBackgroundTasks>Sarcini in fundal</AdminBackgroundTasks>
+    <AdminPermissions>Permisiuni</AdminPermissions>
+    <AdminRecycleBin>Coșul de reciclare</AdminRecycleBin>
+    <AdminShare>Partajare</AdminShare>
+    <AdminTransfers>Transferuri</AdminTransfers>
+    <ItemCalendars>Calendare</ItemCalendars>
+    <ItemCloudStorages>Spațiu stocare Cloud</ItemCloudStorages>
+    <ItemContactLists>Liste de contact</ItemContactLists>
+    <ItemDashboards>Panouri de control</ItemDashboards>
+    <ItemDataSources>Surse de Date</ItemDataSources>
+    <ItemFiles>Fişiere</ItemFiles>
+    <ItemFolders>Dosare</ItemFolders>
+    <ItemReportSnapshots>Instantanee raport</ItemReportSnapshots>
+    <ItemReportTemplates>Șabloane rapoart</ItemReportTemplates>
+    <ItemSchedulers>Planificatoare</ItemSchedulers>
+    <ReportDesignerBusinessObjects>Obiecte Business</ReportDesignerBusinessObjects>
+    <ReportDesignerDataColumns>Coloane de date</ReportDesignerDataColumns>
+    <ReportDesignerDataConnections>Conexiuni de date</ReportDesignerDataConnections>
+    <ReportDesignerDataRelations>Relaţii de date</ReportDesignerDataRelations>
+    <ReportDesignerDataSources>Surse de date</ReportDesignerDataSources>
+    <ReportDesignerDictionaryActions>Dicționar Acțiuni</ReportDesignerDictionaryActions>
+    <ReportDesignerRestrictions>Restricţii</ReportDesignerRestrictions>
+    <ReportDesignerVariables>Variabile</ReportDesignerVariables>
+    <SystemBackupRestore>Backup &amp; Restaurare</SystemBackupRestore>
+    <SystemEmailTemplates>Șabloane email</SystemEmailTemplates>
+    <SystemLicensing>Licenţiere</SystemLicensing>
+    <SystemMonitoring>Monitorizare</SystemMonitoring>
+    <SystemUpdate>Actualizare</SystemUpdate>
+    <SystemWorkspaces>Spații de lucru</SystemWorkspaces>
+    <TextAdministration>Administrare</TextAdministration>
+    <TextItems>Elemente</TextItems>
+    <TextReportDesigner>Proiectant Raport</TextReportDesigner>
+    <TextSystem>Sistem</TextSystem>
+    <TextUsers>Utilizatori</TextUsers>
+    <UserHimself>Însuşi</UserHimself>
+    <UserRoles>Roluri</UserRoles>
+    <Users>Utilizatori</Users>
+    <UserWorkspace>Spațiu de lucru</UserWorkspace>
+  </Permissions>
   <PlacementComponent>
     <MoveLeftFreeSpace>Mută o componentă spre stânga spaţiului liber mărind înalţimea componentei la înalţimea spaţiului liber.</MoveLeftFreeSpace>
     <MoveRightFreeSpace>Mută o componentă spre dreapta spaţiului liber mărind înalţimea componentei la înalţimea spaţiului liber.</MoveRightFreeSpace>
   </PlacementComponent>
   <PropertyCategory>
     <AppearanceCategory>Aspect</AppearanceCategory>
+    <AreaCategory>Arie</AreaCategory>
     <ArgumentCategory>Argument</ArgumentCategory>
+    <AxisCategory>Axe</AxisCategory>
     <BarCodeAdditionalCategory>Categorie suplimentară de cod de bare</BarCodeAdditionalCategory>
     <BarCodeCategory>Cod de bare</BarCodeCategory>
     <BehaviorCategory>Comportament</BehaviorCategory>
+    <CapNeedle>Vârf ac</CapNeedle>
     <CellCategory>Celulă</CellCategory>
     <ChartAdditionalCategory>Categorie suplimentară de grafice</ChartAdditionalCategory>
     <ChartCategory>Grafic</ChartCategory>
+    <ChartMap>Hartă</ChartMap>
     <CheckCategory>Check</CheckCategory>
     <ColorsCategory>Culori</ColorsCategory>
     <ColumnsCategory>Coloane</ColumnsCategory>
@@ -1734,16 +2245,20 @@
     <ExportCategory>Export</ExportCategory>
     <ExportEventsCategory>Exportă evenimente</ExportEventsCategory>
     <FooterTableCategory>Tabelă Subsol</FooterTableCategory>
+    <GridLinesCategory>Linii Grilă</GridLinesCategory>
     <HeaderTableCategory>Tabelă Antet</HeaderTableCategory>
     <HierarchicalCategory>Ierarhic</HierarchicalCategory>
     <ImageAdditionalCategory>Categorie suplimentară de imagini</ImageAdditionalCategory>
     <ImageCategory>Imagini</ImageCategory>
+    <InterlacingCategory>Îmbinare</InterlacingCategory>
+    <LegendCategory>Legendă</LegendCategory>
     <MainCategory>Principal</MainCategory>
     <MarkerCategory>Marcator</MarkerCategory>
     <MiscCategory>Altele</MiscCategory>
     <MouseEventsCategory>Evenimente ale mouse-ului</MouseEventsCategory>
     <NavigationCategory>Navigare</NavigationCategory>
     <NavigationEventsCategory>Evenimentele navigării</NavigationEventsCategory>
+    <Needle>Ac</Needle>
     <OptionsCategory>Opţiuni</OptionsCategory>
     <PageAdditionalCategory>Categorie suplimentară de pagini</PageAdditionalCategory>
     <PageCategory>Pagină</PageCategory>
@@ -1753,7 +2268,10 @@
     <PrimitiveCategory>Categorie de primitive</PrimitiveCategory>
     <PrintEventsCategory>Evenimente de imprimare</PrintEventsCategory>
     <RenderEventsCategory>Evenimente de redare</RenderEventsCategory>
+    <SeriesCategory>Serie</SeriesCategory>
+    <SeriesLabelsCategory>Serii Etichete</SeriesLabelsCategory>
     <ShapeCategory>Formă</ShapeCategory>
+    <Size>Mărime</Size>
     <StiBrushTypeGlare>Pensulă Strălucitoare</StiBrushTypeGlare>
     <StiBrushTypeGradient180>Pensulă în degradé, Unghi 180</StiBrushTypeGradient180>
     <StiBrushTypeGradient45>Pensulă în degradé, Unghi 45</StiBrushTypeGradient45>
@@ -1774,6 +2292,7 @@
     <TextAdditionalCategory>Text suplimentar</TextAdditionalCategory>
     <TextCategory>Text</TextCategory>
     <TitleCategory>Titlu</TitleCategory>
+    <TrendLineCategory>Direcţie Linie</TrendLineCategory>
     <ValueCategory>Valoare</ValueCategory>
     <ValueCloseCategory>Valoare Închidere</ValueCloseCategory>
     <ValueEndCategory>Sfârşit Valoare</ValueEndCategory>
@@ -2003,6 +2522,10 @@
     <SelectionModeMultiSimple>Multiplă Simplă</SelectionModeMultiSimple>
     <SelectionModeNone>Nimic</SelectionModeNone>
     <SelectionModeOne>Simplă</SelectionModeOne>
+    <StiAnchorModeBottom>Bază</StiAnchorModeBottom>
+    <StiAnchorModeLeft>Stânga</StiAnchorModeLeft>
+    <StiAnchorModeRight>Dreapta</StiAnchorModeRight>
+    <StiAnchorModeTop>Sus</StiAnchorModeTop>
     <StiAngleAngle0>0 grade</StiAngleAngle0>
     <StiAngleAngle180>180 de grade</StiAngleAngle180>
     <StiAngleAngle270>270 de grade</StiAngleAngle270>
@@ -2170,6 +2693,26 @@
     <StiLegendVertAlignmentCenter>Centrat</StiLegendVertAlignmentCenter>
     <StiLegendVertAlignmentTop>Sus</StiLegendVertAlignmentTop>
     <StiLegendVertAlignmentTopOutside>Sus exterior</StiLegendVertAlignmentTopOutside>
+    <StiMapIDAustralia>Australia</StiMapIDAustralia>
+    <StiMapIDAustria>Austria</StiMapIDAustria>
+    <StiMapIDBrazil>Brazilia</StiMapIDBrazil>
+    <StiMapIDCanada>Canada</StiMapIDCanada>
+    <StiMapIDChina>China</StiMapIDChina>
+    <StiMapIDEU>UE</StiMapIDEU>
+    <StiMapIDEurope>Europa</StiMapIDEurope>
+    <StiMapIDFrance>Franţa</StiMapIDFrance>
+    <StiMapIDGermany>Germania</StiMapIDGermany>
+    <StiMapIDItaly>Italia</StiMapIDItaly>
+    <StiMapIDNetherlands>Olanda</StiMapIDNetherlands>
+    <StiMapIDRussia>Rusia</StiMapIDRussia>
+    <StiMapIDUK>Regatul Unit</StiMapIDUK>
+    <StiMapIDUSA>SUA</StiMapIDUSA>
+    <StiMapIDWorld>Lumea</StiMapIDWorld>
+    <StiMapTypeGroup>Grup</StiMapTypeGroup>
+    <StiMapTypeHeatmap>Hartă Căldură</StiMapTypeHeatmap>
+    <StiMapTypeHeatmapWithGroup>Hartă Căldură cu Grup</StiMapTypeHeatmapWithGroup>
+    <StiMapTypeNone>Nici unul</StiMapTypeNone>
+    <StiMapTypePoints>Puncte</StiMapTypePoints>
     <StiMarkerAlignmentLeft>Stânga</StiMarkerAlignmentLeft>
     <StiMarkerAlignmentRight>Dreapta</StiMarkerAlignmentRight>
     <StiMarkerTypeCircle>Cerc</StiMarkerTypeCircle>
@@ -2249,6 +2792,9 @@
     <StiRestrictionsAllowResize>Permite redimensionare</StiRestrictionsAllowResize>
     <StiRestrictionsAllowSelect>Permite selectare</StiRestrictionsAllowSelect>
     <StiRestrictionsNone>Niciuna</StiRestrictionsNone>
+    <StiSelectionModeFirst>Primul</StiSelectionModeFirst>
+    <StiSelectionModeFromVariable>Din variabilă</StiSelectionModeFromVariable>
+    <StiSelectionModeNothing>Nimic</StiSelectionModeNothing>
     <StiSeriesLabelsValueTypeArgument>Argument</StiSeriesLabelsValueTypeArgument>
     <StiSeriesLabelsValueTypeArgumentValue>Argument - Valoare</StiSeriesLabelsValueTypeArgumentValue>
     <StiSeriesLabelsValueTypeSeriesTitle>Titlul seriei</StiSeriesLabelsValueTypeSeriesTitle>
@@ -2336,6 +2882,8 @@
     <StiVertAlignmentTop>Sus</StiVertAlignmentTop>
     <StiViewModeNormal>Normal</StiViewModeNormal>
     <StiViewModePageBreakPreview>Previzualizare separare pagină</StiViewModePageBreakPreview>
+    <StiXmlTypeAdoNetXml>XML ADO.NET</StiXmlTypeAdoNetXml>
+    <StiXmlTypeXml>XML</StiXmlTypeXml>
     <StringAlignmentCenter>Centru</StringAlignmentCenter>
     <StringAlignmentFar>Departe</StringAlignmentFar>
     <StringAlignmentNear>Aproape</StringAlignmentNear>
@@ -2465,6 +3013,7 @@
     <Sphere>Sferă</Sphere>
     <Trellis>Pătrăţele</Trellis>
     <Vertical>Verticale</Vertical>
+    <Wave>Val</Wave>
     <Weave>Ţesătură</Weave>
     <WideDownwardDiagonal>Diagonală de sus în jos lată</WideDownwardDiagonal>
     <WideUpwardDiagonal>Diagonala de jos în sus lată</WideUpwardDiagonal>
@@ -2503,18 +3052,22 @@
     <AllowUseTextBrush>Permite utilizarea pensulei text</AllowUseTextBrush>
     <AllowUseTextOptions>Permite utilizarea opţiunilor de text</AllowUseTextOptions>
     <AllowUseVertAlignment>Permite utilizarea alinierii verticale</AllowUseVertAlignment>
+    <AllowUsingAsSqlParameter>Permite utilizarea ca parametru SQL</AllowUsingAsSqlParameter>
     <AlternatingBackColor>Culoare de fond alternantă</AlternatingBackColor>
+    <Anchor>Ancoră</Anchor>
     <Angle>Unghi</Angle>
     <Antialiasing>Rotunjire colţuri</Antialiasing>
     <Area>Arie</Area>
     <Argument>Argument</Argument>
     <ArgumentDataColumn>Coloană de date Argument</ArgumentDataColumn>
+    <Arguments>Argumente</Arguments>
     <ArrowHeight>Înălţimea săgeţii</ArrowHeight>
     <ArrowStyle>Tipul săgeţii</ArrowStyle>
     <ArrowWidth>Lăţimea săgeţii</ArrowWidth>
     <AspectRatio>Proporţii</AspectRatio>
     <Author>Autor</Author>
     <Auto>Automat</Auto>
+    <AutoCalculateCenterPoint>Auto Calculare Punct Centru</AutoCalculateCenterPoint>
     <AutoDataColumns>Coloane Auto Data</AutoDataColumns>
     <AutoDataRows>Rânduri Auto Data</AutoDataRows>
     <AutoLocalizeReportOnRun>Localizează automat raport la rulare</AutoLocalizeReportOnRun>
@@ -2526,6 +3079,9 @@
     <AutoSeriesTitleDataColumn>Titlul seriei automate</AutoSeriesTitleDataColumn>
     <AutoWidth>Lăţime automată</AutoWidth>
     <AutoWidthType>Tipuri auto-laţire</AutoWidthType>
+    <AxisLabelsColor>Culoare Etichete</AxisLabelsColor>
+    <AxisLineColor>Culoare Linie</AxisLineColor>
+    <AxisTitleColor>Culoare Titlu</AxisTitleColor>
     <AxisValue>Valoare axe</AxisValue>
     <BackColor>Culoare de fond</BackColor>
     <Background>Fond</Background>
@@ -2537,9 +3093,13 @@
     <Bold>Îngroşat</Bold>
     <Bookmark>Bookmark</Bookmark>
     <Border>Margine</Border>
+    <BorderBrush>Pensulă Bordură</BorderBrush>
     <BorderColor>Culoarea marginii</BorderColor>
+    <BorderColorNegative>Culoare negativă chenar</BorderColorNegative>
     <Borders>Margini</Borders>
+    <BorderSize>Dimensiune Bordură</BorderSize>
     <BorderStyle>Stil de margine</BorderStyle>
+    <BorderWidth>Lățime Bordură</BorderWidth>
     <Bottom>Jos</Bottom>
     <BottomSide>Partea de jos</BottomSide>
     <BreakIfLessThan>Salt dacă e mai mic decât</BreakIfLessThan>
@@ -2548,6 +3108,7 @@
     <BrushType>Tipul pensulei</BrushType>
     <BusinessObject>Element Business Object</BusinessObject>
     <CacheAllData>Ţine toate datele în Cache</CacheAllData>
+    <CacheTotals>Arhivă Totaluri</CacheTotals>
     <CalcInvisible>Calculează invizibilele</CalcInvisible>
     <CalculatedDataColumn>Calculată</CalculatedDataColumn>
     <CalculationMode>Mod calcul</CalculationMode>
@@ -2562,6 +3123,11 @@
     <CellHeight>Înălţimea celulei</CellHeight>
     <CellType>Tip Celulă</CellType>
     <CellWidth>Lăţimea celulei</CellWidth>
+    <Center>Centru</Center>
+    <CenterPoint>Punct Centru</CenterPoint>
+    <ChartAreaBorderColor>Culoare Bordură</ChartAreaBorderColor>
+    <ChartAreaBrush>Arie Pensulă</ChartAreaBrush>
+    <ChartAreaShowShadow>Arată Umbră</ChartAreaShowShadow>
     <ChartType>Tipul graficului</ChartType>
     <Checked>Verificat</Checked>
     <CheckOnClick>Verifică la clic</CheckOnClick>
@@ -2596,6 +3162,7 @@
     <Columns>Coloane</Columns>
     <ColumnWidth>Lăţime coloană</ColumnWidth>
     <CommandTimeout>Timeout-ul comenzii</CommandTimeout>
+    <CompanyPrefix>Prefixul companiei</CompanyPrefix>
     <ComponentStyle>Stilul componentei</ComponentStyle>
     <Condition>Stare</Condition>
     <ConditionOptions>Opţiuni stare</ConditionOptions>
@@ -2631,6 +3198,7 @@
     <DataSources>Surse de date</DataSources>
     <DataTextField>Câmp text</DataTextField>
     <DataType>Tipul datelor</DataType>
+    <DataUrl>URL-ul de date</DataUrl>
     <DateInfo>Informaţii dată</DateInfo>
     <DateTimeStep>Interval Pas</DateTimeStep>
     <Default>Predefinite</Default>
@@ -2643,6 +3211,7 @@
     <DialogResult>Rezultat</DialogResult>
     <Diameter>Diametru</Diameter>
     <Direction>Direcţie</Direction>
+    <Disabled>Dezactivat</Disabled>
     <DisplayValue>Vizualizează valoare</DisplayValue>
     <Distance>Distanţă</Distance>
     <DistanceBetweenTabs>Distanţa între Tab-uri</DistanceBetweenTabs>
@@ -2669,6 +3238,9 @@
     <DropShadow>Umbră</DropShadow>
     <Duplex>Duplex</Duplex>
     <Editable>Modificabil</Editable>
+    <EmptyBorderBrush>Golire Pensulă Bordură </EmptyBorderBrush>
+    <EmptyBorderWidth>Golire Lățime Bordură</EmptyBorderWidth>
+    <EmptyBrush>Golire Pensulă</EmptyBrush>
     <EmptyValue>Valoare necompletată</EmptyValue>
     <Enabled>Activat</Enabled>
     <EnableLog>Scrie în Log</EnableLog>
@@ -2676,6 +3248,8 @@
     <EncodingType>Tip de Codificare</EncodingType>
     <EndCap>Icon Sfărşit</EndCap>
     <EndColor>Culoarea de sfărşit</EndColor>
+    <EndValue>Valoarea Finală</EndValue>
+    <EndWidth>Lățimea Finală</EndWidth>
     <EngineVersion>Versiune motor</EngineVersion>
     <EnumeratorSeparator>Separator enumerator</EnumeratorSeparator>
     <EnumeratorType>Tip de Enumerator</EnumeratorType>
@@ -2687,10 +3261,12 @@
     <Exponential>Exponenţial</Exponential>
     <ExportAsImage>Exportă ca imagine</ExportAsImage>
     <Expression>Expresie</Expression>
+    <ExtensionDigit>Cifră Extensie</ExtensionDigit>
     <FaqPage>Pagina întrebări şi răspunsuri</FaqPage>
     <FieldIs>Campul este</FieldIs>
     <File>Fişier</File>
     <Fill>Umplere</Fill>
+    <FillColor>Culoare Umplere</FillColor>
     <Filter>Filtru</Filter>
     <FilterEngine>Motor Filtru</FilterEngine>
     <FilterMode>Mod Filtrare</FilterMode>
@@ -2731,9 +3307,11 @@
     <GlobalizedName>Denumire globalizată</GlobalizedName>
     <GridLineColor>Culoare grilă</GridLineColor>
     <GridLinesHor>Linii orizontale grilă</GridLinesHor>
+    <GridLinesHorColor>Culoare Linii Orizontale Grilă</GridLinesHorColor>
     <GridLinesHorRight>Linii grilă orizontale în dreapta</GridLinesHorRight>
     <GridLineStyle>Stil linii grilă</GridLineStyle>
     <GridLinesVert>Linii verticale grilă</GridLinesVert>
+    <GridLinesVertColor>Culoare Linii Verticale Grilă</GridLinesVertColor>
     <GridOutline>Contur Grid</GridOutline>
     <GrowToHeight>Măreşte la înălţime</GrowToHeight>
     <HeaderBackColor>Culoare fundal antet</HeaderBackColor>
@@ -2780,13 +3358,17 @@
     <ImportRelations>Importă relaţii</ImportRelations>
     <Increment>Măreşte</Increment>
     <Indent>Margine pagină</Indent>
+    <InfographicsTitle>Titlu</InfographicsTitle>
     <InitBy>Iniţializat de</InitBy>
     <Insert>Inserează</Insert>
     <Interaction>Interacţiune</Interaction>
     <InterlacedBrush>Pensulă întreţesută</InterlacedBrush>
     <InterlacingHor>Întreţesere orizontală</InterlacingHor>
+    <InterlacingHorBrush>Îmbinare Orizontală Pensulă</InterlacingHorBrush>
     <InterlacingVert>Întreţesere verticală</InterlacingVert>
+    <InterlacingVertBrush>Îmbinare Verticală Pensulă</InterlacingVertBrush>
     <Interpolation>Interpolare</Interpolation>
+    <IsReversed>Este Inversată</IsReversed>
     <Italic>Înclinat</Italic>
     <Item>Element</Item>
     <ItemHeight>Înălţimea elementului</ItemHeight>
@@ -2806,6 +3388,7 @@
     <KeyDataColumn>Coloană de date cheie</KeyDataColumn>
     <Keys>Chei</Keys>
     <LabelColor>Culoare etichetă</LabelColor>
+    <LabelRotationMode>Mod Rotație Etichetă</LabelRotationMode>
     <Labels>Etichete</Labels>
     <LabelsColor>Culoare etichete</LabelsColor>
     <LabelsOffset>Decalare etichete</LabelsOffset>
@@ -2815,6 +3398,10 @@
     <Left>Stânga</Left>
     <LeftSide>Partea stângă</LeftSide>
     <Legend>Legendă</Legend>
+    <LegendBorderColor>Culoare Bordură</LegendBorderColor>
+    <LegendBrush>Legendă Pensulă</LegendBrush>
+    <LegendLabelsColor>Culoare Etichete</LegendLabelsColor>
+    <LegendTitleColor>Culoare Titlu</LegendTitleColor>
     <LegendValueType>Legendă a tipului de valoare</LegendValueType>
     <Length>Lungime</Length>
     <LengthUnderLabels>Lungime în Etichete</LengthUnderLabels>
@@ -2845,6 +3432,10 @@
     <Logarithmic>Logaritmic</Logarithmic>
     <LogarithmicScale>Scală Logaritmică</LogarithmicScale>
     <Low>Scăzut</Low>
+    <MajorInterval>Interval Superior</MajorInterval>
+    <MapID>ID Hartă</MapID>
+    <MapStyle>Stil</MapStyle>
+    <MapType>Tip Hartă</MapType>
     <Margins>Margini</Margins>
     <Marker>Marker</Marker>
     <MarkerAlignment>Aliniere marcator</MarkerAlignment>
@@ -2860,6 +3451,7 @@
     <MaxDropDownItems>Numărul maxim al elementelor</MaxDropDownItems>
     <MaxHeight>Înălţime maximă</MaxHeight>
     <Maximum>Maximum</Maximum>
+    <MaximumValue>Valoare Maximă</MaximumValue>
     <MaxLength>Lungime maximă</MaxLength>
     <MaxNumberOfLines>Număr maxim de linii</MaxNumberOfLines>
     <MaxSize>Dimensiune maximă</MaxSize>
@@ -2872,8 +3464,10 @@
     <MinHeight>Minimul înălţimii</MinHeight>
     <Minimum>Minimum</Minimum>
     <MinimumFontSize>Dimensiune minimă a caracterelor</MinimumFontSize>
+    <MinimumValue>Valoare Minimă</MinimumValue>
     <MinorColor>Culoare minoră</MinorColor>
     <MinorCount>Sumă minoră</MinorCount>
+    <MinorInterval>Interval Inferior</MinorInterval>
     <MinorLength>Lungime minoră</MinorLength>
     <MinorStyle>Stil minor</MinorStyle>
     <MinorVisible>Vizibil minor</MinorVisible>
@@ -2881,6 +3475,7 @@
     <MinSize>Dimensiune minimă</MinSize>
     <MinValue>Valoare minimă</MinValue>
     <MinWidth>Lăţime minimă</MinWidth>
+    <MirrorMargins>Margini în Oglindă</MirrorMargins>
     <Mode>Mod</Mode>
     <Module>Modul</Module>
     <Move>Mută</Move>
@@ -2904,6 +3499,8 @@
     <NumberOfPass>Număr de treceri</NumberOfPass>
     <NumberOfValues>Număr Valori</NumberOfValues>
     <OddStyle>Stil impar</OddStyle>
+    <Offset>Compensare</Offset>
+    <OffsetAngle>Unghi Compensare</OffsetAngle>
     <OnlyText>Doar text</OnlyText>
     <Operation>Operaţie</Operation>
     <Options>Opţiuni</Options>
@@ -2955,9 +3552,13 @@
     <ProcessAt>Proces la</ProcessAt>
     <ProcessAtEnd>Procesare la sfârşit</ProcessAtEnd>
     <ProcessingDuplicates>Procesează duplicatele</ProcessingDuplicates>
+    <ProcessTilde>Procesare tilda</ProcessTilde>
     <ProductHomePage>Pagina principală</ProductHomePage>
     <RadarStyle>Stil Radar</RadarStyle>
+    <Radius>Rază</Radius>
+    <RadiusMode>Mod Rază</RadiusMode>
     <Range>Domeniu</Range>
+    <RangeColorMode>Gama Mod Culoare</RangeColorMode>
     <RangeFrom>De la</RangeFrom>
     <RangeScrollEnabled>Interval Derulare Activ</RangeScrollEnabled>
     <RangeTo>Până</RangeTo>
@@ -2967,15 +3568,19 @@
     <ReconnectOnEachRow>Reconectează la fiecare rând</ReconnectOnEachRow>
     <ReferencedAssemblies>Assembly-urile referite</ReferencedAssemblies>
     <Refresh>Reactualizare</Refresh>
+    <RefreshTime>Reîmprospătare Timp</RefreshTime>
     <Relation>Relaţie</Relation>
     <RelationName>Denumire relaţie</RelationName>
     <Relations>Relaţii</Relations>
+    <RelativeHeight>Înălțime Relativă</RelativeHeight>
+    <RelativeWidth>Lățime Relativă</RelativeWidth>
     <RemoveUnusedDataBeforeStart>Înlătură datele neutilizate înainte de pornire</RemoveUnusedDataBeforeStart>
     <RenderTo>Redă la</RenderTo>
     <ReportAlias>Alias</ReportAlias>
     <ReportAuthor>Autor</ReportAuthor>
     <ReportCacheMode>Modul de cache al raportului</ReportCacheMode>
     <ReportDescription>Descriere raport</ReportDescription>
+    <ReportImage>Imagine Raport</ReportImage>
     <ReportName>Denumire raport</ReportName>
     <ReportUnit>Unitatea raportului</ReportUnit>
     <RequestFromUser>Cerere utilizator</RequestFromUser>
@@ -2983,7 +3588,10 @@
     <ResetDataSource>Resetează sursa de date</ResetDataSource>
     <ResetPageNumber>Resetează numărul paginii</ResetPageNumber>
     <Resize>Redimensionează</Resize>
+    <Resource>Resursă</Resource>
+    <Resources>Resurse</Resources>
     <Restrictions>Restricţii</Restrictions>
+    <RetrieveOnlyUsedData>Preluare doar date folosite</RetrieveOnlyUsedData>
     <ReturnValue>Valoare întoarsă</ReturnValue>
     <ReverseHor>Inversat orizontal</ReverseHor>
     <ReverseVert>Inversat vertical</ReverseVert>
@@ -3010,8 +3618,14 @@
     <SelectionEnabled>Selecţie Activată</SelectionEnabled>
     <SelectionForeColor>Selectare culoare de text</SelectionForeColor>
     <SelectionMode>Mod selecţie</SelectionMode>
+    <SerialNumber>Număr de serie</SerialNumber>
     <Series>Serie</Series>
     <SeriesLabels>Marca seriei</SeriesLabels>
+    <SeriesLabelsBorderColor>Culoare Bordură</SeriesLabelsBorderColor>
+    <SeriesLabelsBrush>Etichete Pensulă</SeriesLabelsBrush>
+    <SeriesLabelsColor>Etichete Culoare</SeriesLabelsColor>
+    <SeriesLighting>Serii luminare</SeriesLighting>
+    <SeriesShowShadow>Serii umbre afișate</SeriesShowShadow>
     <Shadow>Umbrit</Shadow>
     <ShadowBrush>Pensula umbrei</ShadowBrush>
     <ShadowColor>Culoarea umbrei</ShadowColor>
@@ -3027,6 +3641,7 @@
     <ShowInPercent>Arată în procente</ShowInPercent>
     <ShowLabels>Arată etichete</ShowLabels>
     <ShowLabelText>Arată denumire text</ShowLabelText>
+    <ShowLegend>Arată Legenda</ShowLegend>
     <ShowMarker>Afişează marcator</ShowMarker>
     <ShowNulls>Afişează Nule</ShowNulls>
     <ShowOnZeroValues>Arată valorile zero</ShowOnZeroValues>
@@ -3050,7 +3665,13 @@
     <Simple>Simplu</Simple>
     <Size>Dimensiune</Size>
     <SizeMode>Mod redimensionare</SizeMode>
+    <Skin>Înveliș</Skin>
     <SkipFirst>Sare prima</SkipFirst>
+    <SkipIndices>Omite Indici</SkipIndices>
+    <SkipIndicesObj>Omite Indici</SkipIndicesObj>
+    <SkipMajorValues>Omite Valori Majore</SkipMajorValues>
+    <SkipValues>Omite Valori</SkipValues>
+    <SkipValuesObj>Omite Valori</SkipValuesObj>
     <Smoothing>Rotunjire</Smoothing>
     <Sort>Sortează</Sort>
     <SortBy>Sortare după</SortBy>
@@ -3061,7 +3682,7 @@
     <SortType>Tip de sortare</SortType>
     <Space>Spaţiu</Space>
     <Spacing>Spaţiere</Spacing>
-    <SqlCommand>Comandă Sql</SqlCommand>
+    <SqlCommand>Comandă SQL</SqlCommand>
     <StartAngle>Unghi iniţial</StartAngle>
     <StartCap>Icon Început</StartCap>
     <StartColor>Culoare iniţială</StartColor>
@@ -3070,6 +3691,8 @@
     <StartNewPage>Începe pagină nouă</StartNewPage>
     <StartNewPageIfLessThan>Pagină nouă dacă mai puţin de</StartNewPageIfLessThan>
     <StartPosition>Poziţie iniţială</StartPosition>
+    <StartValue>Valoare Pornire</StartValue>
+    <StartWidth>Lățime Pornire</StartWidth>
     <Step>Trepte</Step>
     <StiGlassBrush>Sticlă</StiGlassBrush>
     <Stop>Stop</Stop>
@@ -3091,6 +3714,7 @@
     <SummaryValues>Valori de total</SummaryValues>
     <SupplementCode>Cod suplement</SupplementCode>
     <SupplementType>Tip suplement</SupplementType>
+    <SweepAngle>Unghi Curățare</SweepAngle>
     <SystemVariable>Variabilă de sistem</SystemVariable>
     <SystemVariables>Variabile de sistem</SystemVariables>
     <Table>Tabel</Table>
@@ -3129,6 +3753,8 @@
     <Totals>Totaluri</Totals>
     <TransparentColor>Culoarea de transparenţă</TransparentColor>
     <TrendLine>Orientare Linie</TrendLine>
+    <TrendLineColor>Culoare</TrendLineColor>
+    <TrendLineShowShadow>Arată Umbră</TrendLineShowShadow>
     <Trimming>Scurtare text</Trimming>
     <Type>Tip</Type>
     <TypeName>Nume Tip</TypeName>
@@ -3142,10 +3768,12 @@
     <UseAliases>Utilizează alias</UseAliases>
     <UseExternalReport>Utilizează raport extern</UseExternalReport>
     <UseParentStyles>Foloseşte stilurile părinte</UseParentStyles>
+    <UseRangeColor>Utilizare gamă culori</UseRangeColor>
     <UseRectangularSymbols>Utilizează simboluri dreptunghiulare</UseRectangularSymbols>
     <UseSeriesColor>Utilizează serie culoare</UseSeriesColor>
     <UseStyleOfSummaryInColumnTotal>Utilizează stilul sumarului în coloana total</UseStyleOfSummaryInColumnTotal>
     <UseStyleOfSummaryInRowTotal>Utilizează stilul sumarului în rândul total</UseStyleOfSummaryInRowTotal>
+    <UseValuesFromTheSpecifiedRange>Utilizare valori din intervalul specificat</UseValuesFromTheSpecifiedRange>
     <Value>Valoare</Value>
     <ValueClose>Valoare Închidere</ValueClose>
     <ValueDataColumn>Coloană de date cu valori</ValueDataColumn>
@@ -3171,6 +3799,7 @@
     <Watermark>Text de fundal</Watermark>
     <Weight>Lăţime</Weight>
     <WeightDataColumn>Lăţime Coloană</WeightDataColumn>
+    <Weights>Pondere</Weights>
     <Width>Lăţime</Width>
     <WindowState>Stare fereastră</WindowState>
     <WordWrap>Aplică ruperea rândurilor</WordWrap>
@@ -3217,6 +3846,7 @@
     <BadFromObjectExpression>Expresie obiect FROM invalidă!</BadFromObjectExpression>
     <BadObjectName>Nume obiect invalid!</BadObjectName>
     <BadSelectStatement>Instrucţiune SELECT invalidă!</BadSelectStatement>
+    <Collections>Colecții</Collections>
     <CreateLinksFromForeignKeys>Creeaza link-uri din chei străine</CreateLinksFromForeignKeys>
     <CriteriaAlias>Alias</CriteriaAlias>
     <CriteriaCriteria>Criterii</CriteriaCriteria>
@@ -3271,7 +3901,7 @@
     <SelectAllFromRight>Selectează toate din dreapta</SelectAllFromRight>
     <SwitchToDerivedTable>Converteşte către tabel derivat</SwitchToDerivedTable>
     <Tables>Tabele</Tables>
-    <UnexpectedTokenAt>Token neaşteptat \"{0}\" la linia {1}, poz {2}!</UnexpectedTokenAt>
+    <UnexpectedTokenAt>Token neaşteptat "{0}" la linia {1}, poz {2}!</UnexpectedTokenAt>
     <Unions>Uniuni</Unions>
     <UnionSubMenu>Uniune</UnionSubMenu>
     <ViewQuery>Vizualizează interogare</ViewQuery>
@@ -3286,6 +3916,7 @@
     <qnRemoveService>Doriţi să eliminaţi serviciul?</qnRemoveService>
     <qnRemoveServiceCategory>Doriţi sa eliminaţi categoria?</qnRemoveServiceCategory>
     <qnRemoveUnused>Doriţi să eliminaţi Neutilizat?</qnRemoveUnused>
+    <qnReplace>Doriți să înlocuiți elementul existent {0}?</qnReplace>
     <qnRestoreDefault>Reveniţi la valorile predefinite?</qnRestoreDefault>
     <qnSaveChanges>Salvaţi modificările din {0}?</qnSaveChanges>
     <qnSaveChangesToPreviewPage>Doriţi să salvaţi modificările aduse paginii?</qnSaveChangesToPreviewPage>
@@ -3293,6 +3924,7 @@
     <qnSynchronizeServices>Doriţi să sincronizaţi serviciile?</qnSynchronizeServices>
   </Questions>
   <Report>
+    <Address>Addresă</Address>
     <Alphabetical>Alfabetic</Alphabetical>
     <Bands>Benzi</Bands>
     <Basic>De bază</Basic>
@@ -3311,8 +3943,10 @@
     <CreateNewReportPageForm>Creare raport nou, adăugă o pagină, adăugă o formă</CreateNewReportPageForm>
     <CreatingReport>Creare raport</CreatingReport>
     <CrossBands>Benzi încrucişate</CrossBands>
+    <Dashboard>Panou control</Dashboard>
     <Dialogs>Controale raport</Dialogs>
     <EditStyles>[Editează Stiluri]</EditStyles>
+    <Enhancements>Îmbunătățiri</Enhancements>
     <Errors>Erori</Errors>
     <EventsTab>Evenimente</EventsTab>
     <ExpandAll>Expandează tot</ExpandAll>
@@ -3320,7 +3954,11 @@
     <FilterOr>Sau</FilterOr>
     <FinishingReport>Terminare raport</FinishingReport>
     <FirstPass>Prima trecere</FirstPass>
+    <FixedBugs>Bug-uri rezolvate</FixedBugs>
+    <Gallery>Galerie</Gallery>
     <GenerateNewCode>Generează cod nou</GenerateNewCode>
+    <History>Istoric</History>
+    <Infographics>Infografice</Infographics>
     <InfoMessage>{0} - {1} găsite.</InfoMessage>
     <InformationMessages>Mesaje Informative</InformationMessages>
     <LabelAlias>Alias:</LabelAlias>
@@ -3330,6 +3968,7 @@
     <LabelCentimeters>Centimetri:</LabelCentimeters>
     <LabelCollectionName>Nume Colecţie:</LabelCollectionName>
     <LabelColor>Culoare:</LabelColor>
+    <LabelCommandTimeout>Timp comandă expirat:</LabelCommandTimeout>
     <LabelCountData>Numără Datele:</LabelCountData>
     <LabelDataBand>Bandă de date:</LabelDataBand>
     <LabelDataColumn>Coloană de date:</LabelDataColumn>
@@ -3346,6 +3985,7 @@
     <LabelNestedLevel>Nivel Imbricat:</LabelNestedLevel>
     <LabelPassword>Parola:</LabelPassword>
     <LabelPixels>Pixeli:</LabelPixels>
+    <LabelQueryTimeout>Pauză interogare:</LabelQueryTimeout>
     <LabelSystemVariable>Variabila de sistem:</LabelSystemVariable>
     <LabelTotals>Totaluri</LabelTotals>
     <LabelType>Tip:</LabelType>
@@ -3353,8 +3993,11 @@
     <LabelValue>Valoare:</LabelValue>
     <LoadingReport>Încărcare raport</LoadingReport>
     <nameAssembly>Ansamblu</nameAssembly>
+    <NewFeatures>Functii noi</NewFeatures>
     <No>Nu</No>
+    <NoFixes>Nu există corecții sau actualizări pentru această versiune!</NoFixes>
     <NoIssues>Nicio problemă</NoIssues>
+    <NoNewVersions>Nu sunt disponibile versiuni noi!</NoNewVersions>
     <NotAssigned>Nespecificat</NotAssigned>
     <Office2010Back>Înapoi</Office2010Back>
     <PageNofM>Pagina {0} din {1}</PageNofM>
@@ -3389,10 +4032,25 @@
     <StyleNote>Notă</StyleNote>
     <StyleWarning>Avertisment</StyleWarning>
     <Warnings>Avertizări</Warnings>
+    <WhatsNewInVersion>Ce este nou în {0}</WhatsNewInVersion>
     <When>când {0} {1}</When>
     <WhenAnd>când {0} {1} si</WhenAnd>
     <WhenValueIs>când valoarea este</WhenValueIs>
   </Report>
+  <ReportInfo>
+    <CheckIssuesAdditionalDescription>Se verifică raportul pentru erori și inexactități.</CheckIssuesAdditionalDescription>
+    <CheckIssuesDescription>Examinare document</CheckIssuesDescription>
+    <EncryptWithPassword>Criptare cu parolă</EncryptWithPassword>
+    <EncryptWithPasswordAdditionalDescription>Stabilire parolă pentru a preveni lucrul neautorizat cu raportul.</EncryptWithPasswordAdditionalDescription>
+    <EncryptWithPasswordDescription>Protejare raport</EncryptWithPasswordDescription>
+    <Info>Informații</Info>
+    <ReportOptions>Opțiuni raport</ReportOptions>
+    <ReportOptionsAdditionalDescription>Configurare informații și parametri de bază în raport.</ReportOptionsAdditionalDescription>
+  </ReportInfo>
+  <ReportOpen>
+    <Browse>Răsfoire</Browse>
+    <Import>Import</Import>
+  </ReportOpen>
   <Services>
     <categoryContextTools>Unelte de context</categoryContextTools>
     <categoryDesigner>Designer</categoryDesigner>
@@ -3432,6 +4090,7 @@
     <Lines>Linii</Lines>
     <Minus>Minus</Minus>
     <Multiply>Multiplicare</Multiply>
+    <Octagon>Octagon</Octagon>
     <Oval>Oval</Oval>
     <Parallelogram>Paralelogram</Parallelogram>
     <Plus>Plus</Plus>
@@ -3562,6 +4221,7 @@
     <title>Caseta de unelte</title>
   </Toolbox>
   <Wizards>
+    <BlankDashboard>Panou control gol</BlankDashboard>
     <BlankReport>Raport necompletat</BlankReport>
     <ButtonBack>&lt;Înapoi</ButtonBack>
     <ButtonCancel>Abandon</ButtonCancel>
@@ -3575,6 +4235,7 @@
     <DefaultThemes>Temele implicite</DefaultThemes>
     <Filters>Filtre</Filters>
     <FromReportTemplate>Din template de raport</FromReportTemplate>
+    <groupCreateNewDashboard>Creare panou control</groupCreateNewDashboard>
     <groupCreateNewPageOrForm>Creare pagină nouă sau un formular</groupCreateNewPageOrForm>
     <groupCreateNewReport>Creare raport nou</groupCreateNewReport>
     <Groups>Grupări</Groups>

@@ -21,12 +21,12 @@
     <AdapterDataViews>Duomenys iš DataViews</AdapterDataViews>
     <AdapterEnumerables>Duomenys iš Enumerable Sources</AdapterEnumerables>
     <AdapterFirebirdConnection>Duomenys iš Firebird prisijungimo</AdapterFirebirdConnection>
-    <AdapterOdbcConnection>Duomenys iš Odbc prisijungimo</AdapterOdbcConnection>
-    <AdapterOleDbConnection>Duomenys iš OleDb prisijungimo</AdapterOleDbConnection>
+    <AdapterOdbcConnection>Duomenys iš ODBC prisijungimo</AdapterOdbcConnection>
+    <AdapterOleDbConnection>Duomenys iš OLE DB prisijungimo</AdapterOleDbConnection>
     <AdapterOracleConnection>Duomenys iš Oracle prisijungimo</AdapterOracleConnection>
     <AdapterOracleODPConnection>Dati da connessione Oracle ODP.NET </AdapterOracleODPConnection>
     <AdapterPostgreSQLConnection>Duomenys iš PostgreSQL prisijungimo</AdapterPostgreSQLConnection>
-    <AdapterSqlConnection>Duomenys iš Sql prisijungimo</AdapterSqlConnection>
+    <AdapterSqlConnection>Duomenys iš SQL prisijungimo</AdapterSqlConnection>
     <AdapterTeradataConnection>Dati da connessione Teradata </AdapterTeradataConnection>
     <AdapterUserSources>Duomenys iš User Sources</AdapterUserSources>
     <AdapterVirtualTables>Duomenys iš virtualių lentelių</AdapterVirtualTables>
@@ -249,7 +249,7 @@
     <FileNotFound>Failas "{0}" nerastas.</FileNotFound>
     <IdentifierIsNotValid>Identifikatoriaus '{0}' reikšmė neteisinga.</IdentifierIsNotValid>
     <ImpossibleFindDataSource>Neįmanoma rasti duomenų šaltinį.</ImpossibleFindDataSource>
-    <NameExists>Komponentė pavadinta '{0}' jau yra. Komponentės privalo turėti unikalius vardus (didž./maž. raidės neskiriamos).</NameExists>
+    <NameExists>Komponentė pavadinta '{0}' jau yra. Komponentės privalo turėti unikalius vardus.</NameExists>
     <NoServices>Nerasti servisai '{0}'</NoServices>
     <NotAssign>Nenurodytas duomenų šaltinis.</NotAssign>
     <NotCorrectFormat>La stringa di Input non è in un formato corretto.</NotCorrectFormat>
@@ -408,10 +408,10 @@
     <FirebirdEdit>Redaguoti Firebird prisijungimas</FirebirdEdit>
     <FirebirdNew>Naujas Firebird prisijungimas</FirebirdNew>
     <NewConnection>Nuova {0} Connessione</NewConnection>
-    <OdbcEdit>Redaguoti Odbc prisijungimas</OdbcEdit>
+    <OdbcEdit>Redaguoti ODBC prisijungimas</OdbcEdit>
     <OdbcNew>Naujas Odbc prisijungimas</OdbcNew>
-    <OleDbEdit>Redaguoti OleDb prisijungimas</OleDbEdit>
-    <OleDbNew>Naujas OleDb prisijungimas</OleDbNew>
+    <OleDbEdit>Redaguoti OLE DB prisijungimas</OleDbEdit>
+    <OleDbNew>Naujas OLE DB prisijungimas</OleDbNew>
     <OracleEdit>Redaguoti Oracle prisijungimas</OracleEdit>
     <OracleNew>Naujas Oracle prisijungimas</OracleNew>
     <OracleODPEdit>Modifica connessione Oracle ODP.NET</OracleODPEdit>
@@ -420,14 +420,15 @@
     <PathSchema>Kelias iki XSD schemos:</PathSchema>
     <PostgreSQLEdit>Redaguoti PostgreSQL prisijungimas</PostgreSQLEdit>
     <PostgreSQLNew>Naujas PostgreSQL prisijungimas</PostgreSQLNew>
-    <SqlEdit>Redaguoti Sql prisijungimas</SqlEdit>
-    <SqlNew>Naujas Sql prisijungimas</SqlNew>
+    <SqlEdit>Redaguoti SQL prisijungimas</SqlEdit>
+    <SqlNew>Naujas SQL prisijungimas</SqlNew>
     <TeradataEdit>Modifica connessione Teradata</TeradataEdit>
     <TeradataNew>Nuova connessione Teradata</TeradataNew>
-    <XmlEdit>Redaguoti Xml Data</XmlEdit>
-    <XmlNew>Naujas Xml Data</XmlNew>
+    <XmlEdit>Redaguoti XML Data</XmlEdit>
+    <XmlNew>Naujas XML Data</XmlNew>
   </FormDatabaseEdit>
   <FormDesigner>
+    <Others>Kitos</Others>
     <Code>Kodas</Code>
     <CompilingReport>Ataskaitos kompiliavimas</CompilingReport>
     <LocalizePropertyGrid>Lokalizuoti savybes</LocalizePropertyGrid>
@@ -1677,7 +1678,7 @@
     <Sorted>Surūšiuota</Sorted>
     <SortType>Rūšiavimo tipas</SortType>
     <Space>Tarpas</Space>
-    <SqlCommand>Sql komanda</SqlCommand>
+    <SqlCommand>SQL komanda</SqlCommand>
     <StartCap>Tratto iniziale</StartCap>
     <StartColor>Pradžios spalva</StartColor>
     <StartNewPage>Pradėti naują lapą</StartNewPage>

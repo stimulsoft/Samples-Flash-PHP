@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<Localization language="Croatian" description="Hrvatski" cultureName="cro">
+<Localization language="Croatian" description="Hrvatski" cultureName="hr">
   <A_WebViewer>
     <AbbreviatedDayFriday>Pet</AbbreviatedDayFriday>
     <AbbreviatedDayMonday>Pon</AbbreviatedDayMonday>
@@ -8,6 +8,11 @@
     <AbbreviatedDayThursday>Čet</AbbreviatedDayThursday>
     <AbbreviatedDayTuesday>Uto</AbbreviatedDayTuesday>
     <AbbreviatedDayWednesday>Sri</AbbreviatedDayWednesday>
+    <Attachment>Prilog:</Attachment>
+    <ButtonNext>Slijedeći</ButtonNext>
+    <ButtonPrev>Prethodni</ButtonPrev>
+    <ButtonSend>Pošalji</ButtonSend>
+    <CategoryAlreadyExists>Kategorija sa tim imenom već postoji!</CategoryAlreadyExists>
     <DayFriday>Petak</DayFriday>
     <DayMonday>Ponedjeljak</DayMonday>
     <DaySaturday>Subota</DaySaturday>
@@ -15,10 +20,16 @@
     <DayThursday>Četvrtak</DayThursday>
     <DayTuesday>Utorak</DayTuesday>
     <DayWednesday>Srijeda</DayWednesday>
+    <Email>Email:</Email>
+    <EmailOptions>EmailOpcije</EmailOptions>
     <FirstPage>Prva stranica</FirstPage>
     <Hours>Sati</Hours>
+    <LabelFrom>Od:</LabelFrom>
+    <LabelSelectExportFormat>Odaberite format u kojem želite spremiti izvještaj:</LabelSelectExportFormat>
+    <LabelTo>Prima:</LabelTo>
     <LastPage>Posljednja stranica</LastPage>
     <Loading>Učitavanje...</Loading>
+    <Message>Poruka:</Message>
     <Minutes>Minute</Minutes>
     <MonthApril>Travanj</MonthApril>
     <MonthAugust>Kolovoz</MonthAugust>
@@ -44,6 +55,10 @@
     <PrintWithoutPreview>Ispis bez pretpregleda</PrintWithoutPreview>
     <PrintWithPreview>Ispis sa pretpregledom</PrintWithPreview>
     <SaveReport>Spremi</SaveReport>
+    <Subject>Naslov:</Subject>
+    <TabItemContacts>Kontakti</TabItemContacts>
+    <TextComputer>Računalo</TextComputer>
+    <TextItemsRoot>Korijen</TextItemsRoot>
     <TodayDate>Današnji dan</TodayDate>
     <WholeReport>Cijeli izvještaj</WholeReport>
   </A_WebViewer>
@@ -51,7 +66,7 @@
     <AdapterBusinessObjects>Podaci iz Business Objects</AdapterBusinessObjects>
     <AdapterConnection>Podatci iz {0}</AdapterConnection>
     <AdapterCrossTabDataSource>Podaci iz CrossTab-a</AdapterCrossTabDataSource>
-    <AdapterCsvFiles>Podaci iz Csv datoteka</AdapterCsvFiles>
+    <AdapterCsvFiles>Podaci iz CSV datoteka</AdapterCsvFiles>
     <AdapterDataTables>Podaci iz DataSet-a, DataTablica</AdapterDataTables>
     <AdapterDataViews>Podaci iz DataView-ova</AdapterDataViews>
     <AdapterDB2Connection>Podaci iz IBM DB2 konekcije</AdapterDB2Connection>
@@ -59,13 +74,13 @@
     <AdapterFirebirdConnection>Podaci iz Firebird konekcije</AdapterFirebirdConnection>
     <AdapterInformixConnection>Podaci od Informix konekcije</AdapterInformixConnection>
     <AdapterMySQLConnection>Podaci iz MySQL konekcije</AdapterMySQLConnection>
-    <AdapterOdbcConnection>Podaci iz Odbc konekcije</AdapterOdbcConnection>
-    <AdapterOleDbConnection>Podaci iz OleDb konekcije</AdapterOleDbConnection>
+    <AdapterOdbcConnection>Podaci iz ODBC konekcije</AdapterOdbcConnection>
+    <AdapterOleDbConnection>Podaci iz OLE DB konekcije</AdapterOleDbConnection>
     <AdapterOracleConnection>Podaci iz Oracle konekcije</AdapterOracleConnection>
     <AdapterOracleODPConnection>Podatci iz Oracle ODP.NET konekcije</AdapterOracleODPConnection>
     <AdapterPostgreSQLConnection>Podaci iz PostgreSQL konekcije</AdapterPostgreSQLConnection>
-    <AdapterSqlCeConnection>Podaci iz SqlCe konekcije</AdapterSqlCeConnection>
-    <AdapterSqlConnection>Podaci iz Sql konekcije</AdapterSqlConnection>
+    <AdapterSqlCeConnection>Podaci iz SQLCe konekcije</AdapterSqlCeConnection>
+    <AdapterSqlConnection>Podaci iz SQL konekcije</AdapterSqlConnection>
     <AdapterSQLiteConnection>Podaci iz SQLite konekcije</AdapterSQLiteConnection>
     <AdapterTeradataConnection>Podatci iz Teradata konekcije</AdapterTeradataConnection>
     <AdapterUniDirectConnection>Podaci iz Uni Direct konekcije</AdapterUniDirectConnection>
@@ -76,8 +91,10 @@
   <Buttons>
     <Add>Dodaj</Add>
     <AddAllColumns>Dodaj sve stupce</AddAllColumns>
+    <Attach>Priloži</Attach>
     <Build>Izgradi...</Build>
     <Cancel>&amp;Odustani</Cancel>
+    <Check>Provjeri</Check>
     <Close>Zatvori</Close>
     <Delete>Obriši</Delete>
     <Design>Dizajn</Design>
@@ -85,13 +102,16 @@
     <Duplicate>Dupliciraj</Duplicate>
     <Export>Export</Export>
     <Help>Pomoć</Help>
+    <LessOptions>Manje opcija</LessOptions>
     <LoadDataSet>Učitaj DataSet (*.data)</LoadDataSet>
+    <MoreOptions>Više opcija</MoreOptions>
     <MoveLeft>Pomakni lijevo</MoveLeft>
     <MoveRight>Pomakni desno</MoveRight>
     <No>&amp;Ne</No>
     <Ok>&amp;OK</Ok>
     <Open>Otvori</Open>
     <Print>Ispis</Print>
+    <Publish>Objavi</Publish>
     <QuickPrint>Brzi ispis</QuickPrint>
     <Remove>Makni</Remove>
     <RemoveAll>Makni sve</RemoveAll>
@@ -101,9 +121,12 @@
     <Save>Spremi</Save>
     <SaveCopy>Spremi kopiju</SaveCopy>
     <SetAll>Postavi sve</SetAll>
+    <ShowLess>Pokaži manje</ShowLess>
+    <ShowMore>Prikaži više</ShowMore>
     <Submit>Podnesi</Submit>
     <Test>Test</Test>
     <Up>Gore</Up>
+    <Upload>Upload</Upload>
     <Yes>&amp;Da</Yes>
   </Buttons>
   <Chart>
@@ -120,11 +143,13 @@
     <Bubble>Balon</Bubble>
     <Candlestick>Svijećnjak</Candlestick>
     <ChartConditionsCollectionForm>Uvjeti</ChartConditionsCollectionForm>
+    <ChartEditorForm>Editor grafikona</ChartEditorForm>
     <ChartFiltersCollectionForm>Filteri</ChartFiltersCollectionForm>
     <ChartType>Vrsta grafikona</ChartType>
     <CheckBoxAutoRotation>Auto rotacija</CheckBoxAutoRotation>
     <ClusteredBar>Grupirani trakasti</ClusteredBar>
     <ClusteredColumn>Grupirani stupčasti</ClusteredColumn>
+    <Common>Zajedničko</Common>
     <ConstantLine>Konstantne linije</ConstantLine>
     <ConstantLinesEditorForm>Editor konstantnih linija</ConstantLinesEditorForm>
     <DataColumns>Stupci podataka</DataColumns>
@@ -222,6 +247,7 @@
     <Strip>Traka</Strip>
     <StripsEditorForm>Editor traka</StripsEditorForm>
     <Style>Stil</Style>
+    <Treemap>Mapa stabla</Treemap>
   </Chart>
   <ChartRibbon>
     <Axes>Osi</Axes>
@@ -292,16 +318,75 @@
   </ChartRibbon>
   <Cloud>
     <AccountSettings>Postavke računa</AccountSettings>
+    <AddAPlace>Dodaj mjesto</AddAPlace>
+    <ButtonChangePassword>Promijeni lozinku</ButtonChangePassword>
+    <ButtonDeleteAll>Obriši sve</ButtonDeleteAll>
+    <ButtonDesign>Kreiraj izvještaj</ButtonDesign>
+    <ButtonLogout>Odjavi se</ButtonLogout>
+    <ButtonPublish>Objavi</ButtonPublish>
+    <ButtonPurchase>Kupi</ButtonPurchase>
+    <ButtonRecover>Povrati</ButtonRecover>
+    <ButtonRenew>Obnovi</ButtonRenew>
+    <ButtonResendEmail>Ponovno pošalji Email</ButtonResendEmail>
+    <ButtonResetPassword>Resetiraj lozinku</ButtonResetPassword>
+    <ButtonRun>Pokreni</ButtonRun>
+    <ButtonShare>Podijeli</ButtonShare>
+    <ButtonSignUp>Registriraj se</ButtonSignUp>
+    <ButtonSkip>Preskoči</ButtonSkip>
+    <ButtonView>Pregledaj</ButtonView>
+    <ButtonWhereUsed>Gdje se koristi?</ButtonWhereUsed>
     <Cancel>Odustani</Cancel>
+    <CheckBoxMoveToRecycleBin>Premjesti u koš za smeće</CheckBoxMoveToRecycleBin>
+    <CheckBoxRememberMe>Zapamti me</CheckBoxRememberMe>
+    <Cloud>Oblak</Cloud>
     <Collection>Kolekcija</Collection>
     <Create>Kreiraj</Create>
+    <CreateError>Greška prilikom kreiranja izvještaja!</CreateError>
     <CreateNewCollection>Kreiraj novu kolekciju</CreateNewCollection>
+    <CreatingReport>Kreiram izvještaj...</CreatingReport>
+    <DashboardWindowTitleNew>Nova kontrolna ploča</DashboardWindowTitleNew>
     <DeleteFile>Izbriši datoteku</DeleteFile>
+    <ExecutionError>Pogreška izvršenja</ExecutionError>
+    <ExpiredDate>Datum isteka</ExpiredDate>
+    <FileStorageWindowTitleEdit>Izmijeni spremište datoteka</FileStorageWindowTitleEdit>
+    <FileStorageWindowTitleNew>Novo spremište datoteka</FileStorageWindowTitleNew>
+    <FolderWindowTitleEdit>Izmijeni mapu</FolderWindowTitleEdit>
+    <FolderWindowTitleNew>Nova mapa</FolderWindowTitleNew>
+    <ForExample>Na primjer</ForExample>
+    <GroupBoxAttachedItems>Priložene stavke</GroupBoxAttachedItems>
+    <HyperlinkAgreeToTerms>Registracijom prihvaćate uvjete.</HyperlinkAgreeToTerms>
+    <HyperlinkAlreadyHaveAccount>Račun već postoji</HyperlinkAlreadyHaveAccount>
+    <HyperlinkForgotPassword>Zaboravljena lozinka</HyperlinkForgotPassword>
+    <HyperlinkHavePassword>Lozinka postoji</HyperlinkHavePassword>
+    <HyperlinkRegisterAccount>Registriraj novi račun</HyperlinkRegisterAccount>
     <labelCollectionName>Naziv kolekcije:</labelCollectionName>
+    <LabelCreated>Kreirano:</LabelCreated>
+    <LabelCreateFolder>Kreiranje nove kategorije u koju možete staviti druge stavke.</LabelCreateFolder>
+    <LabelCreateReportTemplate>Kreiraj predložak izvještaja.</LabelCreateReportTemplate>
+    <LabelCurrentPassword>Trenutna lozinka:</LabelCurrentPassword>
+    <LabelDataFile>Podatkovna datoteka:</LabelDataFile>
+    <LabelDataUrl>Podatkovni URL:</LabelDataUrl>
     <labelFileName>Ime datoteke:</labelFileName>
+    <LabelForeground>Prednja strana:</LabelForeground>
+    <LabelFromReport>Iz izvještaja</LabelFromReport>
+    <LabelFromReportCode>Iz izvještaja (definiraj u kodu)</LabelFromReportCode>
+    <LabelLastLogin>Zadnja prijava:</LabelLastLogin>
+    <LabelLastTime>Zadnje vrijeme:</LabelLastTime>
+    <LabelModified>Izmijenjeno:</LabelModified>
+    <LabelNewPassword>Nova lozinka:</LabelNewPassword>
+    <LabelNextTime>Slijedeće vrijeme:</LabelNextTime>
     <labelPassword>Lozinka:</labelPassword>
+    <LabelPermission>Dozvola:</LabelPermission>
+    <LabelPicture>Slika:</LabelPicture>
+    <LabelRenderedReport>Renderirani izvještaj</LabelRenderedReport>
+    <LabelResponseAsFile>Odgovor kao datoteka</LabelResponseAsFile>
+    <LabelSeparateReport>Odvojeni izvještaj (i skripte) datoteka</LabelSeparateReport>
+    <LabelShowReport>Prikaži izvještaj:</LabelShowReport>
     <labelUserName>Korisničko ime:</labelUserName>
+    <License>Licenca</License>
+    <LicenseInformation>Licencne informacije</LicenseInformation>
     <Login>Login</Login>
+    <NofM>{0}: {1} od {2}</NofM>
     <Open>Otvori</Open>
     <OpenFile>Otvori datoteku</OpenFile>
     <OperationCreate>Kreiraj '{0}'</OperationCreate>
@@ -312,17 +397,109 @@
     <OperationRename>Preimenuj '{0}' u '{1}'</OperationRename>
     <OperationUpload>Učitaj '{0}' na server</OperationUpload>
     <page>strana</page>
+    <Platforms>Platforme</Platforms>
+    <Products>Proizvodi</Products>
     <questionOpenThisFile>Jeste li sigurni da želite otvoriti '{0}'?</questionOpenThisFile>
     <questionOverrideItem>Sigurno želite presnimiti '{0}'?</questionOverrideItem>
     <questionRemoveItem>Sigurno želite ukloniti '{0}'?</questionRemoveItem>
     <RefreshList>Osvježi popis</RefreshList>
     <ReportDocumentFormatNotRecognized>Format '{0}' predmeta nije prepoznat kao format renderiranog izvještaja!</ReportDocumentFormatNotRecognized>
     <ReportTemplateFormatNotRecognized>Format '{0}' predmeta nije prepoznat kao format šablone izvještaja!</ReportTemplateFormatNotRecognized>
+    <RequestChangesWhenSavingToCloud>Zatraži izmjene prilikom spremanja na oblak</RequestChangesWhenSavingToCloud>
+    <RibbonButtonAddRole>Dodaj korisničku ulogu</RibbonButtonAddRole>
+    <RibbonButtonAddUser>Dodaj korisnika</RibbonButtonAddUser>
+    <RibbonButtonAddWorkspace>Dodaj radni prostor</RibbonButtonAddWorkspace>
+    <RibbonButtonFolder>Mapa</RibbonButtonFolder>
+    <RibbonTabUsers>Korisnici</RibbonTabUsers>
     <Root>Korijen</Root>
+    <RootFolder>Korijenska mapa</RootFolder>
     <Save>Spremi</Save>
     <SaveAccountSettings>Spremi postavke računa</SaveAccountSettings>
     <SaveFile>Spremi datoteku</SaveFile>
+    <ShareWindowTitleNew>Podijeli</ShareWindowTitleNew>
     <ShowAllFiles>Prikaži sve datoteke</ShowAllFiles>
+    <Subscriptions>Pretplate</Subscriptions>
+    <TabItemEmbedCode>Ugradi kod</TabItemEmbedCode>
+    <TabItemQRCode>QR kod</TabItemQRCode>
+    <TabItemShare>Poveži za dijeljenje</TabItemShare>
+    <TextActivated>Aktivirano</TextActivated>
+    <TextActivationDate>Datum aktivacije</TextActivationDate>
+    <TextDelete>Obriši</TextDelete>
+    <TextDeletingItems>Obrisane stavke...</TextDeletingItems>
+    <TextDescriptionChanges>Molim unesite opis izmjena:</TextDescriptionChanges>
+    <TextFirstName>Ime</TextFirstName>
+    <TextFromTo>Od {0} do {1} (Ukupno - {2})</TextFromTo>
+    <TextItemsWorkspace>Radni prostor</TextItemsWorkspace>
+    <TextLastName>Prezime</TextLastName>
+    <TextModify>Izmijeni</TextModify>
+    <TextNoNotifications>Bez obavijesti</TextNoNotifications>
+    <TextOwner>Vlasnik</TextOwner>
+    <TextProfile>Profil</TextProfile>
+    <TextReports>Izvještaji</TextReports>
+    <TextRestoringItems>Vraćanje stavki...</TextRestoringItems>
+    <TextRole>Korisnička uloga</TextRole>
+    <TextRun>Pokreni</TextRun>
+    <TextUser>Korisnik</TextUser>
+    <TextUserName>Korisničko ime (Email)</TextUserName>
+    <TimeHoursAgoFive>Prije pet sati, {0:t}</TimeHoursAgoFive>
+    <TimeHoursAgoFour>prije četiri sata, {0:t}</TimeHoursAgoFour>
+    <TimeHoursAgoOne>Prije jedan sat, {0:t}</TimeHoursAgoOne>
+    <TimeHoursAgoThree>Prije tri sata, {0:t}</TimeHoursAgoThree>
+    <TimeHoursAgoTwo>Prije dva sata, {0:t}</TimeHoursAgoTwo>
+    <TimeMinutesAgoFive>Prije pet minuta, {0:t}</TimeMinutesAgoFive>
+    <TimeMinutesAgoFour>Prije četiri minute, {0:t}</TimeMinutesAgoFour>
+    <TimeMinutesAgoLessOne>Prije manje od minute</TimeMinutesAgoLessOne>
+    <TimeMinutesAgoN>Prije {0} minuta, {1:t}</TimeMinutesAgoN>
+    <TimeMinutesAgoOne>Prije jedne minute, {0:t}</TimeMinutesAgoOne>
+    <TimeMinutesAgoThree>Prije tri minute, {0:t}</TimeMinutesAgoThree>
+    <TimeMinutesAgoTwo>Prije dvije minute, {0:t}</TimeMinutesAgoTwo>
+    <TimeToday>Danas, {0:t}</TimeToday>
+    <TimeYesterday>Jučer, {0:t}</TimeYesterday>
+    <ToolTipAddRole>Kreiranje nove korisničke uloge u radnom prostoru.</ToolTipAddRole>
+    <ToolTipAddUser>Kreiranje novog korisnika u odabranoj korisničkoj ulozi.</ToolTipAddUser>
+    <ToolTipAspNet>Objavi odabrani izvještaj u ASP.NET aplikaciju.</ToolTipAspNet>
+    <ToolTipAspNetMvc>Objavi odabrani izvještaj u ASP.NET MVC aplikaciju.</ToolTipAspNetMvc>
+    <ToolTipAttach>Priloži stavke odabranom izvještaju</ToolTipAttach>
+    <ToolTipCreate>Kreiraj novu stavku.</ToolTipCreate>
+    <ToolTipDelete>Obriši odabrane stavke.</ToolTipDelete>
+    <ToolTipDeleted>Prikaži obrisane stavke</ToolTipDeleted>
+    <ToolTipDownload>Preuzmi odabranu stavku.</ToolTipDownload>
+    <ToolTipEdit>Izmijeni odabranu stavku.</ToolTipEdit>
+    <ToolTipGridMode>Prikaz popisa</ToolTipGridMode>
+    <ToolTipInfo>Prikaz detalja</ToolTipInfo>
+    <ToolTipJs>Objavi odabrani izvještaj kao HTML stranicu</ToolTipJs>
+    <ToolTipPublish>Pripremi odabrani izvještaj za isporuku u vašoj aplikaciji.</ToolTipPublish>
+    <ToolTipRecover>Povrati odabrane stavke.</ToolTipRecover>
+    <ToolTipRunWithoutPreview>Renderiraj odabrani izvještaj bez pretpregleda</ToolTipRunWithoutPreview>
+    <ToolTipShare>Podijeli odabrane datoteke.</ToolTipShare>
+    <ToolTipSort>Opcije sortiranja</ToolTipSort>
+    <ToolTipThumbnailMode>Prikaz rešetke</ToolTipThumbnailMode>
+    <ToolTipViewFile>Prikaži odabranu datoteku.</ToolTipViewFile>
+    <ToolTipViewReport>Prikaži odabrani izvještaj u pregledniku.</ToolTipViewReport>
+    <WeDidntFindAnything>Nismo našli ništa za prikazati.</WeDidntFindAnything>
+    <WindowDescriptionDelete>Jeste li sigurni da želite obrisati odabrane stavke?</WindowDescriptionDelete>
+    <WindowDescriptionRecover>Odabrane stavke biti će uklonjene iz koša za smeće.</WindowDescriptionRecover>
+    <WindowTitleDelete>Obriši stavke</WindowTitleDelete>
+    <WindowTitleForgotPassword>Zaboravljena lozinka</WindowTitleForgotPassword>
+    <WindowTitleLogin>Log in</WindowTitleLogin>
+    <WindowTitleRecover>Povrati stavke</WindowTitleRecover>
+    <WindowTitleRoleEdit>Izmijeni korisničku ulogu</WindowTitleRoleEdit>
+    <WindowTitleRoleNew>Nova korisnička uloga</WindowTitleRoleNew>
+    <WindowTitleSignUp>Registriraj se</WindowTitleSignUp>
+    <WindowTitleUserEdit>Izmijeni korisnika</WindowTitleUserEdit>
+    <WindowTitleUserNew>Novi korisnik</WindowTitleUserNew>
+    <WindowTitleWorkspaceEdit>Izmijeni radni prostor</WindowTitleWorkspaceEdit>
+    <WindowTitleWorkspaceNew>Novi radni prostor</WindowTitleWorkspaceNew>
+    <WizardBlankReportDescription>Kreiraj prazan izvještaj</WizardBlankReportDescription>
+    <WizardExcelDescription>Kreiraj izvještaj sa Excel podacima.</WizardExcelDescription>
+    <WizardJsonDescription>Kreiraj izvještaj sa Json podacima.</WizardJsonDescription>
+    <WizardPrivateShare>Bez pristupa</WizardPrivateShare>
+    <WizardPrivateShareDescription>Vanjski pristup stavki je zabranjen.</WizardPrivateShareDescription>
+    <WizardPublicShare>Javni pristup</WizardPublicShare>
+    <WizardPublicShareDescription>Vanjski pristup za sve nautorizirane korisnike.</WizardPublicShareDescription>
+    <WizardRegisteredShare>Autorizirani pristup</WizardRegisteredShare>
+    <WizardRegisteredShareDescription>Vanjski pristup samo za registrirane korisnike iz bilo kojeg radnog prostora.</WizardRegisteredShareDescription>
+    <WizardXmlDescription>Kreiraj izvještaj sa Xml podacima.</WizardXmlDescription>
   </Cloud>
   <Components>
     <StiBarCode>Bar Code</StiBarCode>
@@ -347,6 +524,8 @@
     <StiCrossSummary>Cross-sažetak</StiCrossSummary>
     <StiCrossSummaryHeader>Cross-sažetak zaglavlje</StiCrossSummaryHeader>
     <StiCrossTab>Cross-Tab</StiCrossTab>
+    <StiCrossTitle>Cross-Naslov</StiCrossTitle>
+    <StiDashboard>Kontrolna ploča</StiDashboard>
     <StiDataBand>Podaci</StiDataBand>
     <StiEmptyBand>Prazna traka</StiEmptyBand>
     <StiFooterBand>Podnožje</StiFooterBand>
@@ -357,6 +536,7 @@
     <StiHierarchicalBand>Hijerarhijska traka</StiHierarchicalBand>
     <StiHorizontalLinePrimitive>Vodoravna linija</StiHorizontalLinePrimitive>
     <StiImage>Slika</StiImage>
+    <StiMap>Karta</StiMap>
     <StiOverlayBand>Prekrivanje</StiOverlayBand>
     <StiPage>Stranica</StiPage>
     <StiPageFooterBand>Podnožje stranice</StiPageFooterBand>
@@ -378,26 +558,68 @@
     <StiWinControl>Win kontrola</StiWinControl>
     <StiZipCode>Zip Code</StiZipCode>
   </Components>
+  <Dashboard>
+    <ChangeChartType>Promijeni tip grafikona</ChangeChartType>
+    <ChangeMapType>Promijeni tip mape</ChangeMapType>
+    <ClearFilterFrom>Očisti filter od '{0}'</ClearFilterFrom>
+    <DataNotDefined>Podaci nisu definirani</DataNotDefined>
+    <Dimension>Dimenzija</Dimension>
+    <Dimensions>Dimenzije</Dimensions>
+    <DragDropDataFromDictionary>Povuci&amp;ispusti podatke iz Rječnika</DragDropDataFromDictionary>
+    <EmptyDashboardFooter>Povuci &amp; ispusti komponente iz ToolBox-a ili podatke iz Rječnika</EmptyDashboardFooter>
+    <EmptyDashboardHeader>Kontrolna ploča je prazna</EmptyDashboardHeader>
+    <ImageNotSpecified>Slika nije specificirana</ImageNotSpecified>
+    <Measure>Izmjeri</Measure>
+    <Measures>Mjere</Measures>
+    <NumberFilters>Filter brojeva</NumberFilters>
+    <StringFilters>Filter teksta</StringFilters>
+  </Dashboard>
   <Database>
     <Connection>Konekcija</Connection>
     <Database>{0} Konekcija</Database>
     <DatabaseDB2>IBM DB2 konekcija</DatabaseDB2>
     <DatabaseFirebird>Firebird konekcija</DatabaseFirebird>
     <DatabaseInformix>Informix konekcija</DatabaseInformix>
+    <DatabaseJson>JSON podaci</DatabaseJson>
     <DatabaseMySQL>MySQL konekcija</DatabaseMySQL>
-    <DatabaseOdbc>Odbc konekcija</DatabaseOdbc>
-    <DatabaseOleDb>OleDB konekcija</DatabaseOleDb>
+    <DatabaseOdbc>ODBC konekcija</DatabaseOdbc>
+    <DatabaseOleDb>OLE DB konekcija</DatabaseOleDb>
     <DatabaseOracle>Oracle konekcija</DatabaseOracle>
     <DatabaseOracleODP>Oracle ODP.NET konekcija</DatabaseOracleODP>
     <DatabasePostgreSQL>PostgreSQL konekcija</DatabasePostgreSQL>
-    <DatabaseSql>Sql konekcija</DatabaseSql>
+    <DatabaseSql>SQL konekcija</DatabaseSql>
     <DatabaseSqlCe>SQLServerCE konekcija</DatabaseSqlCe>
     <DatabaseSQLite>SQLite konekcija</DatabaseSQLite>
     <DatabaseTeradata>Teradata konekcija</DatabaseTeradata>
     <DatabaseUniDirect>Uni Direct konekcija</DatabaseUniDirect>
     <DatabaseVistaDB>VistaDB konekcija</DatabaseVistaDB>
-    <DatabaseXml>Xml podaci</DatabaseXml>
+    <DatabaseXml>XML podaci</DatabaseXml>
   </Database>
+  <DatePickerRanges>
+    <CurrentMonth>Trenutni mjesec</CurrentMonth>
+    <CurrentQuarter>Trenutno tromjesječje</CurrentQuarter>
+    <CurrentWeek>Trenutni tjedan</CurrentWeek>
+    <CurrentYear>Trenutna godina</CurrentYear>
+    <FirstQuarter>Prvo tromjesječje</FirstQuarter>
+    <FourthQuarter>Četvrto tromjesječje</FourthQuarter>
+    <MonthToDate>Mjesec u datum</MonthToDate>
+    <NextMonth>Slijedeći mjesec</NextMonth>
+    <NextQuarter>Slijedeće tromjesječje</NextQuarter>
+    <NextWeek>Slijedeći tjedan</NextWeek>
+    <NextYear>Slijedeća godina</NextYear>
+    <PreviousMonth>Prethodni mjesec</PreviousMonth>
+    <PreviousQuarter>Prethodno tromjesječje</PreviousQuarter>
+    <PreviousWeek>Prethodni tjedan</PreviousWeek>
+    <PreviousYear>Prethodna godina</PreviousYear>
+    <QuarterToDate>Tromjesječje u datum</QuarterToDate>
+    <SecondQuarter>Drugo tromjesječje</SecondQuarter>
+    <ThirdQuarter>Treće tromjesječje</ThirdQuarter>
+    <Today>Danas</Today>
+    <Tomorrow>Sutra</Tomorrow>
+    <WeekToDate>Tjedan u datum</WeekToDate>
+    <YearToDate>Godina u datum</YearToDate>
+    <Yesterday>Jučer</Yesterday>
+  </DatePickerRanges>
   <DesignerFx>
     <AlreadyExists>'{0}' već postoji.</AlreadyExists>
     <CanNotLoadThisReportTemplate>Ne mogu učitati predložak izvještaja.</CanNotLoadThisReportTemplate>
@@ -409,6 +631,7 @@
     <ConnectionSuccessfull>Uspješno konektirano</ConnectionSuccessfull>
     <Continue>Nastavi</Continue>
     <DecryptionError>Greška dekripcije: Pogrešna lozinka ili koruptirana datoteka.</DecryptionError>
+    <EmailSuccessfullySent>Email je uspješno poslan.</EmailSuccessfullySent>
     <ErrorAtSaving>Greška prilikom spremanja</ErrorAtSaving>
     <ErrorCode>Greška kod spremanja. Kod greške: {0}</ErrorCode>
     <ErrorServer>Greška kod spremanja. Server ne odgovara.</ErrorServer>
@@ -421,6 +644,8 @@
     <LoadingLanguage>Učitavam jezik</LoadingLanguage>
     <LoadingReport>Učitavanje izvještaja</LoadingReport>
     <PreviewAs>Pregledaj kao {0}</PreviewAs>
+    <RenderingReport>Renderiranje izvještaja</RenderingReport>
+    <ReportSuccessfullySaved>Izvještaj je uspješno spremljen.</ReportSuccessfullySaved>
     <RetrieveError>Dohvati greške kolumni</RetrieveError>
     <RetrievingColumns>Dohvaćanje kolumni</RetrievingColumns>
     <SavingConfiguration>Spremanje konfiguracije</SavingConfiguration>
@@ -495,7 +720,7 @@
     <FileNotFound>Datoteka "{0}" nije pronađena.</FileNotFound>
     <IdentifierIsNotValid>Identifikator '{0}' nije valjan.</IdentifierIsNotValid>
     <ImpossibleFindDataSource>Nemoguće pronaći izvor podataka.</ImpossibleFindDataSource>
-    <NameExists>Već postoji objekt imena '{0}'. Objekti moraju imati jedinstvena imena, i imena moraju biti neosjtljiva na veličinu slova.</NameExists>
+    <NameExists>Već postoji objekt imena '{0}'. Objekti moraju imati jedinstvena imena.</NameExists>
     <NoServices>Servisi nisu nađeni u '{0}'</NoServices>
     <NotAssign>Izvor podataka nije određen.</NotAssign>
     <NotCorrectFormat>Ulazni string nije pravilno formatiran.</NotCorrectFormat>
@@ -508,8 +733,10 @@
     <AllBands>Sve trake</AllBands>
     <AllowAddOrModifyTextAnnotations>Dopusti dodavanje ili izmjenu zabilješki teksta</AllowAddOrModifyTextAnnotations>
     <AllowCopyTextAndGraphics>Dopusti kopiranje teksta i grafike</AllowCopyTextAndGraphics>
+    <AllowEditable>Dopusti izmjenjivo:</AllowEditable>
     <AllowModifyContents>Dopusti izmjenu sadržaja</AllowModifyContents>
     <AllowPrintDocument>Dopusti ispis dokumenta</AllowPrintDocument>
+    <Auto>Automatski</Auto>
     <BandsFilter>Filter traka:</BandsFilter>
     <Color>Boja</Color>
     <Compressed>Skupljeno</Compressed>
@@ -527,6 +754,8 @@
     <Encoding>Kodiranje:</Encoding>
     <EncryptionError>Greška enkripcije u koraku</EncryptionError>
     <EscapeCodes>Escape kodovi</EscapeCodes>
+    <Exactly>Točno</Exactly>
+    <ExceptEditableFields>Osim izmjenjivih polja</ExceptEditableFields>
     <ExportDataOnly>Eksportiraj samo podatke</ExportDataOnly>
     <ExportEachPageToSheet>Eksportiraj svaku stranicu na list</ExportEachPageToSheet>
     <ExportingCalculatingCoordinates>Izračunavanje koordinata</ExportingCalculatingCoordinates>
@@ -577,6 +806,7 @@
     <ImageMonochrome>Monokromatski</ImageMonochrome>
     <ImageQuality>Kvaliteta slike</ImageQuality>
     <ImageResolution>Rezolucija slike:</ImageResolution>
+    <ImageResolutionMode>Mod rezolucije slike:</ImageResolutionMode>
     <ImageType>Vrsta slike</ImageType>
     <labelEncryptionKeyLength>Dužina ključa enkripcije:</labelEncryptionKeyLength>
     <labelOwnerPassword>Lozinka vlasnika:</labelOwnerPassword>
@@ -585,9 +815,11 @@
     <MonochromeDitheringType>Monochrome Dithering tip:</MonochromeDitheringType>
     <MoreSettings>Više postavki</MoreSettings>
     <MultipleFiles>Višestruke datoteke</MultipleFiles>
+    <NoMoreThan>Ne više od</NoMoreThan>
     <OpenAfterExport>Otvori nakon eksporta</OpenAfterExport>
     <PdfACompliance>PDF/A sukkladno</PdfACompliance>
     <RemoveEmptySpaceAtBottom>Ukloni prazna mjesta na kraju stranice</RemoveEmptySpaceAtBottom>
+    <RestrictEditing>Ograniči editiranje:</RestrictEditing>
     <Scale>Skala:</Scale>
     <Separator>Separator:</Separator>
     <Settings>Postavke</Settings>
@@ -616,11 +848,13 @@
     <Zoom>Zoom:</Zoom>
   </Export>
   <FileFilters>
+    <AllFiles>Sve datoteke</AllFiles>
     <AllImageFiles>Sve slikovne datoteke</AllImageFiles>
     <BitmapFiles>Bitmap datoteke</BitmapFiles>
     <BmpFiles>BMP slika (*.bmp)|*.bmp</BmpFiles>
     <CalcFiles>OpenDocument Calc datoteke (*.ods)|*.ods</CalcFiles>
     <CsvFiles>CSV datoteke (*.csv)|*.csv</CsvFiles>
+    <DashboardTemplates>Predlošci kontrolne ploče (*.sbi)|*.sbi</DashboardTemplates>
     <DataSetXmlData>DataSet XML podaci (*.xml)|*.xml</DataSetXmlData>
     <DataSetXmlSchema>DataSet XML schema (*.xsd)|*.xsd</DataSetXmlSchema>
     <DbfFiles>DBF datoteke (*.dbf)|*.dbf</DbfFiles>
@@ -632,6 +866,7 @@
     <EncryptedDocumentFiles>Datoteke enkriptirani dokument (*.mdx)|*.mdx</EncryptedDocumentFiles>
     <EncryptedReportFiles>Datoteke enkriptirani izvještaj (*.mrx)|*.mrx</EncryptedReportFiles>
     <Excel2007Files>Microsoft Excel 2007/2013 datoteke (*.xlsx)|*.xlsx</Excel2007Files>
+    <ExcelAllFiles>Microsoft Excel datoteke (*.xlsx;*.xls)|*.xlsx;*.xls</ExcelAllFiles>
     <ExcelFiles>Microsoft Excel datoteke (*.xls)|*.xls</ExcelFiles>
     <ExcelXmlFiles>Microsoft Excel XML datoteke (*.xls)|*.xls</ExcelXmlFiles>
     <ExeFiles>EXE datoteke (*.exe)|*.exe</ExeFiles>
@@ -639,6 +874,9 @@
     <HtmlFiles>HTML datoteke (*.html)|*.html</HtmlFiles>
     <InheritedLanguageFiles>{0} datoteka za naslijeđene izvještaje (*.{1})|*.{2}</InheritedLanguageFiles>
     <JpegFiles>JPEG slika (*.jpeg)|*.jpeg</JpegFiles>
+    <JsonDocumentFiles>JSON Report dokumenti (*.mdc)|*.mdc</JsonDocumentFiles>
+    <JsonFiles>JSON datoteke (*.json)|*.json</JsonFiles>
+    <JsonReportFiles>JSON Report predlošci (*.mrt)|*.mrt</JsonReportFiles>
     <LanguageFiles>{0} datoteka (*.{1})|*.{2}</LanguageFiles>
     <LanguageForSilverlightFiles>{0} datoteka za Silverlight izvještaje (*.{1})|*.{2}</LanguageForSilverlightFiles>
     <MetaFiles>Meta Files</MetaFiles>
@@ -663,7 +901,7 @@
     <WriterFiles>OpenDocument Writer datoteke (*.odt)|*.odt</WriterFiles>
     <XmlFiles>XML datoteke (*.xml)|*.xml</XmlFiles>
     <XpsFiles>Microsoft XPS datoteke (*.xps)|*.xps</XpsFiles>
-    <ZipArchives>Zip arhiva (*.zip)|*.zip</ZipArchives>
+    <ZipArchives>ZIP arhiva (*.zip)|*.zip</ZipArchives>
   </FileFilters>
   <Formats>
     <custom01>d</custom01>
@@ -733,6 +971,8 @@
     <AddCondition>&amp;Dodaj uvjet</AddCondition>
     <AddLevel>Dodaj nivo</AddLevel>
     <AssignExpression>Dodijeli frazu</AssignExpression>
+    <BreakIfTrue>Prelomi ako je istinito</BreakIfTrue>
+    <BreakIfTrueToolTip>Prekida procesiranje uvjeta ako je trenutni ispunjen</BreakIfTrueToolTip>
     <ChangeFont>Promijeni font...</ChangeFont>
     <ComponentIsEnabled>Komponenta je omogućena</ComponentIsEnabled>
     <NoConditions>Bez uvjeta</NoConditions>
@@ -751,44 +991,57 @@
   </FormCrossTabDesigner>
   <FormDatabaseEdit>
     <ConnectionString>Konekcijski string:</ConnectionString>
+    <DashboardConnections>Konekcije kontrolne ploče</DashboardConnections>
     <DB2Edit>Uredi IBM DB2 konekciju</DB2Edit>
     <DB2New>Nova IBM DB2 konekcija</DB2New>
     <EditConnection>Uredi {0} konekciju</EditConnection>
     <FirebirdEdit>Uredi Firebird konekciju</FirebirdEdit>
     <FirebirdNew>Nova Firebird konekcija</FirebirdNew>
+    <FirstRowIsHeader>Prvi red je zaglavlje</FirstRowIsHeader>
+    <ImportData>Uvezi podatke</ImportData>
     <InformixEdit>Izmjeni Informix konekciju</InformixEdit>
     <InformixNew>Nova Informix konekcija</InformixNew>
     <InitialCatalog>Početni katalog:</InitialCatalog>
+    <JsonEdit>Izmijeni JSON podatke</JsonEdit>
+    <JsonNew>Novi JSON podaci</JsonNew>
     <MySQLEdit>Uredi MySQL konekciju</MySQLEdit>
     <MySQLNew>Nova MySQL konekcija</MySQLNew>
     <NewConnection>Nova {0} konekcija</NewConnection>
-    <OdbcEdit>Uredi Odbc konekciju</OdbcEdit>
-    <OdbcNew>Nova Odbc konekcija</OdbcNew>
-    <OleDbEdit>Uredi OleDb konekciju</OleDbEdit>
-    <OleDbNew>Nova OleDb konekcija</OleDbNew>
+    <OdbcEdit>Uredi ODBC konekciju</OdbcEdit>
+    <OdbcNew>Nova ODBC konekcija</OdbcNew>
+    <OleDbEdit>Uredi OLE DB konekciju</OleDbEdit>
+    <OleDbNew>Nova OLE DB konekcija</OleDbNew>
     <OracleEdit>Uredi Oracle konekciju</OracleEdit>
     <OracleNew>Nova Oracle konekcija</OracleNew>
     <OracleODPEdit>Uredi Oracle ODP.NET konekciju</OracleODPEdit>
     <OracleODPNew>Nova Oracle ODP.NET konekcija</OracleODPNew>
     <PathData>Put do XML podataka:</PathData>
+    <PathJsonData>Put do JSON podataka:</PathJsonData>
     <PathSchema>Put do XSD scheme:</PathSchema>
+    <PathToData>Put do podataka:</PathToData>
+    <Pin>Pin</Pin>
     <PostgreSQLEdit>Uredi PostgreSQL konekciju</PostgreSQLEdit>
     <PostgreSQLNew>Nova PostgreSQL konekcija</PostgreSQLNew>
     <PromptUserNameAndPassword>Upitaj za korisničko ime i lozinku</PromptUserNameAndPassword>
+    <RecentConnections>Nedavni</RecentConnections>
+    <ReportConnections>Konekcije izvještaja</ReportConnections>
     <SqlCeEdit>Uredi SQLServerCE konekciju</SqlCeEdit>
     <SqlCeNew>Nova SQLServerCE konekcija</SqlCeNew>
-    <SqlEdit>Uredi Sql konekciju</SqlEdit>
+    <SqlEdit>Uredi SQL konekciju</SqlEdit>
     <SQLiteEdit>Uredi SQLite konekciju</SQLiteEdit>
     <SQLiteNew>Nova SQLite konekcija</SQLiteNew>
-    <SqlNew>Nova Sql konekcija</SqlNew>
+    <SqlNew>Nova SQL konekcija</SqlNew>
     <TeradataEdit>Izmijeni Teradata konekciju</TeradataEdit>
     <TeradataNew>Nova Teradata konekcija</TeradataNew>
     <UniDirectEdit>Uredi Uni Direct konekciju</UniDirectEdit>
     <UniDirectNew>Nova Uni Direct konekcija</UniDirectNew>
+    <Unpin>Otkvači</Unpin>
+    <UseBearerAuthentication>Koristi autentifikaciju nosioca</UseBearerAuthentication>
     <VistaDBEdit>Uredi VistaDB konekciju</VistaDBEdit>
     <VistaDBNew>NOva VistaDB konekcija</VistaDBNew>
-    <XmlEdit>Uredi Xml podatke</XmlEdit>
-    <XmlNew>Novi Xml podaci</XmlNew>
+    <XmlEdit>Uredi XML podatke</XmlEdit>
+    <XmlNew>Novi XML podaci</XmlNew>
+    <XmlType>XML tip:</XmlType>
   </FormDatabaseEdit>
   <FormDesigner>
     <Code>Kod</Code>
@@ -798,6 +1051,7 @@
     <CompilingReport>Kompajliraj izvještaj</CompilingReport>
     <DockingPanels>Ploče</DockingPanels>
     <HtmlPreview>HTML pretpregled</HtmlPreview>
+    <JsPreview>JS pretpregled</JsPreview>
     <labelPleaseSelectTypeOfInterface>Molim, odaberite vrstu interfejsa</labelPleaseSelectTypeOfInterface>
     <LoadImage>Učitaj sliku...</LoadImage>
     <LocalizePropertyGrid>Lokaliziraj mrežu svojstava</LocalizePropertyGrid>
@@ -805,6 +1059,7 @@
     <MarginsNormal>Normalno</MarginsNormal>
     <MarginsWide>Široko</MarginsWide>
     <OrderToolbars>Posloži alatne trake</OrderToolbars>
+    <Others>Drugi</Others>
     <Pages>Stranice</Pages>
     <Preview>Pretpregled</Preview>
     <PropertyChange>Izmjena svojstva '{0}'</PropertyChange>
@@ -825,8 +1080,17 @@
     <CategoryNew>Nova kategorija</CategoryNew>
     <ChildOfBusinessObject>Dijete Business objekta</ChildOfBusinessObject>
     <ChildSource>Dijete izvor podataka:</ChildSource>
+    <ClickHere>Klikni ovdje</ClickHere>
     <ColumnEdit>Uredi stupac</ColumnEdit>
     <ColumnNew>Novi stupac</ColumnNew>
+    <CreateNewDataSource>da bi napravio novi izvor podataka</CreateNewDataSource>
+    <CreateNewReport>da bi kreirao novi izvještaj</CreateNewReport>
+    <CsvSeparatorComma>Zarez</CsvSeparatorComma>
+    <CsvSeparatorOther>Drugi</CsvSeparatorOther>
+    <CsvSeparatorSemicolon>Zarez</CsvSeparatorSemicolon>
+    <CsvSeparatorSpace>Razmak</CsvSeparatorSpace>
+    <CsvSeparatorSystem>Sistem</CsvSeparatorSystem>
+    <CsvSeparatorTab>Tab</CsvSeparatorTab>
     <DatabaseEdit>Uredi bazu podataka</DatabaseEdit>
     <DatabaseNew>Nova baza podataka</DatabaseNew>
     <DataParameterEdit>Uredi parametar</DataParameterEdit>
@@ -841,11 +1105,14 @@
     <DictionaryNew>Novi rječnik...</DictionaryNew>
     <DictionaryOpen>Otvori rječnik...</DictionaryOpen>
     <DictionarySaveAs>Spremi rječnik kao...</DictionarySaveAs>
+    <DragNewDataSource>povuci svoje podatke direktno na ovu ploču</DragNewDataSource>
+    <DragNewReport>povuci svoj izvještaj direktno na ovu ploču</DragNewReport>
     <EditQuery>Uredi upit</EditQuery>
     <ExecutedSQLStatementSuccessfully>SQL naredba je uspješno izvedena</ExecutedSQLStatementSuccessfully>
     <ExpressionNew>Novi izraz</ExpressionNew>
     <GetColumnsFromAssembly>Uzmi stupce iz Assembly-a</GetColumnsFromAssembly>
     <ImportRelations>Importiraj relacije</ImportRelations>
+    <LabelSeparator>Rastavljač:</LabelSeparator>
     <MarkUsedItems>Označi korištene stavke</MarkUsedItems>
     <NewBusinessObject>Novi Business objekt</NewBusinessObject>
     <NewItem>Nova stavka</NewItem>
@@ -854,15 +1121,25 @@
     <Queries>Upiti</Queries>
     <QueryNew>Novi upit</QueryNew>
     <QueryText>Tekst upita</QueryText>
+    <QueryTimeout>Timeout upita</QueryTimeout>
     <RelationEdit>Uredi relaciju</RelationEdit>
     <RelationNew>Nova relacija</RelationNew>
+    <ResourceEdit>Editiraj resurse</ResourceEdit>
+    <ResourceNew>Novi resurs</ResourceNew>
     <RetrieveColumns>Učitaj stupce</RetrieveColumns>
+    <RetrieveColumnsAllowRun>Dopusti pokretanje StoredProc</RetrieveColumnsAllowRun>
+    <RetrieveColumnsAndParameters>Dohvati kolumne i parametre</RetrieveColumnsAndParameters>
+    <RetrieveParameters>Dohvati parametre</RetrieveParameters>
     <RetrievingDatabaseInformation>Dohvaćam informacije o bazi podataka...</RetrievingDatabaseInformation>
     <Run>Pokreni</Run>
     <SelectTypeOfBusinessObject>Odaberi tip Business objekta</SelectTypeOfBusinessObject>
+    <SkipSchemaWizard>Preskoči čarobnjak sheme</SkipSchemaWizard>
     <SortItems>Sortiraj stavke</SortItems>
     <Synchronize>Sinhroniziraj</Synchronize>
     <SynchronizeHint>Sinhronizira sadržaj Data Store-a i sadržaj rječnika</SynchronizeHint>
+    <TextDropDataFileHere>Ispusti podatkovnu datoteku ovdje</TextDropDataFileHere>
+    <TextDropFileHere>Ispusti datoteku ovdje</TextDropFileHere>
+    <TextDropImageHere>Ispusti sliku ovdje</TextDropImageHere>
     <title>Dizajner rječnika</title>
     <ValueNew>Nova vrijednost</ValueNew>
     <VariableEdit>Uredi varijablu</VariableEdit>
@@ -916,6 +1193,11 @@
     <SetCulture>Postavi postavke kulture u izvještaju</SetCulture>
     <title>Editor globalizacije</title>
   </FormGlobalizationEditor>
+  <FormInteraction>
+    <HyperlinkExternalDocuments>Hiperveza do eksternog dokumenta</HyperlinkExternalDocuments>
+    <HyperlinkUsingInteractionBookmark>Hiperveza koristeći knjižnu oznaku</HyperlinkUsingInteractionBookmark>
+    <HyperlinkUsingInteractionTag>Hiperveza koristeći oznaku</HyperlinkUsingInteractionTag>
+  </FormInteraction>
   <FormOptions>
     <AutoSave>Automatsko spremanje</AutoSave>
     <AutoSaveReportToReportClass>Automatski spremi izvještaj u C# ili VB.Net datoteku</AutoSaveReportToReportClass>
@@ -956,6 +1238,8 @@
     <MarkersStyleCorners>Uglovi</MarkersStyleCorners>
     <MarkersStyleDashedRectangle>Iscrtkani pravokutnik</MarkersStyleDashedRectangle>
     <MarkersStyleNone>Ništa</MarkersStyleNone>
+    <MessageLeftRightNotValid>Lijevo i Desno vrijednosti nisu valjane.</MessageLeftRightNotValid>
+    <MessageTopBottomNotValid>Gore i Dolje vrijednosti nisu valjane.</MessageTopBottomNotValid>
     <Minutes>{0} minuta</Minutes>
     <SaveReportEvery>Spremi izvještaj svakih:</SaveReportEvery>
     <SelectUILanguage>Odaberi jezik UI-ja</SelectUILanguage>
@@ -988,6 +1272,7 @@
     <labelMultipleFactor>Faktor množenja:</labelMultipleFactor>
     <labelPaperSourceOfFirstPage>Izvor papira za prvu stranicu:</labelPaperSourceOfFirstPage>
     <labelPaperSourceOfOtherPages>Izvor papira za ostale stranice:</labelPaperSourceOfOtherPages>
+    <labelSelectBrush>Odaberi četku:</labelSelectBrush>
     <labelSelectColor>Odaberite boju:</labelSelectColor>
     <labelSelectFont>Odaberite font:</labelSelectFont>
     <labelSelectImage>Odaberite sliku:</labelSelectImage>
@@ -1033,10 +1318,12 @@
     <Add>Dodaj stil</Add>
     <ApplyStyleCollectionToReportComponents>Primjeni kolekciju stilova na komponente izvještaja</ApplyStyleCollectionToReportComponents>
     <ApplyStyles>Primjeni stilove</ApplyStyles>
+    <ColorCollectionEditor>Editor kolekcije boja</ColorCollectionEditor>
     <CreateStyleCollection>Kreiraj kolekciju stilova</CreateStyleCollection>
     <CreateStylesFromColor>Kreiraj stil iz odabrane boje</CreateStylesFromColor>
     <Duplicate>Dupliciraj stil</Duplicate>
     <GetStyle>Dohvati stil iz odabranih komponenti</GetStyle>
+    <MoreStyles>Više stilova</MoreStyles>
     <Open>Otvori stil</Open>
     <qnApplyStyleCollection>Želite li primjeniti kolekciju stilova na komponente izvještaja?</qnApplyStyleCollection>
     <Remove>Makni stil</Remove>
@@ -1072,6 +1359,7 @@
     <DataSourceSelectForm>Odaberite izvor podataka</DataSourceSelectForm>
     <DataSourcesNewForm>Novi izvor podataka</DataSourcesNewForm>
     <DataStoreViewerForm>Data Store preglednik</DataStoreViewerForm>
+    <DesignerApplication>Dizajner izvještaja</DesignerApplication>
     <EventEditorForm>Editor događaja</EventEditorForm>
     <ExpressionEditorForm>Editor izraza</ExpressionEditorForm>
     <GroupConditionForm>Uvjet grupe</GroupConditionForm>
@@ -1081,8 +1369,9 @@
     <PageSizeForm>Veličina stranice</PageSizeForm>
     <PagesManagerForm>Manager stranica</PagesManagerForm>
     <PromptForm>Unesite informacije za logiranje na bazu podataka</PromptForm>
+    <ReportWizard>Čarobnjak izvještaja</ReportWizard>
     <ServiceSelectForm>Odaberite servis</ServiceSelectForm>
-    <SqlExpressionsForm>Sql izrazi</SqlExpressionsForm>
+    <SqlExpressionsForm>SQL izrazi</SqlExpressionsForm>
     <SubReportPageSelectForm>Odaberite stranicu podizvještaja</SubReportPageSelectForm>
     <TextEditorForm>Tekstualni Editor</TextEditorForm>
     <ViewDataForm>Pregled podataka</ViewDataForm>
@@ -1145,6 +1434,38 @@
     <FindPrevious>Nađi prethodno</FindPrevious>
     <FindWhat>Nađi što:</FindWhat>
   </FormViewerFind>
+  <Gauge>
+    <AddNewItem>Dodaj novi predmet</AddNewItem>
+    <BarRangeList>Lista raspona stupaca</BarRangeList>
+    <GaugeEditorForm>Editor mjerila</GaugeEditorForm>
+    <Kind>Vrsta</Kind>
+    <LinearBar>Linearni stupac</LinearBar>
+    <LinearMarker>Linearni marker</LinearMarker>
+    <LinearRange>Linearni raspon</LinearRange>
+    <LinearRangeList>Lista linearnih raspona</LinearRangeList>
+    <LinearScale>Linearna skala</LinearScale>
+    <LinearTickLabelCustom>Linear Tick Label Custom</LinearTickLabelCustom>
+    <LinearTickLabelMajor>Linear Tick Label Major</LinearTickLabelMajor>
+    <LinearTickLabelMinor>Linear Tick Label Minor</LinearTickLabelMinor>
+    <LinearTickMarkCustom>Linear Tick Mark Custom</LinearTickMarkCustom>
+    <LinearTickMarkMajor>Linear Tick Mark Major</LinearTickMarkMajor>
+    <LinearTickMarkMinor>Linear Tick Mark Minor</LinearTickMarkMinor>
+    <Needle>Igla</Needle>
+    <RadialBar>Radijalni stupac</RadialBar>
+    <RadialMarker>Radijalni marker</RadialMarker>
+    <RadialRange>Radijalni raspon</RadialRange>
+    <RadialRangeList>Lista radijalnih raspona</RadialRangeList>
+    <RadialScale>Radialna skala</RadialScale>
+    <RadialTickLabelCustom>Radijalna oznaka natpis prilagođeno</RadialTickLabelCustom>
+    <RadialTickLabelMajor>Radijalna oznaka natpis Major</RadialTickLabelMajor>
+    <RadialTickLabelMinor>Radijalna oznaka natpis Minor</RadialTickLabelMinor>
+    <RadialTickMarkCustom>Radijalna oznaka prilagođeno</RadialTickMarkCustom>
+    <RadialTickMarkMajor>Radijalna oznaka Major</RadialTickMarkMajor>
+    <RadialTickMarkMinor>Radijalna oznaka Minor</RadialTickMarkMinor>
+    <StateIndicator>Indikator stanja</StateIndicator>
+    <StateIndicatorFilter>Filter indikatora stanja</StateIndicatorFilter>
+    <TickCustomValue>Označite prilagođenu vrijednost</TickCustomValue>
+  </Gauge>
   <Gui>
     <barname_cancel>Odustani</barname_cancel>
     <barname_caption>Nova alatna traka</barname_caption>
@@ -1251,12 +1572,14 @@
     <StiDataBand>Data traka je konektirana na izvor podataka i prikazuje se onoliko puta koliko ima redaka u izvoru podataka.</StiDataBand>
     <StiEmptyBand>Ova traka se koristi za popunjavanje praznog prostora na dnu stranice. Ova traka popunjava prazan prostor na svakoj stranici izvještaja.</StiEmptyBand>
     <StiFooterBand>Ova traka se koristi za prikaz sažetka kod Data trake. Postavlja se ispod Data trake i prikazuje se jednom nakon svih redova podataka koji su prikazani putem Data trake.</StiFooterBand>
+    <StiGauge>Komponenta vam omogućava da prikažete vrijednost unutar prethodno određenog raspona. Može imati različite grafičke prikaze.</StiGauge>
     <StiGroupFooterBand>GroupFooter traka se koristi za prikaz podnožja grupe. Ova traka se postavlja nakon Data trake. Svaka GroupFooter traka pripada određenoj GroupHeader traci. GroupFooter traka se neće prikazivati bez GroupHeader trake.</StiGroupFooterBand>
     <StiGroupHeaderBand>Ova traka je osnovna za renderiranje izvještaja sa grupiranjem. Komponente za prikaz informacija za grupiranje se postavljaju na group header-u. To mogu biti naziv grupe, datum, uvjet, itd. Traka se prikazuje jednom na početku svake grupe.</StiGroupHeaderBand>
     <StiHeaderBand>Ova traka se koristi za prikaz zaglavlja. Koristi se zajedno sa Data trakom.</StiHeaderBand>
     <StiHierarchicalBand>Ova traka je konektirana na izvor podataka i prikazana onoliko puta koliko ima redova u izvoru podataka. Podaci se prikazuju kao drvo.</StiHierarchicalBand>
     <StiHorizontalLinePrimitive>Ova komponenta se koristi za prikaz linije.</StiHorizontalLinePrimitive>
     <StiImage>Ova komponenta se koristi za prikaz slika. Podržava slijedeće grafičke formate, kao što su BMP, JPG, JPEG, GIF, TIFF, PNG, ICO, WMF, EMF.</StiImage>
+    <StiMap>Ova komponenta se koristi za prikaz geografski označenih podataka.</StiMap>
     <StiOverlayBand>Ova traka se koristi za prikaz vodenih žigova na stranici.</StiOverlayBand>
     <StiPageFooterBand>Ova traka se koristi za prikaz informacija na dnu svake stranice. Ova traka se koristi za prikaz brojeva stranica, datuma, i drugih informacija.</StiPageFooterBand>
     <StiPageHeaderBand>Ova traka se koristi za prikaz zaglavlja stranice. Prikazuje se na vrhu svake stranice. Ova traka se koristi za prikaz brojeva stranica, datuma, i drugih informacija.</StiPageHeaderBand>
@@ -1309,6 +1632,7 @@
     <Close>Zatvori dizajner izvještaja.</Close>
     <Columns>Podijeli stranicu u stupce.</Columns>
     <ComponentSize>Promijeni veličinu odabranih komponenata.</ComponentSize>
+    <CopyStyle>Stil kopiranja</CopyStyle>
     <CopyToClipboard>Kopiraj u međuspremnik</CopyToClipboard>
     <CurrencySymbol>Odaberi simbol valute.</CurrencySymbol>
     <DataStore>Prikaži registrirane podatke u izještaju.</DataStore>
@@ -1438,6 +1762,7 @@
     <AddPageBreaks>Vizualni razdjelnik stranica izvještaja.</AddPageBreaks>
     <AllowAddOrModifyTextAnnotations>Ograničeni pristup radu sa primjedbama u dokumentu.</AllowAddOrModifyTextAnnotations>
     <AllowCopyTextAndGraphics>Ograničen pristup kopiranju informacija.</AllowCopyTextAndGraphics>
+    <AllowEditable>Dopušta izmjenu samo komponenata kod kojih je omogućeno svojstvo Izmjenjivo.</AllowEditable>
     <AllowModifyContents>Ograničen pristup uređivanju teksta.</AllowModifyContents>
     <AllowPrintDocument>Ograničen pristup operaciji ispisa.</AllowPrintDocument>
     <Bookmarks>Prikaži bookmark panel koji se koristi za brzu navigaciju kako bi skočili direktno na označenu lokaciju.</Bookmarks>
@@ -1498,6 +1823,7 @@
     <PutFeedPageCode>Uvuci stranice u završnom dokumentu sa specijalnim znakom.</PutFeedPageCode>
     <RangePages>Brojevi stranica moraju biti procesirani. Možete odrediti jednu stranicu, listu stranica (koristeći zarez kao razdjelnik), kao i odrediti početnu stranicu raspona odvojeno sa "-" i završnu stranicu raspona. Na primjer: 1,3,5-12.</RangePages>
     <RemoveEmptySpaceAtBottom>Minimiziraj prazan prostor na dnu stranice.</RemoveEmptySpaceAtBottom>
+    <RestrictEditing>Ograničenja nad izmjenama u Word dokumentu.</RestrictEditing>
     <Save>Spremi izvještaj za daljnju uporabu.</Save>
     <ScaleHtml>Veličina (skala) stranica izvještaja i komponenti nakon export-a.</ScaleHtml>
     <ScaleImage>Veličina (skala) izvještaja nakon export-a. Što je manja skala, to je veći broj piksela po inču i obrnuto.</ScaleImage>
@@ -1524,11 +1850,21 @@
     <ZoomTwoPages>Zumiraj izvještaj tako da dvije stranice stanu u prozor.</ZoomTwoPages>
     <ZoomTxt>Veličina izvještaja (skala): X - za promjenu horizontalne skale, Y - za promjenu vertikalne skale.</ZoomTxt>
   </HelpViewer>
+  <Interface>
+    <Mouse>Miš</Mouse>
+    <MouseDescription>Optimizirano za korištenje sa mišom</MouseDescription>
+    <Touch>Dodir</Touch>
+    <TouchDescription>Optimizirano za korištenje na dodir</TouchDescription>
+  </Interface>
   <MainMenu>
     <menuCheckIssues>Provjeri za greške</menuCheckIssues>
     <menuContextClone>Kloniraj...</menuContextClone>
     <menuContextDesign>Dizajn...</menuContextDesign>
     <menuContextTextFormat>Format teksta...</menuContextTextFormat>
+    <menuConvertToCheckBox>Konvertiraj u CheckBox</menuConvertToCheckBox>
+    <menuConvertToImage>Konvertiraj u sliku</menuConvertToImage>
+    <MenuConvertToRichText>konvertiraj u RichText</MenuConvertToRichText>
+    <menuConvertToText>Konvertiraj u tekst</menuConvertToText>
     <menuDeleteColumn>Izbriši stupac</menuDeleteColumn>
     <menuDeleteRow>Izbriši redak</menuDeleteRow>
     <menuEdit>&amp;Uredi</menuEdit>
@@ -1554,6 +1890,7 @@
     <menuEditRedoText>&amp;Ponovi {0}</menuEditRedoText>
     <menuEditRelationNew>Nova relacija...</menuEditRelationNew>
     <menuEditRemoveUnused>Makni nekorištene stavke</menuEditRemoveUnused>
+    <menuEditResourceNew>Novi resurs...</menuEditResourceNew>
     <menuEditSelectAll>Odaberi sve</menuEditSelectAll>
     <menuEditSynchronize>Sinhroniziraj</menuEditSynchronize>
     <menuEditUndo>&amp;Poništi</menuEditUndo>
@@ -1562,6 +1899,9 @@
     <menuEditViewData>Pregled podataka...</menuEditViewData>
     <menuFile>&amp;Datoteka</menuFile>
     <menuFileClose>&amp;Zatvori</menuFileClose>
+    <menuFileDashboardNew>Nova nadzorna ploča</menuFileDashboardNew>
+    <menuFileDashboardOpen>&amp;Otvori kontrolnu ploču...</menuFileDashboardOpen>
+    <menuFileDashboardSaveAs>Spremi kontrolnu ploču &amp;kao...</menuFileDashboardSaveAs>
     <menuFileExit>Izlaz</menuFileExit>
     <menuFileExportXMLSchema>Eksportiraj XML schemu...</menuFileExportXMLSchema>
     <menuFileFormNew>Nova forma</menuFileFormNew>
@@ -1626,10 +1966,175 @@
     <menuViewQuickInfoShowFieldsOnly>Prikaži samo polja</menuViewQuickInfoShowFieldsOnly>
     <menuViewShowGrid>Prikaži mrežu</menuViewShowGrid>
     <menuViewShowHeaders>Prikaži zaglavlja</menuViewShowHeaders>
+    <menuViewShowInsertTab>Prikaži karticu 'Umetanje'</menuViewShowInsertTab>
     <menuViewShowOrder>Prikaži poredak</menuViewShowOrder>
     <menuViewShowRulers>Prikaži ravnala</menuViewShowRulers>
+    <menuViewShowToolbox>Prikaži alatnu traku</menuViewShowToolbox>
     <menuViewToolbars>Alatne trake</menuViewToolbars>
   </MainMenu>
+  <Map>
+    <GroupAsia>Azija</GroupAsia>
+    <GroupEurope>Europa</GroupEurope>
+    <GroupNorthAmerica>Sjeverna Amerika</GroupNorthAmerica>
+    <GroupOceania>Oceania</GroupOceania>
+    <GroupSouthAmerica>Južna Amerika</GroupSouthAmerica>
+    <GroupWorld>Svijet</GroupWorld>
+    <LinkDataForm>Poveži podatke</LinkDataForm>
+    <MapEditorForm>Editor karte</MapEditorForm>
+  </Map>
+  <Messages>
+    <MessageTimeOutExpired>Timeout komande je istekao!</MessageTimeOutExpired>
+    <TextRegistrationSuccessfully>Registracija uspješna!
+
+Email je poslan na "{0}".
+Sadrži poveznicu za potvrdu vaše registracije. Kako bi dovršili registraciju molim kliknite na poveznicu u mail-u kojeg ste dobili.</TextRegistrationSuccessfully>
+    <ThisFieldIsNotSpecified>Ovo polje nije specificirano!</ThisFieldIsNotSpecified>
+  </Messages>
+  <Notices>
+    <AccessDenied>Pristup zabranjen!</AccessDenied>
+    <AccountLocked>Vaš račun je zaključan! Kako bi ga otključali, molimo pošaljite zahtjev na sales@stimulsoft.com!</AccountLocked>
+    <ActivationExpiriedBeforeFirstRelease>Vaša pretplata na Stimulsoft Reports.Ultimate je istekla prije nego što je prva verzija Stimulsoft Reports.Server objavljena!</ActivationExpiriedBeforeFirstRelease>
+    <ActivationLicenseIsNotCorrect>Datoteka licence nije ispravna! Molimo kontaktirajte naš odjel prodaje na sales@stimulsoft.com!</ActivationLicenseIsNotCorrect>
+    <ActivationLockedAccount>Vaš račun je zaključan. Molimo kontaktirajte naš odjel prodaje na sales@stimulsoft.com!</ActivationLockedAccount>
+    <ActivationMaxActivationsReached>Dosegli ste maksimalni broj aktivacija. Molimo kontaktirajte naš odjel prodaje na sales@stimulsoft.com!</ActivationMaxActivationsReached>
+    <ActivationServerIsNotAvailableNow>Stimulsoft Activation Server trenutno nije dostupan! Molimo pokušajte kasnije.</ActivationServerIsNotAvailableNow>
+    <ActivationServerVersionNotAllowed>Ne možete aktivirati ovu verziju Stimulsoft Reports.Server jer je vaš program pretplate istekao! Molimo da se prijavite u vaš račun i provjerite koju verziju Stimulsoft Reports.Server možete instalirati i aktivirati.</ActivationServerVersionNotAllowed>
+    <ActivationSomeTroublesOccurred>Greška prilikom aktivacije. Molimo pokušajte kasnije.</ActivationSomeTroublesOccurred>
+    <ActivationUserNameOrPasswordIsWrong>Vaše korisničko ime (Email) ili lozinka su pogrešni!</ActivationUserNameOrPasswordIsWrong>
+    <ActivationWrongAccountType>Vaša vrsta računa ne dozvoljava aktivaciju Stimulsoft Reports.Server!</ActivationWrongAccountType>
+    <AuthAccountCantBeUsedNow>Račun se ne može trenutno koristiti!</AuthAccountCantBeUsedNow>
+    <AuthAccountIsNotActivated>Račun još nije aktiviran! Molimo pratite upute poslane na Email tijekom registracije.</AuthAccountIsNotActivated>
+    <AuthCantChangeRoleBecauseLastAdministratorUser>Korisnička uloga ne može biti izmijenjena jer je ovo zadnji administratorski korisnik u ovom radnom prostoru!</AuthCantChangeRoleBecauseLastAdministratorUser>
+    <AuthCantChangeRoleBecauseLastSupervisorUser>Korisnička uloga ne može biti izmijenjena jer je ovo zadnji supervizorski korisnik u ovom radnom prostoru!</AuthCantChangeRoleBecauseLastSupervisorUser>
+    <AuthCantChangeSystemRole>Sistemska korisnička uloga se ne može mijenjati!</AuthCantChangeSystemRole>
+    <AuthCantDeleteHimselfUser>Korisnik ne može obristi samoga sebe!</AuthCantDeleteHimselfUser>
+    <AuthCantDeleteLastAdministratorUser>Korisnika nije moguće obrisati jer je ovo zadnji administratorski korisnik u ovom radnom prostoru!</AuthCantDeleteLastAdministratorUser>
+    <AuthCantDeleteLastSupervisorUser>Korisnika nije moguće obrisati jer je ovo zadnji administratorski korisnik u ovom serveru!</AuthCantDeleteLastSupervisorUser>
+    <AuthCantDeleteSystemRole>Nije moguće obrisati korisničku ulogu jer je sistemska korisnička uloga!</AuthCantDeleteSystemRole>
+    <AuthCantDisableUserBecauseLastAdministratorUser>Korisnika nije moguće onemogućiti jer je ovo zadnji administratorski korisnik u ovom radnom prostoru!</AuthCantDisableUserBecauseLastAdministratorUser>
+    <AuthCantDisableUserBecauseLastSupervisorUser>Korisnika nije moguće onemogućiti jer je ovo zadnji supervizorski korisnik u ovom serveru!</AuthCantDisableUserBecauseLastSupervisorUser>
+    <AuthFirstNameIsNotSpecified>Ime nije specificirano!</AuthFirstNameIsNotSpecified>
+    <AuthLastNameIsNotSpecified>Prezime nije specificirano!</AuthLastNameIsNotSpecified>
+    <AuthOAuthIdNotSpecified>OAuth identifikator nije specificiran!</AuthOAuthIdNotSpecified>
+    <AuthPasswordIsNotCorrect>Netočna lozinka!</AuthPasswordIsNotCorrect>
+    <AuthPasswordIsNotSpecified>Lozinka nije specificirana!</AuthPasswordIsNotSpecified>
+    <AuthPasswordIsTooShort>Lozinka je prekratka (minimalna duljina je 6 znakova)!</AuthPasswordIsTooShort>
+    <AuthRoleCantBeDeletedBecauseUsedByUsers>Nije moguće obrisati korisničku ulogu jer je koriste drugi korisnici.</AuthRoleCantBeDeletedBecauseUsedByUsers>
+    <AuthRoleNameAlreadyExists>Korisnička uloga sa imenom "{0}" već postoji!</AuthRoleNameAlreadyExists>
+    <AuthRoleNameIsSystemRole>Korisnička uloga sa imenom "{0}" je sistemska korisnička uloga!</AuthRoleNameIsSystemRole>
+    <AuthSendMessageWithInstructions>Poruka sa daljnjim uputama je poslana na "{0}"!</AuthSendMessageWithInstructions>
+    <AuthUserHasLoggedOut>Odjavili ste se!</AuthUserHasLoggedOut>
+    <AuthUserNameAlreadyExists>Korisničko ime (Email) se već koristi!</AuthUserNameAlreadyExists>
+    <AuthUserNameIsNotSpecified>Korisničko ime (Email) nije specificirano!</AuthUserNameIsNotSpecified>
+    <AuthUserNameOrPasswordIsNotCorrect>Korisničko ime (Email) ili lozinka su netočni!</AuthUserNameOrPasswordIsNotCorrect>
+    <AuthUserNameShouldLookLikeAnEmailAddress>Korisničko ime bi trebalo biti slično Email adresi!</AuthUserNameShouldLookLikeAnEmailAddress>
+    <AuthWorkspaceNameAlreadyInUse>Ime radnog prostora se već koristi!</AuthWorkspaceNameAlreadyInUse>
+    <CommandTimeOut>Vrijeme čekanja na izvršenje komande je isteklo!</CommandTimeOut>
+    <Congratulations>Čestitke!</Congratulations>
+    <EndDateShouldBeGreaterThanCurrentDate>Završni datum bi trebao biti veći od trenutnog datuma!</EndDateShouldBeGreaterThanCurrentDate>
+    <EndDateShouldBeGreaterThanStartDate>Završni datum bi trebao biti veći od početnog datuma!</EndDateShouldBeGreaterThanStartDate>
+    <ExecutionError>Greška izvršenja</ExecutionError>
+    <IsIdentical>"{0}" i "{1}" su identični."</IsIdentical>
+    <IsNotAuthorized>Nema pristupa u "{0}"!</IsNotAuthorized>
+    <IsNotCorrect>"{0}" je netočno!</IsNotCorrect>
+    <IsNotDeleted>"{0}" nije obrisano!</IsNotDeleted>
+    <IsNotEqual>"{0}" nije jednako!</IsNotEqual>
+    <IsNotFound>"{0}" nije nađeno!</IsNotFound>
+    <IsNotRecognized>"{0}" nije prepoznato!</IsNotRecognized>
+    <IsNotSpecified>"{0}" nije specificirano!</IsNotSpecified>
+    <IsRequiredFile>Trebali bi dodati barem jednu datoteku!</IsRequiredFile>
+    <ItemCantBeAttachedToItself>Stavku nije moguće dodati samoj sebi!</ItemCantBeAttachedToItself>
+    <ItemCantBeDeletedBecauseItemIsAttachedToOtherItems>Elementi "{0}" se ne mogu obrisati jer su dodani drugim elementima!</ItemCantBeDeletedBecauseItemIsAttachedToOtherItems>
+    <ItemCantBeMovedToSpecifiedPlace>Stavka ne može biti maknuta na određeno mjesto!</ItemCantBeMovedToSpecifiedPlace>
+    <ItemDoesNotSupport>Stavka ne podržava "{0}"!</ItemDoesNotSupport>
+    <KeyAndToKeyAreEqual>A Key i ToKey su jednaki!</KeyAndToKeyAreEqual>
+    <NewProduct>Novi proizvod je dodan vašoj pretplati!</NewProduct>
+    <NotificationFailed>Neuspjeli rezultat!</NotificationFailed>
+    <NotificationFilesUploadingComplete>Datoteke su uspješno prenesene.</NotificationFilesUploadingComplete>
+    <NotificationFileUploading>Datoteka "{0}" se prenosi.</NotificationFileUploading>
+    <NotificationItemDelete>Stavke se brišu.</NotificationItemDelete>
+    <NotificationItemDeleteComplete>Stavke su uspješno obrisane.</NotificationItemDeleteComplete>
+    <NotificationItemRestore>Stavke se vraćaju.</NotificationItemRestore>
+    <NotificationItemRestoreComplete>Stavke su uspješno vraćene.</NotificationItemRestoreComplete>
+    <NotificationItemTransfer>Stavke se prenose.</NotificationItemTransfer>
+    <NotificationItemTransferComplete>Stavke su uspješno prenesene.</NotificationItemTransferComplete>
+    <NotificationItemWaitingProcessing>Stavke čekaju na procesuiranje.</NotificationItemWaitingProcessing>
+    <NotificationMailing>Slanje</NotificationMailing>
+    <NotificationMailingComplete>Slanje pošte "{0}" je završeno.</NotificationMailingComplete>
+    <NotificationMailingWaitingProcessing>Slanje pošte "{0}" čeka na obradu.</NotificationMailingWaitingProcessing>
+    <NotificationOperationAborted>Postupak je prekinut!</NotificationOperationAborted>
+    <NotificationRecycleBinCleaning>Pražnjenje koša za smeće.</NotificationRecycleBinCleaning>
+    <NotificationRecycleBinCleaningComplete>Koš za smeće je uspješno ispražnjen.</NotificationRecycleBinCleaningComplete>
+    <NotificationRecycleBinWaitingProcessing>Pražnjenje koša za smeće čeka na procesuiranje.</NotificationRecycleBinWaitingProcessing>
+    <NotificationReportExporting>Izvještaj "{0}" se izvozi</NotificationReportExporting>
+    <NotificationReportExportingComplete>Izvještaj "{0}" je uspješno izvezen.</NotificationReportExportingComplete>
+    <NotificationReportRendering>Izvještaj "{0}" se renderira</NotificationReportRendering>
+    <NotificationReportRenderingComplete>Izvještaj "{0}" je renderiran.</NotificationReportRenderingComplete>
+    <NotificationReportWaitingProcessing>Izvještaj "{0}" čeka na procesuiranje.</NotificationReportWaitingProcessing>
+    <NotificationSchedulerRunning>Planer "{0}" radi.</NotificationSchedulerRunning>
+    <NotificationSchedulerRunningComplete>Rad planera "{0}" je završen.</NotificationSchedulerRunningComplete>
+    <NotificationSchedulerWaitingProcessing>Planer "{0}" čeka na procesuiranje.</NotificationSchedulerWaitingProcessing>
+    <NotificationTitleFilesUploading>Prijenos datoteka</NotificationTitleFilesUploading>
+    <NotificationTitleItemRefreshing>Osvježavanje stavke "{0}"</NotificationTitleItemRefreshing>
+    <NotificationTitleItemTransferring>Prijenos stavke "{0}"</NotificationTitleItemTransferring>
+    <NotificationTitleMailing>Slanje pošte "{0}"</NotificationTitleMailing>
+    <NotificationTitleReportExporting>Izvoz izvještaja "{0}"</NotificationTitleReportExporting>
+    <NotificationTitleReportRendering>Renderiranje izvještaja "{0}"</NotificationTitleReportRendering>
+    <NotificationTitleSchedulerRunning>Rad planera "{0}"</NotificationTitleSchedulerRunning>
+    <NotificationTransferring>"{0}" se prenosi u "{1}".</NotificationTransferring>
+    <NotificationTransferringComplete>"{0}" je uspješno prenesen u "{1}".</NotificationTransferringComplete>
+    <NotificationValueIsNotCorrect>Ova vrijednost nije točna za tip {0}</NotificationValueIsNotCorrect>
+    <OutOfRange>Izvan opsega ("{0}")!</OutOfRange>
+    <ParsingCommandException>Greška prilikom procesuiranja komande u xml-u: {0}</ParsingCommandException>
+    <QuotaMaximumComputingCyclesCountExceeded>Premašen maksimalan broj ciklusa računanja.</QuotaMaximumComputingCyclesCountExceeded>
+    <QuotaMaximumDataRowsCountExceeded>Prekoračen maksimalni broj redova u jednom izvoru podataka.</QuotaMaximumDataRowsCountExceeded>
+    <QuotaMaximumFileSizeExceeded>Premašena maksimalna veličina datoteke.</QuotaMaximumFileSizeExceeded>
+    <QuotaMaximumReportPagesCountExceeded>Premašen maksimalni broj stranica izvještaja.</QuotaMaximumReportPagesCountExceeded>
+    <QuotaMaximumResourcesCountExceeded>Prekoračen maksimalni broj resursa.</QuotaMaximumResourcesCountExceeded>
+    <QuotaMaximumUsersCountExceeded>Premašen maksimalni broj korisnika.</QuotaMaximumUsersCountExceeded>
+    <QuotaMaximumWorkspacesCountExceeded>Premašen maksimalni broj radnih prostora.</QuotaMaximumWorkspacesCountExceeded>
+    <SchedulerCantRunItSelf>Planer ne može pokrenuti samoga sebe!</SchedulerCantRunItSelf>
+    <SessionTimeOut>Timeout sesije</SessionTimeOut>
+    <SnapshotAlreadyProcessed>Snimak izvještaja je već procesuiran!</SnapshotAlreadyProcessed>
+    <SpecifiedItemIsNot>Specificirana stavka nije "{0}"!</SpecifiedItemIsNot>
+    <SubscriptionExpired>Vaša pretplata je istekla!</SubscriptionExpired>
+    <SubscriptionsOut10>10 dana preostalo do isteka pretplate!</SubscriptionsOut10>
+    <SubscriptionsOut20>Pretplata ističe za 20 dana!</SubscriptionsOut20>
+    <SuccessfullyRenewed>Vaša pretplata je uspješno obnovljena!</SuccessfullyRenewed>
+    <TrialToLicense>Hvala što ste odabrali Stimulsoft!</TrialToLicense>
+    <VersionCopyFromItem>Kopiraj stavku iz "{0}".</VersionCopyFromItem>
+    <VersionCreatedFromFile>Kreirano iz datoteke "{0}".</VersionCreatedFromFile>
+    <VersionCreatedFromItem>Kreirano iz stavke "{0}".</VersionCreatedFromItem>
+    <VersionLoadedFromFile>Učitano iz datoteke "{0}".</VersionLoadedFromFile>
+    <VersionNewItemCreation>Kreiranje nove stavke.</VersionNewItemCreation>
+    <WindowClosePreventWhileUploading>Neke datoteke se trenutno prenose. Ako zatvorite stranicu, biti će izgubljene. Jeste li sigurni da želite zatvoriti stranicu?</WindowClosePreventWhileUploading>
+    <WithSpecifiedKeyIsNotFound>"{0}" sa specificiranim ključem nije pronađeno!</WithSpecifiedKeyIsNotFound>
+    <YourTimeSessionHasExpired>Vaše vrijeme sesije je isteklo!</YourTimeSessionHasExpired>
+    <YouUsingTrialVersion>Koristite probnu verziju!</YouUsingTrialVersion>
+  </Notices>
+  <NuGet>
+    <AlreadyDownloaded>Već skinuto</AlreadyDownloaded>
+    <AssemblyLoadedSuccessfully>Assembly je uspječno učitan.</AssemblyLoadedSuccessfully>
+    <AssemblyNotFound>Nije moguće naći {0} assembly da koristi {1} konekciju!</AssemblyNotFound>
+    <Author>Autor</Author>
+    <Dependencies>Zavisnosti:</Dependencies>
+    <Download>Skini</Download>
+    <DownloadAll>Skini sve</DownloadAll>
+    <DownloadAndInstall>Preuzmi i instaliraj</DownloadAndInstall>
+    <Downloads>Skinuto:</Downloads>
+    <IAccept>Prihvaćam</IAccept>
+    <IDecline>Odbijam</IDecline>
+    <LicenceFormDesc>Ovaj paket zahtijeva da prihvatite njihove licencne uvjete prije instalacije.</LicenceFormDesc>
+    <LicenceFormDesc1>Klikom na "Prihvaćam" pristajete na licencne uvjete za gore navedeni paket. Ako se ne slažete sa licencnim uvjetima, kliknite na "Odbijam".</LicenceFormDesc1>
+    <LicenceFormTitle>Prihvaćanje licence</LicenceFormTitle>
+    <License>Licenca:</License>
+    <ProjectUrl>Url projekta:</ProjectUrl>
+    <ReportAbuse>Prijavi zlouporabu:</ReportAbuse>
+    <RetrievingInformation>Dohvaćam informacije...</RetrievingInformation>
+    <Tags>Oznake:</Tags>
+    <Title>Skini Data Adapter</Title>
+    <ViewLicense>Vidi licencu</ViewLicense>
+  </NuGet>
   <Panels>
     <Dictionary>Rječnik</Dictionary>
     <Messages>Poruke</Messages>
@@ -1644,19 +2149,64 @@
     <StiLoadPasswordForm>Enkriptiranje dokumenta</StiLoadPasswordForm>
     <StiSavePasswordForm>Lozinka</StiSavePasswordForm>
   </Password>
+  <Permissions>
+    <AdminAPI>API</AdminAPI>
+    <AdminBackgroundTasks>Pozadinski zadaci</AdminBackgroundTasks>
+    <AdminPermissions>Dozvole</AdminPermissions>
+    <AdminRecycleBin>Koš za smeće</AdminRecycleBin>
+    <AdminShare>Podijeli</AdminShare>
+    <AdminTransfers>Prijenosi</AdminTransfers>
+    <ItemCalendars>Kalendari</ItemCalendars>
+    <ItemCloudStorages>Pohrana u oblaku</ItemCloudStorages>
+    <ItemContactLists>Lista kontakata</ItemContactLists>
+    <ItemDashboards>Kontrolne ploče</ItemDashboards>
+    <ItemDataSources>Izvori podataka</ItemDataSources>
+    <ItemFiles>Datoteke</ItemFiles>
+    <ItemFolders>Mape</ItemFolders>
+    <ItemReportSnapshots>Snimke izvještaja</ItemReportSnapshots>
+    <ItemReportTemplates>Predlošsci izvještaja</ItemReportTemplates>
+    <ItemSchedulers>Planeri</ItemSchedulers>
+    <ReportDesignerBusinessObjects>Poslovni objekti</ReportDesignerBusinessObjects>
+    <ReportDesignerDataColumns>Stupci podataka</ReportDesignerDataColumns>
+    <ReportDesignerDataConnections>Konekcije podataka</ReportDesignerDataConnections>
+    <ReportDesignerDataRelations>Relacije podataka</ReportDesignerDataRelations>
+    <ReportDesignerDataSources>Izvori podataka</ReportDesignerDataSources>
+    <ReportDesignerDictionaryActions>Akcije rječnika</ReportDesignerDictionaryActions>
+    <ReportDesignerRestrictions>Ograničenja</ReportDesignerRestrictions>
+    <ReportDesignerVariables>Varijable</ReportDesignerVariables>
+    <SystemBackupRestore>Backup &amp; Povrat</SystemBackupRestore>
+    <SystemEmailTemplates>Email predlošci</SystemEmailTemplates>
+    <SystemLicensing>Licenciranje</SystemLicensing>
+    <SystemMonitoring>Nadgledanje</SystemMonitoring>
+    <SystemUpdate>Ažuriranje</SystemUpdate>
+    <SystemWorkspaces>Radni prostori</SystemWorkspaces>
+    <TextAdministration>Administracija</TextAdministration>
+    <TextItems>Stavke</TextItems>
+    <TextReportDesigner>Kreator izvještaja</TextReportDesigner>
+    <TextSystem>Sistem</TextSystem>
+    <TextUsers>Korisnici</TextUsers>
+    <UserHimself>On sam</UserHimself>
+    <UserRoles>Korisničke uloge</UserRoles>
+    <Users>Korisnici</Users>
+    <UserWorkspace>Radni prostor</UserWorkspace>
+  </Permissions>
   <PlacementComponent>
     <MoveLeftFreeSpace>Pomiče komponentu na lijevu stranu praznog prostora, povećavajući visinu komponente na visinu praznog prostora.</MoveLeftFreeSpace>
     <MoveRightFreeSpace>Pomiče komponentu na desnu stranu praznog prostora, povećavajući visinu komponente na visinu praznog prostora.</MoveRightFreeSpace>
   </PlacementComponent>
   <PropertyCategory>
     <AppearanceCategory>Izgled</AppearanceCategory>
+    <AreaCategory>Područje</AreaCategory>
     <ArgumentCategory>Argument</ArgumentCategory>
+    <AxisCategory>Os</AxisCategory>
     <BarCodeAdditionalCategory>Bar Code dodatno</BarCodeAdditionalCategory>
     <BarCodeCategory>Bar Code</BarCodeCategory>
     <BehaviorCategory>Ponašanje</BehaviorCategory>
+    <CapNeedle>Kapica igle</CapNeedle>
     <CellCategory>Ćelija</CellCategory>
     <ChartAdditionalCategory>Grafikon dodatno</ChartAdditionalCategory>
     <ChartCategory>Grafikon</ChartCategory>
+    <ChartMap>Karta</ChartMap>
     <CheckCategory>Provjera</CheckCategory>
     <ColorsCategory>Boje</ColorsCategory>
     <ColumnsCategory>Stupci</ColumnsCategory>
@@ -1669,15 +2219,21 @@
     <DisplayCategory>Prikaz</DisplayCategory>
     <ExportCategory>Eksport</ExportCategory>
     <ExportEventsCategory>Događaji eksporta</ExportEventsCategory>
+    <FooterTableCategory>Tablica podnožja</FooterTableCategory>
+    <GridLinesCategory>Linije rešetke</GridLinesCategory>
+    <HeaderTableCategory>Tablica zaglavlja</HeaderTableCategory>
     <HierarchicalCategory>Hijerarhijski</HierarchicalCategory>
     <ImageAdditionalCategory>Slika dodatno</ImageAdditionalCategory>
     <ImageCategory>Slika</ImageCategory>
+    <InterlacingCategory>Prepletanje</InterlacingCategory>
+    <LegendCategory>Legenda</LegendCategory>
     <MainCategory>Glavno</MainCategory>
     <MarkerCategory>Marker</MarkerCategory>
     <MiscCategory>Opcije</MiscCategory>
     <MouseEventsCategory>Događaji miša</MouseEventsCategory>
     <NavigationCategory>Navigacija</NavigationCategory>
     <NavigationEventsCategory>Događaji navigacije</NavigationEventsCategory>
+    <Needle>Igla</Needle>
     <OptionsCategory>Opcije</OptionsCategory>
     <PageAdditionalCategory>Stranica dodatno</PageAdditionalCategory>
     <PageCategory>Stranica</PageCategory>
@@ -1687,11 +2243,16 @@
     <PrimitiveCategory>Primitivno</PrimitiveCategory>
     <PrintEventsCategory>Događaji ispisa</PrintEventsCategory>
     <RenderEventsCategory>Događaji renderiranja</RenderEventsCategory>
+    <SeriesCategory>Serije</SeriesCategory>
+    <SeriesLabelsCategory>Oznake serija</SeriesLabelsCategory>
     <ShapeCategory>Oblik</ShapeCategory>
+    <Size>Veličina</Size>
     <SubReportCategory>Podizvještaj</SubReportCategory>
+    <TableCategory>Tablica</TableCategory>
     <TextAdditionalCategory>Tekst dodatno</TextAdditionalCategory>
     <TextCategory>Tekst</TextCategory>
     <TitleCategory>Naslov</TitleCategory>
+    <TrendLineCategory>Trend linija</TrendLineCategory>
     <ValueCategory>Vrijednost</ValueCategory>
     <ValueCloseCategory>Približna vrijednost</ValueCloseCategory>
     <ValueEndCategory>Vrijednost kraj</ValueEndCategory>
@@ -1915,6 +2476,10 @@
     <SelectionModeMultiSimple>Multi jednostavno</SelectionModeMultiSimple>
     <SelectionModeNone>Ništa</SelectionModeNone>
     <SelectionModeOne>Jedan</SelectionModeOne>
+    <StiAnchorModeBottom>Dno</StiAnchorModeBottom>
+    <StiAnchorModeLeft>Lijevo</StiAnchorModeLeft>
+    <StiAnchorModeRight>Desno</StiAnchorModeRight>
+    <StiAnchorModeTop>Vrh</StiAnchorModeTop>
     <StiAngleAngle0>0 stupnjeva</StiAngleAngle0>
     <StiAngleAngle180>180 stupnjeva</StiAngleAngle180>
     <StiAngleAngle270>270 stupnjeva</StiAngleAngle270>
@@ -2015,6 +2580,8 @@
     <StiFilterConditionEqualTo>jednako je</StiFilterConditionEqualTo>
     <StiFilterConditionGreaterThan>veće od</StiFilterConditionGreaterThan>
     <StiFilterConditionGreaterThanOrEqualTo>veće ili jednako od</StiFilterConditionGreaterThanOrEqualTo>
+    <StiFilterConditionIsNotNull>nije null</StiFilterConditionIsNotNull>
+    <StiFilterConditionIsNull>je null</StiFilterConditionIsNull>
     <StiFilterConditionLessThan>manje od</StiFilterConditionLessThan>
     <StiFilterConditionLessThanOrEqualTo>manje ili jednako od</StiFilterConditionLessThanOrEqualTo>
     <StiFilterConditionNotBetween>nije između</StiFilterConditionNotBetween>
@@ -2080,6 +2647,26 @@
     <StiLegendVertAlignmentCenter>Centrirano</StiLegendVertAlignmentCenter>
     <StiLegendVertAlignmentTop>Gore</StiLegendVertAlignmentTop>
     <StiLegendVertAlignmentTopOutside>Gore izvana</StiLegendVertAlignmentTopOutside>
+    <StiMapIDAustralia>Australija</StiMapIDAustralia>
+    <StiMapIDAustria>Austrija</StiMapIDAustria>
+    <StiMapIDBrazil>Brazil</StiMapIDBrazil>
+    <StiMapIDCanada>Kanada</StiMapIDCanada>
+    <StiMapIDChina>Kina</StiMapIDChina>
+    <StiMapIDEU>EU</StiMapIDEU>
+    <StiMapIDEurope>Europa</StiMapIDEurope>
+    <StiMapIDFrance>Francuska</StiMapIDFrance>
+    <StiMapIDGermany>Njemačka</StiMapIDGermany>
+    <StiMapIDItaly>Italija</StiMapIDItaly>
+    <StiMapIDNetherlands>Nizozemska</StiMapIDNetherlands>
+    <StiMapIDRussia>Rusija</StiMapIDRussia>
+    <StiMapIDUK>UK</StiMapIDUK>
+    <StiMapIDUSA>SAD</StiMapIDUSA>
+    <StiMapIDWorld>Svijet</StiMapIDWorld>
+    <StiMapTypeGroup>Grupa</StiMapTypeGroup>
+    <StiMapTypeHeatmap>Toplinska mapa</StiMapTypeHeatmap>
+    <StiMapTypeHeatmapWithGroup>Toplinska mapa sa grupom</StiMapTypeHeatmapWithGroup>
+    <StiMapTypeNone>Ništa</StiMapTypeNone>
+    <StiMapTypePoints>Točke</StiMapTypePoints>
     <StiMarkerAlignmentLeft>Lijevo</StiMarkerAlignmentLeft>
     <StiMarkerAlignmentRight>Desno</StiMarkerAlignmentRight>
     <StiMarkerTypeCircle>Krug</StiMarkerTypeCircle>
@@ -2096,6 +2683,7 @@
     <StiNumberOfPassDoublePass>Dvostruki prolaz</StiNumberOfPassDoublePass>
     <StiNumberOfPassSinglePass>Jednostruki prolaz</StiNumberOfPassSinglePass>
     <StiOrientationHorizontal>Vodoravno</StiOrientationHorizontal>
+    <StiOrientationHorizontalRight>Horizontalno desno</StiOrientationHorizontalRight>
     <StiOrientationVertical>Okomito</StiOrientationVertical>
     <StiPageOrientationLandscape>Pejzaž</StiPageOrientationLandscape>
     <StiPageOrientationPortrait>Portret</StiPageOrientationPortrait>
@@ -2158,6 +2746,9 @@
     <StiRestrictionsAllowResize>Dopusti promjenu veličine</StiRestrictionsAllowResize>
     <StiRestrictionsAllowSelect>Dopusti odabir</StiRestrictionsAllowSelect>
     <StiRestrictionsNone>Ništa</StiRestrictionsNone>
+    <StiSelectionModeFirst>Prvi</StiSelectionModeFirst>
+    <StiSelectionModeFromVariable>Iz varijable</StiSelectionModeFromVariable>
+    <StiSelectionModeNothing>Ništa</StiSelectionModeNothing>
     <StiSeriesLabelsValueTypeArgument>Argument</StiSeriesLabelsValueTypeArgument>
     <StiSeriesLabelsValueTypeArgumentValue>Argument - vrijednost</StiSeriesLabelsValueTypeArgumentValue>
     <StiSeriesLabelsValueTypeSeriesTitle>Naslov niza</StiSeriesLabelsValueTypeSeriesTitle>
@@ -2234,6 +2825,8 @@
     <StiTextQualityStandard>Standardno</StiTextQualityStandard>
     <StiTextQualityTypographic>Typographic</StiTextQualityTypographic>
     <StiTextQualityWysiwyg>Wysiwyg</StiTextQualityWysiwyg>
+    <StiTitlePositionInside>Unutar</StiTitlePositionInside>
+    <StiTitlePositionOutside>Izvan</StiTitlePositionOutside>
     <StiTypeModeList>Lista</StiTypeModeList>
     <StiTypeModeNullableValue>Nullable vrijednost</StiTypeModeNullableValue>
     <StiTypeModeRange>Opseg</StiTypeModeRange>
@@ -2243,6 +2836,8 @@
     <StiVertAlignmentTop>Gore</StiVertAlignmentTop>
     <StiViewModeNormal>Normalno</StiViewModeNormal>
     <StiViewModePageBreakPreview>Pretpregled prijeloma stranice</StiViewModePageBreakPreview>
+    <StiXmlTypeAdoNetXml>ADO.NET XML</StiXmlTypeAdoNetXml>
+    <StiXmlTypeXml>XML</StiXmlTypeXml>
     <StringAlignmentCenter>Centrirano</StringAlignmentCenter>
     <StringAlignmentFar>Dalje</StringAlignmentFar>
     <StringAlignmentNear>Bliže</StringAlignmentNear>
@@ -2278,6 +2873,7 @@
     <GetCollapsedEvent>Dohvati urušeno</GetCollapsedEvent>
     <GetCrossValueEvent>Dohvati Cross vrijednost</GetCrossValueEvent>
     <GetCutPieListEvent>Dohvati listu izrezane pite</GetCutPieListEvent>
+    <GetDataUrlEvent>Dohvati Url podatke</GetDataUrlEvent>
     <GetDisplayCrossValueEvent>Dohvati prikazanu Cross vrijednost</GetDisplayCrossValueEvent>
     <GetDrillDownReportEvent>Dohvati Drill-Down izvještaj</GetDrillDownReportEvent>
     <GetExcelSheetEvent>Dohvati Excel list</GetExcelSheetEvent>
@@ -2369,6 +2965,7 @@
     <Sphere>Sfera</Sphere>
     <Trellis>Rešetka</Trellis>
     <Vertical>Okomito</Vertical>
+    <Wave>Val</Wave>
     <Weave>Istkano</Weave>
     <WideDownwardDiagonal>Široko dijagonalno prema dolje</WideDownwardDiagonal>
     <WideUpwardDiagonal>Široko dijagonalno prema gore</WideUpwardDiagonal>
@@ -2407,18 +3004,22 @@
     <AllowUseTextBrush>Dozvoli upotrebu tekstualne četke</AllowUseTextBrush>
     <AllowUseTextOptions>Dozvoli upotrebu opcija teksta</AllowUseTextOptions>
     <AllowUseVertAlignment>Dozvoli upotrebu okomitog poravnanja</AllowUseVertAlignment>
+    <AllowUsingAsSqlParameter>Dopusti korištenje kao SQL parametar</AllowUsingAsSqlParameter>
     <AlternatingBackColor>Izmjenična pozadinska boja</AlternatingBackColor>
+    <Anchor>Sidro</Anchor>
     <Angle>Kut</Angle>
     <Antialiasing>Antialiasing</Antialiasing>
     <Area>Područje</Area>
     <Argument>Argument</Argument>
     <ArgumentDataColumn>Argument stupac podatka</ArgumentDataColumn>
+    <Arguments>Argumenti</Arguments>
     <ArrowHeight>Visina strelice</ArrowHeight>
     <ArrowStyle>Stil strelice</ArrowStyle>
     <ArrowWidth>Širina strelice</ArrowWidth>
     <AspectRatio>Omjer širine i visine</AspectRatio>
     <Author>Autor</Author>
     <Auto>Auto</Auto>
+    <AutoCalculateCenterPoint>Automatski izračunaj središnju točku</AutoCalculateCenterPoint>
     <AutoDataColumns>Automatski stupci podataka</AutoDataColumns>
     <AutoDataRows>Automatski redovi podataka</AutoDataRows>
     <AutoLocalizeReportOnRun>Auto lokaliziraj izvještaj prilikom pokretanja</AutoLocalizeReportOnRun>
@@ -2430,6 +3031,9 @@
     <AutoSeriesTitleDataColumn>Auto niz naslov stupac podatka</AutoSeriesTitleDataColumn>
     <AutoWidth>Auto širina</AutoWidth>
     <AutoWidthType>Tip auto širine</AutoWidthType>
+    <AxisLabelsColor>Boje oznaka</AxisLabelsColor>
+    <AxisLineColor>Boja linije</AxisLineColor>
+    <AxisTitleColor>Boja naslova</AxisTitleColor>
     <AxisValue>Axis vrijednost</AxisValue>
     <BackColor>Pozadinska boja</BackColor>
     <Background>Pozadina</Background>
@@ -2441,9 +3045,13 @@
     <Bold>Podebljano</Bold>
     <Bookmark>Knjižna oznaka</Bookmark>
     <Border>Obrub</Border>
+    <BorderBrush>Četka obruba</BorderBrush>
     <BorderColor>Boja obruba</BorderColor>
+    <BorderColorNegative>Negativna boja obruba</BorderColorNegative>
     <Borders>Obrubi</Borders>
+    <BorderSize>Veličina obruba</BorderSize>
     <BorderStyle>Stil obruba</BorderStyle>
+    <BorderWidth>Širina obruba</BorderWidth>
     <Bottom>Dolje</Bottom>
     <BottomSide>Donja strana</BottomSide>
     <BreakIfLessThan>Prekini ako je manje od</BreakIfLessThan>
@@ -2452,6 +3060,7 @@
     <BrushType>Tip četke</BrushType>
     <BusinessObject>Business objekt</BusinessObject>
     <CacheAllData>Cache-iraj sve podatke</CacheAllData>
+    <CacheTotals>Cache-iraj totale</CacheTotals>
     <CalcInvisible>Izračunaj nevidljivo</CalcInvisible>
     <CalculatedDataColumn>Izračunati stupac podatka</CalculatedDataColumn>
     <CalculationMode>Mod izračuna</CalculationMode>
@@ -2466,6 +3075,11 @@
     <CellHeight>Visina ćelije</CellHeight>
     <CellType>Tip ćelije</CellType>
     <CellWidth>Širina ćelije</CellWidth>
+    <Center>Centar</Center>
+    <CenterPoint>Središnja točka</CenterPoint>
+    <ChartAreaBorderColor>Boja ruba</ChartAreaBorderColor>
+    <ChartAreaBrush>Četka područja</ChartAreaBrush>
+    <ChartAreaShowShadow>Prikaži sjenu</ChartAreaShowShadow>
     <ChartType>Vrsta grafikona</ChartType>
     <Checked>Označeno</Checked>
     <CheckOnClick>Označi na klik</CheckOnClick>
@@ -2500,6 +3114,7 @@
     <Columns>Stupci</Columns>
     <ColumnWidth>Širina stupca</ColumnWidth>
     <CommandTimeout>Timeout komande</CommandTimeout>
+    <CompanyPrefix>Prefiks tvrtke</CompanyPrefix>
     <ComponentStyle>Stil komponente</ComponentStyle>
     <Condition>Uvjet</Condition>
     <ConditionOptions>Opcije uvjeta</ConditionOptions>
@@ -2518,6 +3133,7 @@
     <Create>Stvori</Create>
     <CreateFieldOnDoubleClick>Stvori polje na dvostruki klik</CreateFieldOnDoubleClick>
     <CreateLabel>Stvori labelu</CreateLabel>
+    <Culture>Kultura</Culture>
     <CustomFormat>Stvori format</CustomFormat>
     <CutPieList>Lista izrezane pite</CutPieList>
     <Data>Podaci</Data>
@@ -2534,16 +3150,20 @@
     <DataSources>Izvori podataka</DataSources>
     <DataTextField>Tekstualno polje podatka</DataTextField>
     <DataType>Vrsta podatka</DataType>
+    <DataUrl>Podatkovni URL</DataUrl>
     <DateInfo>Info podatka</DateInfo>
     <DateTimeStep>Datum Vrijeme korak</DateTimeStep>
     <Default>Zadano</Default>
     <DefaultHeightCell>Zadana visina ćelije</DefaultHeightCell>
     <DefaultNamespace>Zadani Namespace</DefaultNamespace>
+    <DependentColumn>Ovisna kolona</DependentColumn>
+    <DependentValue>Ovisna vrijednost</DependentValue>
     <Description>Opis</Description>
     <DetectUrls>Pronađi Url-ove</DetectUrls>
     <DialogResult>Rezultat dijaloga</DialogResult>
     <Diameter>Promjer</Diameter>
     <Direction>Smjer</Direction>
+    <Disabled>Onemogućeno</Disabled>
     <DisplayValue>Prikaži vrijednost</DisplayValue>
     <Distance>Udaljenost</Distance>
     <DistanceBetweenTabs>Razdaljina između tab-ova</DistanceBetweenTabs>
@@ -2553,6 +3173,7 @@
     <DrawBorder>Nacrtaj obrub</DrawBorder>
     <DrawHatch>Nacrtaj otvor</DrawHatch>
     <DrawLine>Nacrtaj liniju</DrawLine>
+    <DrillDown>Kroz razine naniže</DrillDown>
     <DrillDownEnabled>Drill-Down omogućeno</DrillDownEnabled>
     <DrillDownMode>Drill-Down mod</DrillDownMode>
     <DrillDownPage>Drill-Down stranica</DrillDownPage>
@@ -2561,6 +3182,7 @@
     <DrillDownParameter3>Drill-Down parametar 3</DrillDownParameter3>
     <DrillDownParameter4>Drill-Down parametar 4</DrillDownParameter4>
     <DrillDownParameter5>Drill-Down parametar 5</DrillDownParameter5>
+    <DrillDownParameters>Kroz razine naniže parametri</DrillDownParameters>
     <DrillDownReport>Drill-Down izvještaj</DrillDownReport>
     <DropDownAlign>Padajuće poravnavanje</DropDownAlign>
     <DropDownStyle>Padajući stil</DropDownStyle>
@@ -2568,6 +3190,9 @@
     <DropShadow>Sjena</DropShadow>
     <Duplex>Duplex</Duplex>
     <Editable>Može se editirati</Editable>
+    <EmptyBorderBrush>Prazna četka obruba</EmptyBorderBrush>
+    <EmptyBorderWidth>Prazna širina obruba</EmptyBorderWidth>
+    <EmptyBrush>Prazna četka</EmptyBrush>
     <EmptyValue>Prazna vrijednost</EmptyValue>
     <Enabled>Omogućeno</Enabled>
     <EnableLog>Omogućen Log</EnableLog>
@@ -2575,6 +3200,8 @@
     <EncodingType>Vrsta enkodiranja</EncodingType>
     <EndCap>Završni poklopac</EndCap>
     <EndColor>Završna boja</EndColor>
+    <EndValue>Konačna vrijednost</EndValue>
+    <EndWidth>Konačna širina</EndWidth>
     <EngineVersion>Engine verzija</EngineVersion>
     <EnumeratorSeparator>Razdjelnik enumeratora</EnumeratorSeparator>
     <EnumeratorType>Vrsta enumeratora</EnumeratorType>
@@ -2586,12 +3213,15 @@
     <Exponential>Eksponencijalno</Exponential>
     <ExportAsImage>Eksportiraj kao sliku</ExportAsImage>
     <Expression>Izraz</Expression>
+    <ExtensionDigit>Brojka ekstenzije</ExtensionDigit>
     <FaqPage>Faq stranica</FaqPage>
     <FieldIs>Polje je</FieldIs>
     <File>Datoteka</File>
     <Fill>Ispuni</Fill>
+    <FillColor>Boja ispune</FillColor>
     <Filter>Filter</Filter>
     <FilterEngine>Engine filtera</FilterEngine>
+    <FilterMode>Način filtera</FilterMode>
     <FilterOn>Filter uključen</FilterOn>
     <Filters>Filteri</Filters>
     <FirstTabOffset>Pomak prvog tabulatora</FirstTabOffset>
@@ -2629,9 +3259,11 @@
     <GlobalizedName>Globalizirani naziv</GlobalizedName>
     <GridLineColor>Boja linija mreže</GridLineColor>
     <GridLinesHor>Linije mreže vodoravno</GridLinesHor>
+    <GridLinesHorColor>Horizontalna boja linija rešetke</GridLinesHorColor>
     <GridLinesHorRight>Linije mreže vodoravno desno</GridLinesHorRight>
     <GridLineStyle>Stil linija mreže</GridLineStyle>
     <GridLinesVert>Linije mreže okomito</GridLinesVert>
+    <GridLinesVertColor>Vertikalna boja linija rešetke</GridLinesVertColor>
     <GridOutline>Skica rešetke</GridOutline>
     <GrowToHeight>Narasti do visine</GrowToHeight>
     <HeaderBackColor>Pozadinska boja zaglavlja</HeaderBackColor>
@@ -2683,8 +3315,11 @@
     <Interaction>Interakcija</Interaction>
     <InterlacedBrush>Prepleteno četka</InterlacedBrush>
     <InterlacingHor>Vodoravno preplitanje</InterlacingHor>
+    <InterlacingHorBrush>Prepletena horizontalna četka</InterlacingHorBrush>
     <InterlacingVert>Okomito preplitanje</InterlacingVert>
+    <InterlacingVertBrush>Prepletena vertikalna četka</InterlacingVertBrush>
     <Interpolation>Interpolacija</Interpolation>
+    <IsReversed>Je preokrenuto</IsReversed>
     <Italic>Kurziv</Italic>
     <Item>Stavka</Item>
     <ItemHeight>Visina stavke</ItemHeight>
@@ -2704,6 +3339,7 @@
     <KeyDataColumn>Ključ stupac podatka</KeyDataColumn>
     <Keys>Ključevi</Keys>
     <LabelColor>Boja labele</LabelColor>
+    <LabelRotationMode>Mod rotacije oznake</LabelRotationMode>
     <Labels>Labele</Labels>
     <LabelsColor>Boja labela</LabelsColor>
     <LabelsOffset>Pomak labela</LabelsOffset>
@@ -2713,6 +3349,10 @@
     <Left>Lijevo</Left>
     <LeftSide>Lijeva strana</LeftSide>
     <Legend>Legenda</Legend>
+    <LegendBorderColor>Boja obruba</LegendBorderColor>
+    <LegendBrush>Legenda četke</LegendBrush>
+    <LegendLabelsColor>Boja oznaka</LegendLabelsColor>
+    <LegendTitleColor>Boja naslova</LegendTitleColor>
     <LegendValueType>Legenda vrste vrijednosti</LegendValueType>
     <Length>Duljina</Length>
     <LengthUnderLabels>Duljina ispod labela</LengthUnderLabels>
@@ -2743,6 +3383,10 @@
     <Logarithmic>Logaritamski</Logarithmic>
     <LogarithmicScale>Logaritamska skala</LogarithmicScale>
     <Low>Malo</Low>
+    <MajorInterval>Veći interval</MajorInterval>
+    <MapID>Karta ID</MapID>
+    <MapStyle>Stil</MapStyle>
+    <MapType>Tip karte</MapType>
     <Margins>Margine</Margins>
     <Marker>Marker</Marker>
     <MarkerAlignment>Poravnanje oznake</MarkerAlignment>
@@ -2758,6 +3402,7 @@
     <MaxDropDownItems>Maksimalni broj padajućih stavaka</MaxDropDownItems>
     <MaxHeight>Max visina</MaxHeight>
     <Maximum>Maksimum</Maximum>
+    <MaximumValue>Maksimalna vrijednost</MaximumValue>
     <MaxLength>Maksimalna dužina</MaxLength>
     <MaxNumberOfLines>Maksimalni broj linija</MaxNumberOfLines>
     <MaxSize>Maksimalna veličina</MaxSize>
@@ -2770,8 +3415,10 @@
     <MinHeight>Min visina</MinHeight>
     <Minimum>Minimum</Minimum>
     <MinimumFontSize>Minimalna veličina fonta</MinimumFontSize>
+    <MinimumValue>Minimalna vrijednost</MinimumValue>
     <MinorColor>Manja boja</MinorColor>
     <MinorCount>Manji broj</MinorCount>
+    <MinorInterval>Manji interval</MinorInterval>
     <MinorLength>Manja dužina</MinorLength>
     <MinorStyle>Manji stil</MinorStyle>
     <MinorVisible>Manji vidljiv</MinorVisible>
@@ -2779,6 +3426,7 @@
     <MinSize>Minimalna veličina</MinSize>
     <MinValue>Minimalna vrijednost</MinValue>
     <MinWidth>Minimalna širina</MinWidth>
+    <MirrorMargins>Zrcalne margine</MirrorMargins>
     <Mode>Mod</Mode>
     <Module>Modul</Module>
     <Move>Pomakni</Move>
@@ -2802,6 +3450,8 @@
     <NumberOfPass>Broj prolazaka</NumberOfPass>
     <NumberOfValues>Broj vrijednosti</NumberOfValues>
     <OddStyle>Stil neparno</OddStyle>
+    <Offset>Offset</Offset>
+    <OffsetAngle>Offset kut</OffsetAngle>
     <OnlyText>Samo tekst</OnlyText>
     <Operation>Operacija</Operation>
     <Options>Opcije</Options>
@@ -2851,9 +3501,13 @@
     <ProcessAt>Obradi kod</ProcessAt>
     <ProcessAtEnd>Procesuiraj na kraju</ProcessAtEnd>
     <ProcessingDuplicates>Procesiranje duplikata</ProcessingDuplicates>
+    <ProcessTilde>Obradi tilde</ProcessTilde>
     <ProductHomePage>Home Page proizvoda</ProductHomePage>
     <RadarStyle>Stil radara</RadarStyle>
+    <Radius>Radius</Radius>
+    <RadiusMode>Mod radiusa</RadiusMode>
     <Range>Raspon</Range>
+    <RangeColorMode>Mod raspona boje</RangeColorMode>
     <RangeFrom>Od</RangeFrom>
     <RangeScrollEnabled>Omogućeno pomicanje raspona</RangeScrollEnabled>
     <RangeTo>Do</RangeTo>
@@ -2863,15 +3517,19 @@
     <ReconnectOnEachRow>Ponovno spoji za svaki redak</ReconnectOnEachRow>
     <ReferencedAssemblies>Referencirani assembly-i</ReferencedAssemblies>
     <Refresh>Osvježi</Refresh>
+    <RefreshTime>Vrijeme osvježavanja</RefreshTime>
     <Relation>Relacija</Relation>
     <RelationName>Naziv relacije</RelationName>
     <Relations>Relacije</Relations>
+    <RelativeHeight>Relativna visina</RelativeHeight>
+    <RelativeWidth>Relativna širina</RelativeWidth>
     <RemoveUnusedDataBeforeStart>Makni nekorištene podatke prije početka</RemoveUnusedDataBeforeStart>
     <RenderTo>Renderiraj u</RenderTo>
     <ReportAlias>Alias izvještaja</ReportAlias>
     <ReportAuthor>Auto izvještaja</ReportAuthor>
     <ReportCacheMode>Cache mod izvještaja</ReportCacheMode>
     <ReportDescription>Opis izvještaja</ReportDescription>
+    <ReportImage>Slika izvještaja</ReportImage>
     <ReportName>Naziv izvještaja</ReportName>
     <ReportUnit>Mjera izvještaja</ReportUnit>
     <RequestFromUser>Zahtjev od korisnika</RequestFromUser>
@@ -2879,7 +3537,10 @@
     <ResetDataSource>Poništi izvor podataka</ResetDataSource>
     <ResetPageNumber>Poništi broj stranice</ResetPageNumber>
     <Resize>Promijeni veličinu</Resize>
+    <Resource>Resurs</Resource>
+    <Resources>Resursi</Resources>
     <Restrictions>Ograničenja</Restrictions>
+    <RetrieveOnlyUsedData>Povrati samo korištene podatke</RetrieveOnlyUsedData>
     <ReturnValue>Povratna vrijednost</ReturnValue>
     <ReverseHor>Obrni vodoravno</ReverseHor>
     <ReverseVert>Obrni okomito</ReverseVert>
@@ -2901,12 +3562,19 @@
     <SelectedItem>Odabrana stavka</SelectedItem>
     <SelectedKey>Odabrani ključ</SelectedKey>
     <SelectedValue>Odabrana vrijednost</SelectedValue>
+    <Selection>Odabir</Selection>
     <SelectionBackColor>Pozadinska boja odabira</SelectionBackColor>
     <SelectionEnabled>Odabir omogućen</SelectionEnabled>
     <SelectionForeColor>Prednja boja odabira</SelectionForeColor>
     <SelectionMode>Mod odabira</SelectionMode>
+    <SerialNumber>Serijski broj</SerialNumber>
     <Series>Nizovi</Series>
     <SeriesLabels>Labele nizova</SeriesLabels>
+    <SeriesLabelsBorderColor>Boja obruba</SeriesLabelsBorderColor>
+    <SeriesLabelsBrush>Četka oznaka</SeriesLabelsBrush>
+    <SeriesLabelsColor>Boja oznaka</SeriesLabelsColor>
+    <SeriesLighting>Osvjetljenje serije</SeriesLighting>
+    <SeriesShowShadow>Prikaži sjenu serija</SeriesShowShadow>
     <Shadow>Sjena</Shadow>
     <ShadowBrush>Četka sjene</ShadowBrush>
     <ShadowColor>Boja sjene</ShadowColor>
@@ -2922,6 +3590,7 @@
     <ShowInPercent>Prikaži u postotcima</ShowInPercent>
     <ShowLabels>Prikaži labele</ShowLabels>
     <ShowLabelText>Prikaži tekst labele</ShowLabelText>
+    <ShowLegend>Prikaži legendu</ShowLegend>
     <ShowMarker>Prikaži oznaku</ShowMarker>
     <ShowNulls>Prikaži null vrijednosti</ShowNulls>
     <ShowOnZeroValues>Prikaži kod nula vrijednosti</ShowOnZeroValues>
@@ -2945,7 +3614,13 @@
     <Simple>Jednostavno</Simple>
     <Size>Veličina</Size>
     <SizeMode>Mod veličine</SizeMode>
+    <Skin>Skin</Skin>
     <SkipFirst>Preskoči prvi</SkipFirst>
+    <SkipIndices>Preskoči indekse</SkipIndices>
+    <SkipIndicesObj>Preskoči indekse</SkipIndicesObj>
+    <SkipMajorValues>Preskoči glavne vrijednosti</SkipMajorValues>
+    <SkipValues>Preskoči vrijednosti</SkipValues>
+    <SkipValuesObj>Preskoči vrijednosti</SkipValuesObj>
     <Smoothing>Izglađivanje</Smoothing>
     <Sort>Poredaj</Sort>
     <SortBy>Poredaj po</SortBy>
@@ -2956,7 +3631,7 @@
     <SortType>Vrsta poredavanja</SortType>
     <Space>Razmak</Space>
     <Spacing>Razmak</Spacing>
-    <SqlCommand>Sql komanda</SqlCommand>
+    <SqlCommand>SQL komanda</SqlCommand>
     <StartAngle>Početni kut</StartAngle>
     <StartCap>Početni poklopac</StartCap>
     <StartColor>Početna boja</StartColor>
@@ -2965,6 +3640,8 @@
     <StartNewPage>Počni novu stranicu</StartNewPage>
     <StartNewPageIfLessThan>Počni novu stranicu ako je manje od</StartNewPageIfLessThan>
     <StartPosition>Početna pozicija</StartPosition>
+    <StartValue>Početna vrijednost</StartValue>
+    <StartWidth>Početna širina</StartWidth>
     <Step>Preskok</Step>
     <Stop>Stani</Stop>
     <StopBeforePage>Stani prije stranice</StopBeforePage>
@@ -2985,8 +3662,10 @@
     <SummaryValues>Vrijednosti sažetka</SummaryValues>
     <SupplementCode>Nadomjesni kod</SupplementCode>
     <SupplementType>Nadomjesni tip</SupplementType>
+    <SweepAngle>Kut zamaha</SweepAngle>
     <SystemVariable>Sistemska varijabla</SystemVariable>
     <SystemVariables>Sistemske varijable</SystemVariables>
+    <Table>Tablica</Table>
     <Tag>Tag</Tag>
     <TagDataColumn>Oznaka podatkovni stupac</TagDataColumn>
     <TagValue>Tag vrijednost</TagValue>
@@ -3022,6 +3701,8 @@
     <Totals>Totali</Totals>
     <TransparentColor>Prozirna boja</TransparentColor>
     <TrendLine>Linija trenda</TrendLine>
+    <TrendLineColor>Boja</TrendLineColor>
+    <TrendLineShowShadow>Prikaži sjenu</TrendLineShowShadow>
     <Trimming>Trimanje</Trimming>
     <Type>Vrsta</Type>
     <TypeName>Naziv vrste</TypeName>
@@ -3035,10 +3716,12 @@
     <UseAliases>Koristi aliase</UseAliases>
     <UseExternalReport>Koristi vanjski izvještaj</UseExternalReport>
     <UseParentStyles>Koristi roditeljske stilove</UseParentStyles>
+    <UseRangeColor>Koristi boju raspona</UseRangeColor>
     <UseRectangularSymbols>Koristi pravokutne simbole</UseRectangularSymbols>
     <UseSeriesColor>Koristi nizove boja</UseSeriesColor>
     <UseStyleOfSummaryInColumnTotal>Koristi stil sažetka u totalu stupca</UseStyleOfSummaryInColumnTotal>
     <UseStyleOfSummaryInRowTotal>Koristi stil sažetka u totalu retka</UseStyleOfSummaryInRowTotal>
+    <UseValuesFromTheSpecifiedRange>Koristi vrijednosti iz odabranog raspona</UseValuesFromTheSpecifiedRange>
     <Value>Vrijednost</Value>
     <ValueClose>Približna vrijednost</ValueClose>
     <ValueDataColumn>Vrijednosni stupac podatka</ValueDataColumn>
@@ -3064,6 +3747,7 @@
     <Watermark>Vodeni žig</Watermark>
     <Weight>Težina</Weight>
     <WeightDataColumn>Težina podatkovni stupac</WeightDataColumn>
+    <Weights>Važnost</Weights>
     <Width>Širina</Width>
     <WindowState>Status prozora</WindowState>
     <WordWrap>Zamotaj riječ</WordWrap>
@@ -3110,6 +3794,7 @@
     <BadFromObjectExpression>Nevažeći FROM objektni izraz!</BadFromObjectExpression>
     <BadObjectName>Nevažeći naziv objekta!</BadObjectName>
     <BadSelectStatement>Nevažeća SELECT naredba!</BadSelectStatement>
+    <Collections>Kolekcije</Collections>
     <CreateLinksFromForeignKeys>Kreiraj veze iz stranih ključeva</CreateLinksFromForeignKeys>
     <CriteriaAlias>Alias</CriteriaAlias>
     <CriteriaCriteria>Kriterij</CriteriaCriteria>
@@ -3164,7 +3849,7 @@
     <SelectAllFromRight>Odaberi sve sa desne strane</SelectAllFromRight>
     <SwitchToDerivedTable>Prebaci na izvedenu tablicu</SwitchToDerivedTable>
     <Tables>Tablice</Tables>
-    <UnexpectedTokenAt>Neočekivani simbol \"{0}\" na liniji {1}, pozicija {2}!</UnexpectedTokenAt>
+    <UnexpectedTokenAt>Neočekivani simbol "{0}" na liniji {1}, pozicija {2}!</UnexpectedTokenAt>
     <Unions>Unije</Unions>
     <UnionSubMenu>Unija</UnionSubMenu>
     <ViewQuery>Pregledaj upit</ViewQuery>
@@ -3179,6 +3864,7 @@
     <qnRemoveService>Želite li ukloniti servis?</qnRemoveService>
     <qnRemoveServiceCategory>Želite li ukloniti kategoriju?</qnRemoveServiceCategory>
     <qnRemoveUnused>Želite li ukloniti nekorištene?</qnRemoveUnused>
+    <qnReplace>Želite li zamijeniti postojeću stavku {0}?</qnReplace>
     <qnRestoreDefault>Povrati zadano?</qnRestoreDefault>
     <qnSaveChanges>Spremi izmjene u {0}?</qnSaveChanges>
     <qnSaveChangesToPreviewPage>Želite li spremiti izmjene na stranicama?</qnSaveChangesToPreviewPage>
@@ -3186,6 +3872,7 @@
     <qnSynchronizeServices>Sinhroniziraj sevise?</qnSynchronizeServices>
   </Questions>
   <Report>
+    <Address>Adresa</Address>
     <Alphabetical>Po abecedi</Alphabetical>
     <Bands>Trake</Bands>
     <Basic>Osnovno</Basic>
@@ -3203,9 +3890,11 @@
     <CopyOf>Kopiraj</CopyOf>
     <CreateNewReportPageForm>Kreiraj novi izvještaj, dodaj stranicu, dodaj formu</CreateNewReportPageForm>
     <CreatingReport>Kreiranje izvještaja</CreatingReport>
-    <CrossBands>Cross trake</CrossBands>
+    <CrossBands>Cross</CrossBands>
+    <Dashboard>Nadzorna ploča</Dashboard>
     <Dialogs>Dijalozi</Dialogs>
     <EditStyles>[Uredi stilove]</EditStyles>
+    <Enhancements>Poboljšanja</Enhancements>
     <Errors>Greške</Errors>
     <EventsTab>Kartica događaja</EventsTab>
     <ExpandAll>Raširi sve</ExpandAll>
@@ -3213,7 +3902,11 @@
     <FilterOr>Ili</FilterOr>
     <FinishingReport>Dovršavanje izvještaja</FinishingReport>
     <FirstPass>Prvi prolaz</FirstPass>
+    <FixedBugs>Ispravljeni bug-ovi</FixedBugs>
+    <Gallery>Galerija</Gallery>
     <GenerateNewCode>Generiraj novi kod</GenerateNewCode>
+    <History>Povijest</History>
+    <Infographics>Infografike</Infographics>
     <InfoMessage>{0} - {1} nađeno.</InfoMessage>
     <InformationMessages>Informativne poruke</InformationMessages>
     <LabelAlias>Alias:</LabelAlias>
@@ -3223,6 +3916,7 @@
     <LabelCentimeters>Centimetri:</LabelCentimeters>
     <LabelCollectionName>Naziv kolekcije:</LabelCollectionName>
     <LabelColor>Boja:</LabelColor>
+    <LabelCommandTimeout>Timeout komande:</LabelCommandTimeout>
     <LabelCountData>Broj podataka:</LabelCountData>
     <LabelDataBand>Traka podataka:</LabelDataBand>
     <LabelDataColumn>Stupac podataka:</LabelDataColumn>
@@ -3239,6 +3933,7 @@
     <LabelNestedLevel>Ugniježđeni nivo:</LabelNestedLevel>
     <LabelPassword>Lozinka:</LabelPassword>
     <LabelPixels>Pikseli:</LabelPixels>
+    <LabelQueryTimeout>Timeout upita:</LabelQueryTimeout>
     <LabelSystemVariable>Sistemska varijabla:</LabelSystemVariable>
     <LabelTotals>Totali</LabelTotals>
     <LabelType>Vrsta:</LabelType>
@@ -3246,8 +3941,11 @@
     <LabelValue>Vrijednost:</LabelValue>
     <LoadingReport>Učitavanje izvještaja</LoadingReport>
     <nameAssembly>Assembly</nameAssembly>
+    <NewFeatures>Nove značajke</NewFeatures>
     <No>Ne</No>
+    <NoFixes>Nema ispravki ili ažuriranja za ovu verziju!</NoFixes>
     <NoIssues>Nema grešaka</NoIssues>
+    <NoNewVersions>Nema novih verzija!</NoNewVersions>
     <NotAssigned>Nije dodijeljeno</NotAssigned>
     <Office2010Back>Natrag</Office2010Back>
     <PageNofM>Stranica {0} od {1}</PageNofM>
@@ -3266,6 +3964,7 @@
     <SaveReportPagesOrFormsFromReport>Spremi izvještaj, stranice ili forme</SaveReportPagesOrFormsFromReport>
     <SavingReport>Spremanje izvještaja</SavingReport>
     <SecondPass>Drugi prolaz</SecondPass>
+    <Shapes>Oblici</Shapes>
     <Standard>Standardno</Standard>
     <StandardConfiguration>Glavna svojstva objekta osim rijetko korištenih.</StandardConfiguration>
     <StiEmptyBrush>Prazno</StiEmptyBrush>
@@ -3281,10 +3980,24 @@
     <StyleNote>Opaska</StyleNote>
     <StyleWarning>Upozorenje</StyleWarning>
     <Warnings>Upozorenja</Warnings>
+    <WhatsNewInVersion>Što je novo u {0}</WhatsNewInVersion>
     <When>kada {0} {1}</When>
     <WhenAnd>kada {0} {1} i</WhenAnd>
     <WhenValueIs>kada je vrijednost</WhenValueIs>
   </Report>
+  <ReportInfo>
+    <CheckIssuesAdditionalDescription>Provjeri izvještaj za greške i nalazi netočnosti.</CheckIssuesAdditionalDescription>
+    <EncryptWithPassword>Enkriptiraj sa lozinkom</EncryptWithPassword>
+    <EncryptWithPasswordAdditionalDescription>Postavite lozinku kako bi spriječili neovlašteni rad sa izvještajem.</EncryptWithPasswordAdditionalDescription>
+    <EncryptWithPasswordDescription>Zaštiti izvještaj</EncryptWithPasswordDescription>
+    <Info>Info</Info>
+    <ReportOptions>Opcije izvještaja</ReportOptions>
+    <ReportOptionsAdditionalDescription>Postavi osnovne informacije i parametre u izvještaju.</ReportOptionsAdditionalDescription>
+  </ReportInfo>
+  <ReportOpen>
+    <Browse>Pogledaj</Browse>
+    <Import>Uvezi</Import>
+  </ReportOpen>
   <Services>
     <categoryContextTools>Kontekstualni alati</categoryContextTools>
     <categoryDesigner>Dizajner</categoryDesigner>
@@ -3324,6 +4037,7 @@
     <Lines>Linije</Lines>
     <Minus>Minus</Minus>
     <Multiply>Pomnoženo</Multiply>
+    <Octagon>Oktogon</Octagon>
     <Oval>Elipsa</Oval>
     <Parallelogram>Paralelogram</Parallelogram>
     <Plus>Plus</Plus>
@@ -3351,6 +4065,7 @@
     <LineABC>Alfabetski prikaz trenutnog broja linije.</LineABC>
     <LineRoman>Trenutni broj linije u rimskim brojevima.</LineRoman>
     <LineThrough>Trenutni broj linije (počinje od 1). Kod izračunavanja broja, sva grupiranja se ignoriraju i numeriranje počinje od početka izvještaja.</LineThrough>
+    <PageCopyNumber>Vrati broj trenutne kopije stranice (počinje od 1).</PageCopyNumber>
     <PageNofM>Lokalizirani string, pokazuje "Stranica N od M" gdje je N trenutni broj stranice a M je ukupni broj stranica izvještaja.</PageNofM>
     <PageNofMThrough>Lokalizirani string, pokazuje "Stranica N od M" gdje je N trenutni broj stranice a M je ukupni broj stranica izvještaja. Kod izračunavanja PageNofMThrough, sva ResetPageNumber svojstva se ignoriraju i numeriranje počinje od početka izvještaja.</PageNofMThrough>
     <PageNumber>Trenutni broj stranice (počinje od 1).</PageNumber>
@@ -3453,6 +4168,7 @@
     <title>Alatni okvir</title>
   </Toolbox>
   <Wizards>
+    <BlankDashboard>Prazna kontrolna ploča</BlankDashboard>
     <BlankReport>Prazan izvještaj</BlankReport>
     <ButtonBack>&lt; &amp;Natrag</ButtonBack>
     <ButtonCancel>Odustani</ButtonCancel>
@@ -3466,6 +4182,7 @@
     <DefaultThemes>Zadane teme</DefaultThemes>
     <Filters>Filteri</Filters>
     <FromReportTemplate>Iz predloška izvještaja</FromReportTemplate>
+    <groupCreateNewDashboard>Stvori novu kontrolnu ploču</groupCreateNewDashboard>
     <groupCreateNewPageOrForm>Kreiraj novu stranicu ili formu</groupCreateNewPageOrForm>
     <groupCreateNewReport>Kreiraj novi izvještaj</groupCreateNewReport>
     <Groups>Grupe</Groups>

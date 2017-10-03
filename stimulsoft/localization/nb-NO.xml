@@ -64,13 +64,13 @@
     <AdapterFirebirdConnection>Data fra Firebird-tilkobling</AdapterFirebirdConnection>
     <AdapterInformixConnection>Data fra Informix-tilkobling</AdapterInformixConnection>
     <AdapterMySQLConnection>Data fra MySQL-tilkobling</AdapterMySQLConnection>
-    <AdapterOdbcConnection>Data fra Odbc-tilkobling</AdapterOdbcConnection>
-    <AdapterOleDbConnection>Data fra OleDb-tilkobling</AdapterOleDbConnection>
+    <AdapterOdbcConnection>Data fra ODBC-tilkobling</AdapterOdbcConnection>
+    <AdapterOleDbConnection>Data fra OLE DB-tilkobling</AdapterOleDbConnection>
     <AdapterOracleConnection>Data fra Oracle-tilkobling</AdapterOracleConnection>
     <AdapterOracleODPConnection>Data fra Oracle ODP.NET-tilkobling</AdapterOracleODPConnection>
     <AdapterPostgreSQLConnection>Data fra PostgreSQL-tilkobling</AdapterPostgreSQLConnection>
-    <AdapterSqlCeConnection>Data fra SqlCe-tilkobling</AdapterSqlCeConnection>
-    <AdapterSqlConnection>Data fra Sql-tilkobling</AdapterSqlConnection>
+    <AdapterSqlCeConnection>Data fra SQLCe-tilkobling</AdapterSqlCeConnection>
+    <AdapterSqlConnection>Data fra SQL-tilkobling</AdapterSqlConnection>
     <AdapterSQLiteConnection>Data fra SQLite-tilkobling</AdapterSQLiteConnection>
     <AdapterTeradataConnection>Data fra Teradata-tilkobling</AdapterTeradataConnection>
     <AdapterUniDirectConnection>Data fra Uni Direct-tilkobling</AdapterUniDirectConnection>
@@ -391,18 +391,18 @@
     <DatabaseFirebird>Firebird-tilkobling</DatabaseFirebird>
     <DatabaseInformix>Informix-tilkobling</DatabaseInformix>
     <DatabaseMySQL>MySQL-tilkobling</DatabaseMySQL>
-    <DatabaseOdbc>Odbc-tilkobling</DatabaseOdbc>
-    <DatabaseOleDb>OleDB-tilkobling</DatabaseOleDb>
+    <DatabaseOdbc>ODBC-tilkobling</DatabaseOdbc>
+    <DatabaseOleDb>OLE DB-tilkobling</DatabaseOleDb>
     <DatabaseOracle>Oracle-tilkobling</DatabaseOracle>
     <DatabaseOracleODP>Oracle ODP.NET-tilkobling</DatabaseOracleODP>
     <DatabasePostgreSQL>PostgreSQL-tilkobling</DatabasePostgreSQL>
-    <DatabaseSql>Sql-tilkobling</DatabaseSql>
+    <DatabaseSql>SQL-tilkobling</DatabaseSql>
     <DatabaseSqlCe>SQLServerCE-tilkobling</DatabaseSqlCe>
     <DatabaseSQLite>SQLite-tilkobling</DatabaseSQLite>
     <DatabaseTeradata>Teradata-tilkobling</DatabaseTeradata>
     <DatabaseUniDirect>Uni Direct-tilkobling</DatabaseUniDirect>
     <DatabaseVistaDB>VistaDB-tilkobling</DatabaseVistaDB>
-    <DatabaseXml>Xml-data</DatabaseXml>
+    <DatabaseXml>XML-data</DatabaseXml>
   </Database>
   <DesignerFx>
     <AlreadyExists>"{0}" eksisterer allerede</AlreadyExists>
@@ -504,7 +504,7 @@
     <FileNotFound>Fil "{0}" ikke funnet.</FileNotFound>
     <IdentifierIsNotValid>Identifikatoren '{0}' er ikke gyldig.</IdentifierIsNotValid>
     <ImpossibleFindDataSource>Finner ikke datakilde.</ImpossibleFindDataSource>
-    <NameExists>Det er allerede et objekt som heter '{0}'. Objekter må ha unike navn, og må ikke skille mellom store og små bokstaver.</NameExists>
+    <NameExists>Det er allerede et objekt som heter '{0}'. Objekter må ha unike navn.</NameExists>
     <NoServices>Tjenester ble ikke funnet i '{0}'</NoServices>
     <NotAssign>Datakilde ikke spesifisert.</NotAssign>
     <NotCorrectFormat>Inndatastring var ikke i et korrekt format.</NotCorrectFormat>
@@ -675,7 +675,7 @@
     <WriterFiles>OpenDocument Writer-filer (*.odt)|*.odt</WriterFiles>
     <XmlFiles>XML-filer (*.xml)|*.xml</XmlFiles>
     <XpsFiles>Microsoft XPS-filer (*.xps)|*.xps</XpsFiles>
-    <ZipArchives>Zip-arkiver (*.zip)|*.zip</ZipArchives>
+    <ZipArchives>ZIP-arkiver (*.zip)|*.zip</ZipArchives>
   </FileFilters>
   <Formats>
     <custom01>d</custom01>
@@ -774,10 +774,10 @@
     <MySQLEdit>Rediger MySQL-tilkobling</MySQLEdit>
     <MySQLNew>Ny MySQL-tilkobling</MySQLNew>
     <NewConnection>Ny {0}-tilkobling</NewConnection>
-    <OdbcEdit>Rediger Odbc-tilkobling</OdbcEdit>
-    <OdbcNew>Ny Odbc-tilkobling</OdbcNew>
-    <OleDbEdit>Rediger OleDb-tilkobling</OleDbEdit>
-    <OleDbNew>Ny OleDb-tilkobling</OleDbNew>
+    <OdbcEdit>Rediger ODBC-tilkobling</OdbcEdit>
+    <OdbcNew>Ny ODBC-tilkobling</OdbcNew>
+    <OleDbEdit>Rediger OLE DB-tilkobling</OleDbEdit>
+    <OleDbNew>Ny OLE DB-tilkobling</OleDbNew>
     <OracleEdit>Rediger Oracle-tilkobling</OracleEdit>
     <OracleNew>Ny Oracle-tilkobling</OracleNew>
     <OracleODPEdit>Rediger Oracle ODP.NET-tilkobling</OracleODPEdit>
@@ -789,20 +789,21 @@
     <PromptUserNameAndPassword>Spør etter brukernavn og passord</PromptUserNameAndPassword>
     <SqlCeEdit>Rediger SQLServerCE-tilkobling</SqlCeEdit>
     <SqlCeNew>Ny SQLServerCE-tilkobling</SqlCeNew>
-    <SqlEdit>Rediger Sql-tilkobling</SqlEdit>
+    <SqlEdit>Rediger SQL-tilkobling</SqlEdit>
     <SQLiteEdit>Rediger SQLite-tilkobling</SQLiteEdit>
     <SQLiteNew>Ny SQLite-tilkobling</SQLiteNew>
-    <SqlNew>Ny Sql-tilkobling</SqlNew>
+    <SqlNew>Ny SQL-tilkobling</SqlNew>
     <TeradataEdit>Rediger Teradata-tilkobling</TeradataEdit>
     <TeradataNew>Ny Teradata-tilkobling</TeradataNew>
     <UniDirectEdit>Rediger Uni Direct-tilkobling</UniDirectEdit>
     <UniDirectNew>Ny Uni Direct-tilkobling</UniDirectNew>
     <VistaDBEdit>Rediger VistaDB-tilkobling</VistaDBEdit>
     <VistaDBNew>Ny VistaDB-tilkobling</VistaDBNew>
-    <XmlEdit>Rediger Xml-data</XmlEdit>
-    <XmlNew>Ny Xml-data</XmlNew>
+    <XmlEdit>Rediger XML-data</XmlEdit>
+    <XmlNew>Ny XML-data</XmlNew>
   </FormDatabaseEdit>
   <FormDesigner>
+    <Others>Andre</Others>
     <Code>Kode</Code>
     <ColumnsOne>En</ColumnsOne>
     <ColumnsThree>Tre</ColumnsThree>
@@ -930,7 +931,7 @@
   </FormGlobalizationEditor>
   <FormOptions>
     <AutoSave>Autolagring</AutoSave>
-    <AutoSaveReportToReportClass>Autolagre rapport til C# or Vb.Net-fil</AutoSaveReportToReportClass>
+    <AutoSaveReportToReportClass>Autolagre rapport til C# or VB.NET-fil</AutoSaveReportToReportClass>
     <Default>Standard</Default>
     <Drawing>Tegning</Drawing>
     <DrawMarkersWhenMoving>Tegn markører under flytting</DrawMarkersWhenMoving>
@@ -1097,7 +1098,7 @@
     <PagesManagerForm>Sidebehandler</PagesManagerForm>
     <PromptForm>Skriv inn brukerinformasjon for å logge på databasen</PromptForm>
     <ServiceSelectForm>Velg tjeneste</ServiceSelectForm>
-    <SqlExpressionsForm>Sql-uttrykk</SqlExpressionsForm>
+    <SqlExpressionsForm>SQL-uttrykk</SqlExpressionsForm>
     <SubReportPageSelectForm>Velg delrapportside</SubReportPageSelectForm>
     <TextEditorForm>Tekstredigering</TextEditorForm>
     <ViewDataForm>Vis data</ViewDataForm>
@@ -2982,7 +2983,7 @@
     <SortType>Sorteringstype</SortType>
     <Space>Mellomrom</Space>
     <Spacing>Avstand</Spacing>
-    <SqlCommand>Sql-kommando</SqlCommand>
+    <SqlCommand>SQL-kommando</SqlCommand>
     <StartAngle>Startvinkel</StartAngle>
     <StartCap>Start-cap</StartCap>
     <StartColor>Startfarge</StartColor>
@@ -3191,7 +3192,7 @@
     <SelectAllFromRight>Velg alle fra høyre</SelectAllFromRight>
     <SwitchToDerivedTable>Bytt til utledet tabell</SwitchToDerivedTable>
     <Tables>Tabeller</Tables>
-    <UnexpectedTokenAt>Uventet tegn \"{0}\" på linje {1}, pos {2}!</UnexpectedTokenAt>
+    <UnexpectedTokenAt>Uventet tegn "{0}" på linje {1}, pos {2}!</UnexpectedTokenAt>
     <Unions>Unioner</Unions>
     <UnionSubMenu>Union</UnionSubMenu>
     <ViewQuery>Vis spørring</ViewQuery>
