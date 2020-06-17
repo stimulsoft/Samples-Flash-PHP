@@ -9,7 +9,7 @@
     <Delete>Удалить</Delete>
     <Edit>Редактировать</Edit>
     <Fix>Исправить</Fix>
-    <GotoCodeLong>Перейти в код.</GotoCodeLong>
+    <GotoCodeLong>Перейти в код</GotoCodeLong>
     <Hide>Не показывать подобные сообщения в дальнейшем.</Hide>
     <NewName>Новое имя</NewName>
     <Off>Отключить</Off>
@@ -61,6 +61,7 @@
     <Zero>Обнулить</Zero>
   </CheckActions>
   <CheckComponent>
+    <StiFilterValueCheckLong>Для компонента {0} задан фильтр, но в нём не задано значение. Поэтому фильтр не применяется.</StiFilterValueCheckLong>
     <StiAllowHtmlTagsInTextCheckLong>В тексте используются Html тэги, но значение свойства AllowHtmlTags равно false. Содержимое компонента {0} напечатается неправильно.</StiAllowHtmlTagsInTextCheckLong>
     <StiAllowHtmlTagsInTextCheckShort>Не задано значение свойства AllowHtmlTags</StiAllowHtmlTagsInTextCheckShort>
     <StiCanBreakComponentInContainerCheckLong>У контейнера '{0}' значение свойства CanBreak равно false, а у некоторых вложенных компонентов значение свойства CanBreak равно true.</StiCanBreakComponentInContainerCheckLong>
@@ -100,7 +101,8 @@
     <StiEventsAtInterpretationCheckShort>События в интерпретации</StiEventsAtInterpretationCheckShort>
     <StiFilterCircularDependencyElementCheckLong>Циклическая зависимость фильтра найдена у '{0}' элемента. Пожалуйста, проверьте свойство 'Главный элемент' у '{0}' элемента!</StiFilterCircularDependencyElementCheckLong>
     <StiFilterCircularDependencyElementCheckShort>Циклическая зависимость фильтра</StiFilterCircularDependencyElementCheckShort>
-    <StiFilterValueCheckLong>Для компонента {0} задан фильтр, но в нём не задано значение. Поэтому фильтр не применяется.</StiFilterValueCheckLong>
+    <StiExpressionElementCheckLong>Выражение '{0}' в '{1}' компоненте работает неверно. Следующее сообщение было получено от парсера: '{2}'.</StiExpressionElementCheckLong>
+    <StiExpressionElementCheckShort>Выражение работает неверно!</StiExpressionElementCheckShort>
     <StiFilterValueCheckShort>В фильтре не задано значение</StiFilterValueCheckShort>
     <StiFontMissingCheckLong>Шрифт '{0}' указанный для компонента '{1}' не найден.</StiFontMissingCheckLong>
     <StiFontMissingCheckShort>Шрифт не найден.</StiFontMissingCheckShort>
@@ -209,6 +211,9 @@
     <RenderingMessage>Предупреждения построения отчета. </RenderingMessage>
     <Warning>Внимание! </Warning>
   </CheckGlobal>
+  <CheckLicense>
+    <StiLicenseTrialCheckLong>Вы используете пробную версию продукта. Для полноценного использования Вам необходимо приобрести лицензию.</StiLicenseTrialCheckLong>
+  </CheckLicense>
   <CheckPage>
     <StiLostPointsOnPageCheckLong>На странице '{0}' найдены потерянные точки: {1}. Точки невидимы на странице и используются в следующих графических примитивах: вертикальная линия, прямоугольник и закругленный прямоугольник. Если точка не сопоставлена ни с одним компонентом, то ее можно удалить.</StiLostPointsOnPageCheckLong>
     <StiLostPointsOnPageCheckShort>Потерянные точки</StiLostPointsOnPageCheckShort>
@@ -262,6 +267,7 @@
     <CopyingLibraries>Копирование файлов проекта...</CopyingLibraries>
     <DeployReportPlatform>Платформа для развертывания отчета:</DeployReportPlatform>
     <DownloadingLibraries>Загрузка библиотек...</DownloadingLibraries>
+    <EmbedAllDataToResources>Отчёт содержит соединения с данными, которые не поддерживаются в выбранной платформе. Хотите встроить доступные данные в отчёт в виде ресурсов? В этом случае, все соединения будут заменены на XML ресурсы.</EmbedAllDataToResources>
     <ExportFormat>Формат экспорта:</ExportFormat>
     <ExportFormatData>Данные</ExportFormatData>
     <ExportFormatDataType>Тип данных:</ExportFormatDataType>
@@ -318,6 +324,7 @@
     <Use>Использовать</Use>
     <UseCompilationCache>Использовать компиляцию для кэширования</UseCompilationCache>
     <UseCompressedScripts>Использовать сжатые скрипты</UseCompressedScripts>
+    <UseLatestVersion>Использовать последнюю версию библиотек</UseLatestVersion>
     <UseWpfDesignerV2>Использовать дизайнер V2</UseWpfDesignerV2>
   </Publish>
   <ReportComparer>
@@ -1057,6 +1064,19 @@
     <ValueBinding>Привязка данных для значения.</ValueBinding>
     <ValueChangedEvent>Скрипт события ValueChanged.</ValueChangedEvent>
   </StiDateTimePickerControl>
+  <StiDialogStyle>
+    <GlyphColor>Цвет символа в стиле.</GlyphColor>
+    <HotBackColor>Цвет фона при наведении в стиле.</HotBackColor>
+    <HotForeColor>Цвет текста при наведении в стиле.</HotForeColor>
+    <HotGlyphColor>Цвет символа при наведении в стиле.</HotGlyphColor>
+    <HotSelectedBackColor>Цвет фона при наведении выбранного элемента в стиле.</HotSelectedBackColor>
+    <HotSelectedForeColor>Цвет текста при наведении выбранного элемента в стиле.</HotSelectedForeColor>
+    <HotSelectedGlyphColor>Цвет символа при наведении выбранного элемента в стиле.</HotSelectedGlyphColor>
+    <SelectedBackColor>Цвет фона выбранного элемента в стиле.</SelectedBackColor>
+    <SelectedForeColor>Цвет текста выбранного элемента в стиле.</SelectedForeColor>
+    <SelectedGlyphColor>Цвет символа выбранного элемента в стиле.</SelectedGlyphColor>
+    <SeparatorColor>Цвет сепаратора в стиле.</SeparatorColor>
+  </StiDialogStyle>
   <StiDoughnutSeries>
     <Diameter>Фиксированный размер диаметра рядов кольцевой диаграммы.</Diameter>
   </StiDoughnutSeries>
@@ -1071,7 +1091,7 @@
   <StiDynamicBand>
     <BreakIfLessThan>Значение определяет, сколько свободного места на странице (в процентах) должно остаться для формирования новой страницы или новой колонки. Значение должно быть установлено в диапазон от 0 до 100. Если значение равно 100, то, в любом случае, новая страница или колонка будут сформированы. Данное свойство используется вместе со свойствами NewPageBefore, NewPageAfter, NewColumnBefore, NewColumnAfter.</BreakIfLessThan>
     <NewColumnAfter>Если данное свойство установлено в true, то, после вывода бенда, новая колонка будет создана.</NewColumnAfter>
-    <NewColumnBefore>Значение определяет, что итог печатается внизу страницы.</NewColumnBefore>
+    <NewColumnBefore>Если данное свойство установлено в true, то, перед выводом бенда, новая колонка будет создана.</NewColumnBefore>
     <NewPageAfter>Если данное свойство установлено в true, то, после вывода бенда, новая страница будет создана.</NewPageAfter>
     <NewPageBefore>Если данное свойство установлено в true, то, перед выводом бенда, новая страница будет создана. Вывод бенда будет продолжен на следующей странице.</NewPageBefore>
     <PrintAtBottom>Значение определяет, что итог печатается внизу страницы.</PrintAtBottom>
