@@ -1,3 +1,9 @@
+## Attention!
+
+This repository is archived, and the source code of these examples is no longer updated, because the technology used in the examples is outdated and no longer supported. You can read more in [this article](https://www.stimulsoft.com/en/blog/news/the-end-of-support-for-flash-components).
+
+---
+
 # PHP-Flash samples for Stimulsoft Reports.PHP
 
 #### This repository contains the source code of the examples of usage Stimulsoft Reports.PHP reporting tool in the PHP applications, using HTML/PHP code and Flash components.
